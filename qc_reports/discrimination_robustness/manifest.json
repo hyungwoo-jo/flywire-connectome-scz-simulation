@@ -1,0 +1,138 @@
+{
+  "circuit": {
+    "dataset": "BANC v888",
+    "id_column": "root_888",
+    "hemisphere": "right",
+    "pn": 138,
+    "kc": 2245,
+    "apl": [
+      "720575941482622627"
+    ],
+    "pn_kc_edges": 10620,
+    "pn_kc_synapses": 83989,
+    "apl_kc_edges": 2097,
+    "kc_apl_edges": 2126,
+    "pn_weight_scale": 34.0,
+    "current_root_id_duplicate_rows": 168,
+    "pn_verified_transmitters": {
+      "acetylcholine": 138
+    },
+    "kc_verified_transmitters": {
+      "acetylcholine": 2245
+    },
+    "apl_verified_transmitter": [
+      "gaba"
+    ]
+  },
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "baseline_theta": 0.5888234575689715,
+  "pairs": 8,
+  "trials_per_class": 40,
+  "conditions": 1824,
+  "nulls": [
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9945386064030132,
+      "changed_weight_fraction": 0.9851290049887488,
+      "eligible_edges": 10614,
+      "seed": 30001
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.996421845574388,
+      "changed_weight_fraction": 0.9885342128135829,
+      "eligible_edges": 10614,
+      "seed": 30002
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9955743879472693,
+      "changed_weight_fraction": 0.988022241007751,
+      "eligible_edges": 10614,
+      "seed": 30003
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9946327683615819,
+      "changed_weight_fraction": 0.985331412446868,
+      "eligible_edges": 10614,
+      "seed": 30004
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9950094161958569,
+      "changed_weight_fraction": 0.9867244520115729,
+      "eligible_edges": 10614,
+      "seed": 30005
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.995291902071563,
+      "changed_weight_fraction": 0.9865696698377168,
+      "eligible_edges": 10614,
+      "seed": 30006
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9949152542372881,
+      "changed_weight_fraction": 0.986081510674017,
+      "eligible_edges": 10614,
+      "seed": 30007
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9949152542372881,
+      "changed_weight_fraction": 0.9835811832501874,
+      "eligible_edges": 10614,
+      "seed": 30008
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.993879472693032,
+      "changed_weight_fraction": 0.9799973806093655,
+      "eligible_edges": 10614,
+      "seed": 30009
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9944444444444445,
+      "changed_weight_fraction": 0.9850694733834192,
+      "eligible_edges": 10614,
+      "seed": 30010
+    }
+  ],
+  "input_seed_formula": "20000+pair*1000+overlap_index*100+noise_index",
+  "actual_settings": {
+    "theta_factors": [
+      0.8,
+      1,
+      1.2
+    ],
+    "apl_gains": [
+      2,
+      4,
+      8
+    ]
+  },
+  "null_settings": {
+    "theta_factors": [
+      1
+    ],
+    "apl_gains": [
+      4
+    ]
+  },
+  "max_residual": 7.063280516028669e-12,
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6",
+  "limitations": [
+    "Input-strength nulls restrict mixing to equal synapse counts; no uniform-null guarantee.",
+    "One noise sample set per pattern pair/overlap; noise levels use independently sampled patterns.",
+    "Scalar APL, phenomenological coefficients, synthetic inputs and one specimen.",
+    "No learning, disease model, statistical significance or biological validation."
+  ]
+}

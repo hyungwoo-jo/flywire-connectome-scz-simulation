@@ -1,0 +1,97 @@
+{
+  "circuit": {
+    "dataset": "BANC v888",
+    "id_column": "root_888",
+    "hemisphere": "right",
+    "pn": 138,
+    "kc": 2245,
+    "apl": [
+      "720575941482622627"
+    ],
+    "pn_kc_edges": 10620,
+    "pn_kc_synapses": 83989,
+    "apl_kc_edges": 2097,
+    "kc_apl_edges": 2126,
+    "pn_weight_scale": 34.0,
+    "current_root_id_duplicate_rows": 168,
+    "pn_verified_transmitters": {
+      "acetylcholine": 138
+    },
+    "kc_verified_transmitters": {
+      "acetylcholine": 2245
+    },
+    "apl_verified_transmitter": [
+      "gaba"
+    ]
+  },
+  "model": {
+    "theta": 0.5888234575689715,
+    "apl_gain": 4,
+    "baseline_target_active_fraction": 0.1,
+    "calibration_active_fraction": 0.1,
+    "equations": "k=clip(W_PN_KC*x-theta-4*s*w_APL_KC*a,0,1); a=w_KC_APL dot k",
+    "solver": "35 monotone bisection iterations",
+    "normalization": "fixed across strengths and graphs"
+  },
+  "nulls": [
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9989642184557439,
+      "seed": 11001
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9995291902071564,
+      "seed": 11002
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9999058380414313,
+      "seed": 11003
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9993408662900188,
+      "seed": 11004
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9991525423728813,
+      "seed": 11005
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9996233521657251,
+      "seed": 11006
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9988700564971752,
+      "seed": 11007
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9997175141242938,
+      "seed": 11008
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9992467043314501,
+      "seed": 11009
+    },
+    {
+      "swaps": 53100,
+      "changed_fraction": 0.9997175141242938,
+      "seed": 11010
+    }
+  ],
+  "trials_per_class": 40,
+  "max_residual": 5.0678072849308364e-12,
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "pandas": "3.0.6"
+}
