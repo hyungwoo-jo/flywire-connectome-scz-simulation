@@ -2,20 +2,20 @@
 
 초파리 커넥톰(BANC v888) 위에서 PN -> KC -> APL 버섯체 회로를 단순 발화율 모형으로 돌려 보고, 실제 배선이 무작위 대조 배선과 기능적으로 다른지 확인하는 개인 탐구입니다. 질환, 환각, 행동에 대한 결론은 아직 내리지 않습니다.
 
-**현재 상황과 방향은 [docs/RESEARCH_STATUS.md](docs/RESEARCH_STATUS.md)에 정리되어 있습니다.**
+**현재 상황과 방향은 [docs/RESEARCH_STATUS.md](docs/RESEARCH_STATUS.md), 처음 읽는 분을 위한 쉬운 설명은 [docs/RESEARCH_FLOW_EASY.md](docs/RESEARCH_FLOW_EASY.md)에 있습니다.**
 
 ## 지금까지의 핵심 결과
 
 - Hallem 2006 냄새 반응과 Olsen 2010 PN 변환으로 입력을 정하고, KC 반응 10%로 보정하면 생리 범위의 모형이 됩니다 (16).
 - BANC PN->KC 배선에는 우연 이상의 PN 유형 과수렴 구조가 있습니다 (DM1-DM4 등, 17).
-- 이 배선은 일반적인 냄새 구분에서 강도 보존 무작위 대조보다 약간 불리합니다 (18). KC 하위 유형 구성을 맞춰도 불리함은 남습니다 (19).
+- 이 배선은 일반적인 냄새 구분에서 강도 보존 무작위 대조보다 약간 불리합니다 (18). KC 하위 유형 구성을 맞춰도(19), 수용체 입력 배정을 바꿔도(20) 불리함이 남아, 배선 구조 자체의 성질로 보입니다.
 
 세부: [docs/HALLEM_COMMUNITY_RESULTS.md](docs/HALLEM_COMMUNITY_RESULTS.md)
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~19, 번호 = 진행 순서, x = 탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~20, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -34,6 +34,7 @@ data/        원자료 위치 (git 제외)
 | 정리 | 06~15 종합 | [SYNTHESIS_06_15](docs/SYNTHESIS_06_15.md) |
 | 16~18 | 보정 모형, PN 과수렴 구조, 구분 기능 | [PREREGISTRATION_16_18](docs/PREREGISTRATION_16_18.md), [HALLEM_COMMUNITY_RESULTS](docs/HALLEM_COMMUNITY_RESULTS.md) |
 | 19 | 불리함의 원인 분리 (KC 하위 유형 보존 대조) | [PREREGISTRATION_19](docs/PREREGISTRATION_19.md), [DEFICIT_CAUSE_RESULTS](docs/DEFICIT_CAUSE_RESULTS.md) |
+| 20 | 사구체 표지 순열 (구조 자체인가, 수용체 정렬인가) | [PREREGISTRATION_20](docs/PREREGISTRATION_20.md), [LABEL_PERMUTATION_RESULTS](docs/LABEL_PERMUTATION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
