@@ -1,0 +1,11 @@
+{
+  "N0_true_median": 19.450947892757256,
+  "N0_permuted_median": 17.713563622192318,
+  "real_true": 18.322833984367787,
+  "real_permuted_median": 16.225957485491563,
+  "drop_N0": 1.737384270564938,
+  "drop_real": 2.096876498876224,
+  "real_permuted_vs_N0_permuted_mwu_p_less": 2.6201800374785473e-12,
+  "real_true_rank_vs_N0_true": 0.98,
+  "max_residual": 1.5768220062994942e-12
+}
