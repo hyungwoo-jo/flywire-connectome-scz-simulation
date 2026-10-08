@@ -8,14 +8,14 @@
 
 - Hallem 2006 냄새 반응과 Olsen 2010 PN 변환으로 입력을 정하고, KC 반응 10%로 보정하면 생리 범위의 모형이 됩니다 (16).
 - BANC PN->KC 배선에는 우연 이상의 PN 유형 과수렴 구조가 있습니다 (DM1-DM4 등, 17).
-- 이 배선은 일반적인 냄새 구분에서 강도 보존 무작위 대조보다 약간 불리합니다 (18).
+- 이 배선은 일반적인 냄새 구분에서 강도 보존 무작위 대조보다 약간 불리합니다 (18). KC 하위 유형 구성을 맞춰도 불리함은 남습니다 (19).
 
 세부: [docs/HALLEM_COMMUNITY_RESULTS.md](docs/HALLEM_COMMUNITY_RESULTS.md)
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~18, 번호 = 진행 순서)
+pipelines/   단계별 실험 스크립트 (05~19, 번호 = 진행 순서, x = 탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -33,6 +33,7 @@ data/        원자료 위치 (git 제외)
 | 13~15 | DoOR 냄새 자료 감사, 관측 냄새 부분 회로, 문턱 원인 분리 | [ODOR_INPUT_AUDIT](docs/ODOR_INPUT_AUDIT.md), [OBSERVED_ODOR_GEOMETRY](docs/OBSERVED_ODOR_GEOMETRY.md), [ODOR_THRESHOLD_MECHANISM](docs/ODOR_THRESHOLD_MECHANISM.md) |
 | 정리 | 06~15 종합 | [SYNTHESIS_06_15](docs/SYNTHESIS_06_15.md) |
 | 16~18 | 보정 모형, PN 과수렴 구조, 구분 기능 | [PREREGISTRATION_16_18](docs/PREREGISTRATION_16_18.md), [HALLEM_COMMUNITY_RESULTS](docs/HALLEM_COMMUNITY_RESULTS.md) |
+| 19 | 불리함의 원인 분리 (KC 하위 유형 보존 대조) | [PREREGISTRATION_19](docs/PREREGISTRATION_19.md), [DEFICIT_CAUSE_RESULTS](docs/DEFICIT_CAUSE_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
