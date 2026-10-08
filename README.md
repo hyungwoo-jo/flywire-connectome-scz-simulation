@@ -6,16 +6,15 @@
 
 ## 지금까지의 핵심 결과
 
-- Hallem 2006 냄새 반응과 Olsen 2010 PN 변환으로 입력을 정하고, KC 반응 10%로 보정하면 생리 범위의 모형이 됩니다 (16).
-- BANC PN->KC 배선에는 우연 이상의 PN 유형 과수렴 구조가 있습니다 (DM1-DM4 등, 17).
-- 이 배선은 일반적인 냄새 구분에서 강도 보존 무작위 대조보다 약간 불리합니다 (18). KC 하위 유형 구성을 맞춰도(19), 수용체 입력 배정을 바꿔도(20) 불리함이 남아, 배선 구조 자체의 성질로 보입니다.
-
-세부: [docs/HALLEM_COMMUNITY_RESULTS.md](docs/HALLEM_COMMUNITY_RESULTS.md)
+- Hallem 2006 냄새 반응과 Olsen 2010 PN 변환으로 입력을 정하고 KC 반응 10%로 보정하면, 양쪽 반구 모두 생리 범위의 모형이 됩니다 (16, 22).
+- BANC PN->KC 배선에는 우연 이상의 사구체 쌍 과수렴 구조가 있고, 양쪽 반구에서 재현됩니다 (DM1-DM4 등, 17, 22).
+- 이 배선은 범용 냄새 구분에서 무작위 대조보다 약간 낮습니다. 오른쪽에서만 유의했고 왼쪽은 같은 방향이지만 유의하지 않았습니다 (18~20, 22).
+- 과일 냄새 사이의 학습 일반화가 늘어난다는 결과는 왼쪽에서 재현되지 않았습니다 (21, 22).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~20, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~22, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -35,6 +34,8 @@ data/        원자료 위치 (git 제외)
 | 16~18 | 보정 모형, PN 과수렴 구조, 구분 기능 | [PREREGISTRATION_16_18](docs/PREREGISTRATION_16_18.md), [HALLEM_COMMUNITY_RESULTS](docs/HALLEM_COMMUNITY_RESULTS.md) |
 | 19 | 불리함의 원인 분리 (KC 하위 유형 보존 대조) | [PREREGISTRATION_19](docs/PREREGISTRATION_19.md), [DEFICIT_CAUSE_RESULTS](docs/DEFICIT_CAUSE_RESULTS.md) |
 | 20 | 사구체 표지 순열 (구조 자체인가, 수용체 정렬인가) | [PREREGISTRATION_20](docs/PREREGISTRATION_20.md), [LABEL_PERMUTATION_RESULTS](docs/LABEL_PERMUTATION_RESULTS.md) |
+| 21 | 학습의 일반화 | [PREREGISTRATION_21](docs/PREREGISTRATION_21.md), [LEARNING_GENERALIZATION_RESULTS](docs/LEARNING_GENERALIZATION_RESULTS.md) |
+| 22 | 왼쪽 반구 재현 | [PREREGISTRATION_22](docs/PREREGISTRATION_22.md), [LEFT_REPLICATION_RESULTS](docs/LEFT_REPLICATION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
