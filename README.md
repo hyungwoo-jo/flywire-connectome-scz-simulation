@@ -10,11 +10,12 @@
 - BANC PN->KC 배선에는 우연 이상의 사구체 쌍 과수렴 구조가 있고, 양쪽 반구에서 재현됩니다 (DM1-DM4 등, 17, 22).
 - 이 배선은 범용 냄새 구분에서 무작위 대조보다 약간 낮습니다. 오른쪽에서만 유의했고 왼쪽은 같은 방향이지만 유의하지 않았습니다 (18~20, 22).
 - 과일 냄새 사이의 학습 일반화가 늘어난다는 결과는 왼쪽에서 재현되지 않았습니다 (21, 22).
+- APL 억제를 약화해도 냄새 유무 판단의 민감도는 그대로이고 오탐은 아주 조금만 늡니다. 문턱 근처에서는 억제보다 KC 흥분성이 판단을 좌우합니다 (23).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~22, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~23, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -36,6 +37,7 @@ data/        원자료 위치 (git 제외)
 | 20 | 사구체 표지 순열 (구조 자체인가, 수용체 정렬인가) | [PREREGISTRATION_20](docs/PREREGISTRATION_20.md), [LABEL_PERMUTATION_RESULTS](docs/LABEL_PERMUTATION_RESULTS.md) |
 | 21 | 학습의 일반화 | [PREREGISTRATION_21](docs/PREREGISTRATION_21.md), [LEARNING_GENERALIZATION_RESULTS](docs/LEARNING_GENERALIZATION_RESULTS.md) |
 | 22 | 왼쪽 반구 재현 | [PREREGISTRATION_22](docs/PREREGISTRATION_22.md), [LEFT_REPLICATION_RESULTS](docs/LEFT_REPLICATION_RESULTS.md) |
+| 23 | 냄새 유무 검출과 오탐, APL 약화 | [PREREGISTRATION_23](docs/PREREGISTRATION_23.md), [DETECTION_RESULTS](docs/DETECTION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
