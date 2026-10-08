@@ -1,0 +1,32 @@
+{
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "pairs": 8,
+  "evaluation_trials_per_pattern": 100,
+  "input_overlap": 0.9,
+  "train_apl": 1,
+  "eta": 20,
+  "mbon": "720575941586084230",
+  "theta": 0.5888234575689715,
+  "presence_criterion": "PN activity sum > 95th percentile of 2000 independent noise-only trials",
+  "presence_thresholds": {
+    "0.1": 6.70730906646337,
+    "0.4": 26.552029829403363
+  },
+  "calibration_seeds": [
+    61000,
+    61001
+  ],
+  "learning": "Same patterns and training subset as pipeline 08; new evaluation noise. Readout threshold held fixed.",
+  "amplitude_comparison": "Identical evaluation noise across amplitudes; model trained only at amplitude 1.",
+  "max_residual": 4.122854835308942e-12,
+  "limitations": [
+    "External evidence gate, not actual sensory/behavior circuitry.",
+    "Noise distribution and amplitude are assumed, not measured.",
+    "A gate changes the label decision, not the memory or MBON activity.",
+    "No output rewiring nulls in this focused decision-rule assay.",
+    "Noise-only A assignment is a model decision error, not hallucination."
+  ]
+}

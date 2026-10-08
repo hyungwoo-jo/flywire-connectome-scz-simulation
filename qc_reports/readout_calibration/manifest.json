@@ -1,0 +1,42 @@
+{
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "pairs": 8,
+  "trials_per_pattern": 100,
+  "rows": 1440,
+  "main_mbon": "720575941586084230",
+  "theta": 0.5888234575689715,
+  "eta": 20,
+  "calibration_trials_per_class": 160,
+  "learning_trials_per_class": 40,
+  "calibration_amplitudes": [
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "test_amplitudes": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "calibration_design": "Equal calibration sample counts; single and mixed use identical noise draws; learning/calibration/evaluation independent noise.",
+  "context": "Three quantile bins of current PN sum, fitted on calibration only; no true test amplitude supplied.",
+  "threshold_objective": "Balanced A/B accuracy on calibration; not blank rejection or gated accuracy.",
+  "noise": "0.1/0.4, known independent presence threshold from 09",
+  "max_residual": 4.032080225258028e-12,
+  "pattern_seed_base": 100000,
+  "calibration_seed_base": 120000,
+  "evaluation_seed_base": 140000,
+  "limitations": [
+    "External labeled calibration, not a neural learning rule.",
+    "Context policy adds current PN information; margin AUC may change.",
+    "No new output rewiring nulls in this focused calibration assay.",
+    "Counterfactual fraction needs privileged unlearned weights.",
+    "Eight synthetic pattern pairs, one specimen and main MBON."
+  ]
+}

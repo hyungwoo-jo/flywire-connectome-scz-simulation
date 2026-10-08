@@ -1,0 +1,3650 @@
+[
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.04078876479938859
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00019774993375801768
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      -1.3939128911075753e-05,
+      -0.0001980947280208277,
+      -0.0024010401865532864
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.2063910856440903
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.01946023667479097
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      -0.08694229208056842,
+      -6.472072072073073,
+      -1.0859339152609395
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0023066859698615523
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -4.954052032428104e-05
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      -8.446210186658418e-13,
+      -2.1148041093395317e-05,
+      -0.002253335151517873
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.08444352940727713
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.05507853429179968
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      1e-12,
+      -0.0163104559578795,
+      -0.05507853429179968
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9353129443441379
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9637045639738224
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.065182331971409,
+      18.49568615256401
+    ],
+    "thresholds": [
+      0.9999999854538755,
+      0.9890914541002798,
+      0.9637045639738224
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.03799136492690938
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.01136544043611171
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      -0.006815609469837605,
+      -0.01612013783897586,
+      -0.03655093751170222
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.8847310292406032
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.8688295797853998
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      -0.9025144618848635,
+      -0.7749007538716166,
+      -0.8688295797853998
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      -1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.004027171508271261
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.002254510701304899
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      -0.0009745726100444331,
+      -0.00398492847985981,
+      -0.002354005179293052
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.07924978561506318
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0785425360420248
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      -0.21068760260274205,
+      -0.16144710472607943,
+      -0.07896395909373859
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8900278090514537
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.8621999841925241
+    ]
+  },
+  {
+    "pair": 0,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.099358771239775,
+      33.3300582628791
+    ],
+    "thresholds": [
+      0.775128579230818,
+      0.8619842732536037,
+      0.9049439086993707
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.01717838282829589
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.017613569478436945
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      -3.3742855854300634e-05,
+      -2.0662927959644747e-06,
+      -0.017613569478436945
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.9981340387235669
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.0012579887858764
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      -1.0238382717842958,
+      -0.8112800999902878,
+      -1.0008251322530684
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.00329411334134891
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.003264462888170197
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      -6.20230737847359e-08,
+      -1.3613589206384519e-05,
+      -0.003264462888170197
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.1781791725667945
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0782770989164074
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      -0.0007475789130930135,
+      -0.007665165467106582,
+      -0.0782770989164074
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8233481786623258
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9213784107680525
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.979894377688533,
+      18.693323284436456
+    ],
+    "thresholds": [
+      0.4988210609931569,
+      0.9935707606793959,
+      0.8969826351579733
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.02197353898256825
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.016167818084930417
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      -0.006628196344172577,
+      -0.018237238637748985,
+      -0.01602989792607444
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.0471688485080244
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.9668729713564226
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      -0.47587260274361165,
+      -0.9693700637672236,
+      -1.0934834086700533
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      1e-12,
+      -1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0031302604694745297
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.004990536518203338
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      -0.0016077259901591408,
+      -0.005039481623549943,
+      -0.005056817148230057
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.09759186511828397
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.10372068990952113
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      -0.10342441876779707,
+      -0.2978066409027883,
+      -0.10655575607246225
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9238006397492777
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.900329800353516
+    ]
+  },
+  {
+    "pair": 1,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.351510583641712,
+      33.81317190114087
+    ],
+    "thresholds": [
+      0.9155895068395334,
+      0.6522964621145289,
+      0.9014343807752959
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.034005464247656006
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0022056755988700445
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      -0.0007479992357716518,
+      -4.745805413698945e-06,
+      -0.024137843202908103
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.7620963596939223
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.762968476883807
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      -0.8020437717195359,
+      -0.693163576628183,
+      -0.7630856908005181
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0018808368511309963
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0018253495049860837
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      -1.222589207562296e-07,
+      -6.386524480202514e-05,
+      -0.0018253495049860837
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.03520111770649703
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.022526939798756095
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      -0.00026231736851627325,
+      -0.006229893533513177,
+      -0.026207380142911844
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9553518263325335
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9748835913285284
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.143353841564839,
+      18.67319534810692
+    ],
+    "thresholds": [
+      0.9996560901991373,
+      0.9918909157462841,
+      0.9658731337826136
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.02695592912935041
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.005984704857010375
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      -0.005708074121744377,
+      -0.005941421641429932,
+      -0.05756511797505935
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.7173369163360193
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.2119968053028434
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      -1.095259857908745,
+      -0.6789679303965637,
+      -1.2288277822468796
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.004018421696122045
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0034011704048373167
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      -0.0021011743339524845,
+      -0.0020516570461232278,
+      -0.004561015590703419
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0965986667364002
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.08599200430729335
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      -0.2549240945391104,
+      -0.18504537044051161,
+      -0.08599200430729335
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8894758424498754
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.8965080098942129
+    ]
+  },
+  {
+    "pair": 2,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.090672318384904,
+      33.57904069946219
+    ],
+    "thresholds": [
+      0.7600510275535022,
+      0.8069175251315435,
+      0.8994233942097195
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.03256106761171629
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.004381507573944505
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      -5.466865494325026e-06,
+      -4.8243956196150885e-06,
+      -0.004559078642618879
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.00114464675101
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.02968033885923163
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      -0.5477785243033373,
+      -0.02968033885923163,
+      -1.4635963801385596
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0014036259944534657
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -2.7000098721730303e-05
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      -2.4548524292935875e-10,
+      -2.7000098721730303e-05,
+      -0.0014182581174365938
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.05195592153306
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.011774425310526731
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      -7.012024416974988e-06,
+      -0.012641002111391977,
+      -0.05177117250380685
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9519712384784161
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9551538489318734
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.0242468555803,
+      18.770887657016566
+    ],
+    "thresholds": [
+      0.9999999813649595,
+      0.9873126490855356,
+      0.9551538489318734
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.041475662130019894
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.041307376881000835
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      -0.005386209108531873,
+      -0.009118178552260754,
+      -0.041307376881000835
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.0289670962089912
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.0106568087310308
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      -0.8298360067332305,
+      -0.9325323499735402,
+      -0.9975387839653641
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.006354852521056779
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.006346612675096431
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      -0.0020149742778746097,
+      -0.0017307476303356378,
+      -0.006056258186794186
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.13062828174752594
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.1630983840442139
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      -0.3095861774087294,
+      -0.16459119355119944,
+      -0.1643062993050089
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8560514870391185
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.848845732179812
+    ]
+  },
+  {
+    "pair": 3,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      25.95126436893134,
+      34.16703859355253
+    ],
+    "thresholds": [
+      0.5326934843846607,
+      0.8777090062174846,
+      0.8416454052535634
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.026246290714002883
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00039914430039937333
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      -0.00012167337938036459,
+      -5.465474076931027e-05,
+      -0.00248028167088856
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.7905840430909451
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.5971856049659878
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      -0.6925788512871718,
+      -1.0040497027261757,
+      -0.6619616107619033
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0011464177913859072
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00116874603722976
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      -4.372579522780936e-12,
+      -1.039960172260286e-05,
+      -0.00116874603722976
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.030582048686319814
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.03140229964646061
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      -1.1942799901946089e-08,
+      -0.0034589761381677844,
+      -0.03140229964646061
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.965103273483066
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9639651481057174
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.214599592655494,
+      18.770215249591683
+    ],
+    "thresholds": [
+      0.9999999772857895,
+      0.9969945029266001,
+      0.9639651481057174
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.03761262711350253
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.011231601991079612
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      -0.004801776174520244,
+      -0.012053225760592296,
+      -0.049558506168805264
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.8982366521337735
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.9720515923467513
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      -0.5487187024805142,
+      -0.8062076492934339,
+      -0.9720262029884442
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.003891912282574418
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00364797108467675
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      -0.0016356790558171585,
+      -0.0024311255001085086,
+      -0.0037809607591974075
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.08122153295231713
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.08122990258423113
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      -0.21000933882996026,
+      -0.13392449043318194,
+      -0.07980583581079048
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.910375361987505
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9125162776905961
+    ]
+  },
+  {
+    "pair": 4,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.62613406291372,
+      33.99620622179509
+    ],
+    "thresholds": [
+      0.7871730668827921,
+      0.8381615663352608,
+      0.917653149285816
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.020839122525292582
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.020684564926435146
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      -3.049812261124921e-05,
+      -0.0017788718819163763,
+      -0.020684564926435146
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.1939971257017967
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.1997731508440161
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      -3.126180006828057,
+      -1.4780806583634982,
+      -1.1997731508440161
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0024171822787785137
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.002308627846336145
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      -5.316319078950563e-13,
+      -6.66419676073082e-06,
+      -0.002308627846336145
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.14001952577050095
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.06275958403605542
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      -3.9742087678062776e-08,
+      -0.00439668114223959,
+      -0.0813549102126859
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8834540292321167
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9316661443744775
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.98401459048515,
+      18.85255044083535
+    ],
+    "thresholds": [
+      0.9999999854272483,
+      0.9944400643043874,
+      0.9316661443744775
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.06786887842681545
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.010828638999637395
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      -0.015956265732483634,
+      -0.010759862532932147,
+      -0.018636157451949766
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.9290884037307334
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.8280810626021979
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      -1.0245249754734513,
+      -1.3189376025630948,
+      -0.859901343583424
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      -1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.004925164298536751
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0037981139801269766
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      -0.0038121195787109855,
+      -0.0014046901101300016,
+      -0.004754183245362956
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.13082470523902703
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.12607122315374647
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      -0.028297061269404893,
+      -0.1290339828398716,
+      -0.12607122315374647
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.898256767198067
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.8901487289863121
+    ]
+  },
+  {
+    "pair": 5,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.20636847874393,
+      33.477341720021414
+    ],
+    "thresholds": [
+      0.9441778772984455,
+      0.8878274417764267,
+      0.8981803228962237
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.019447180703740366
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -4.542263766843636e-05
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      -1.8722492328183502e-05,
+      -0.00426515230628619,
+      -0.0017558212847092597
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.0380719745153932
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      -1.2135135135135136,
+      -2.862686232532103,
+      -0.7614262386168935
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      -1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.0018246562690909063
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0018427892651927016
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      -6.560804174641442e-09,
+      -4.6547033274290766e-05,
+      -0.0018427892651927016
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.06662936874735079
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.057465586890679016
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      -3.516548240409656e-05,
+      -0.01212951460477887,
+      -0.06174067019684591
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9328601694346672
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9523461189533826
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      10.913043036372443,
+      18.79537762771014
+    ],
+    "thresholds": [
+      0.9999999879440638,
+      0.9841343277706509,
+      0.9366746213063057
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.055880955494819
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.01895105878109563
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      -0.005241602953374009,
+      -0.029633767284769814,
+      -0.018727205561416115
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -1.0247986297072225
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.1012488832644727
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      -0.8892834524516259,
+      -1.0653104903022128,
+      -1.1053824144570548
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      -1e-12,
+      -1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.004749452929342606
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00404434914474242
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      -0.001688913108865073,
+      -0.0027782169275737275,
+      -0.00404434914474242
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.11269520218272577
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.14659507012239467
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      -0.25750908811217943,
+      -0.15545951455608253,
+      -0.10719205059335107
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.888314689259599
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.8886539910618817
+    ]
+  },
+  {
+    "pair": 6,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      26.254111566083598,
+      33.24240915520771
+    ],
+    "thresholds": [
+      0.6451786471720173,
+      0.8421091685675787,
+      0.8886539910618817
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.034864351726399165
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.00032519275154643595
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      -0.0001362957190965329,
+      -0.00032519275154643595,
+      -0.03439720668877588
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.7458101774618058
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -1.615907079594527
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      -1.618018018018018,
+      -0.3052298430175726,
+      -0.6637786977497797
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.00180281888758792
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0017454036683636123
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      -5.636634123204895e-13,
+      -2.4287887739718148e-05,
+      -0.0017454036683636123
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.040051055244942214
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.041737668367990026
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      -3.334983699008694e-09,
+      -0.0006771940868936185,
+      -0.04039831087137231
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.9496389636595101
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.9512319895054728
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.1,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      11.340152504134467,
+      18.568375259115374
+    ],
+    "thresholds": [
+      0.9999999975164089,
+      0.9991262442450114,
+      0.947927224856544
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.05684808200390931
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.0023857025727151986
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      -0.010319017847015997,
+      -0.002716015093031457,
+      -0.023956388922735286
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.7863093192856196
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.826947840108623
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      -0.9595224713183802,
+      -0.7645913024468394,
+      -0.827847016126158
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 0.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      -1e-12,
+      1e-12,
+      -1e-12
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.004196183033036106
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.004196183033036106
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "raw",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      -0.003229145558110892,
+      -0.0005615651597275247,
+      -0.004405049700097542
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      -0.08431045799338362
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      -0.09486995447955832
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "activity_normalized",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      -0.112624213510368,
+      -0.14643867478840955,
+      -0.09486995447955832
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "single_intensity",
+    "cuts": [],
+    "thresholds": [
+      0.8921166199284046
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_global",
+    "cuts": [],
+    "thresholds": [
+      0.850338076791419
+    ]
+  },
+  {
+    "pair": 7,
+    "noise": 0.4,
+    "learning_gate": 1.0,
+    "readout": "counterfactual_fraction",
+    "policy": "mixed_context",
+    "cuts": [
+      25.865331161510735,
+      34.13305712380386
+    ],
+    "thresholds": [
+      0.8393906962638498,
+      0.8086382930341696,
+      0.8931141827779552
+    ]
+  }
+]

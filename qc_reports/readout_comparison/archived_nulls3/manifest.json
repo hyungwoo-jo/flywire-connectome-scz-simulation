@@ -1,0 +1,80 @@
+{
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "pairs": 8,
+  "trials_per_pattern": 100,
+  "rows": 7680,
+  "circuit": {
+    "dataset": "BANC v888",
+    "id_column": "root_888",
+    "hemisphere": "right",
+    "pn": 138,
+    "kc": 2245,
+    "apl": [
+      "720575941482622627"
+    ],
+    "pn_kc_edges": 10620,
+    "pn_kc_synapses": 83989,
+    "apl_kc_edges": 2097,
+    "kc_apl_edges": 2126,
+    "pn_weight_scale": 34.0,
+    "current_root_id_duplicate_rows": 168,
+    "pn_verified_transmitters": {
+      "acetylcholine": 138
+    },
+    "kc_verified_transmitters": {
+      "acetylcholine": 2245
+    },
+    "apl_verified_transmitter": [
+      "gaba"
+    ]
+  },
+  "main_mbon": "720575941586084230",
+  "theta": 0.5888234575689715,
+  "eta": 20,
+  "train_apl": 1,
+  "train_amplitude": 1,
+  "score_definitions": {
+    "raw": "-W_after dot k",
+    "activity_normalized": "-(W_after dot k)/mean(k)",
+    "counterfactual_fraction": "((W_before-W_after) dot k)/(W_before dot k)"
+  },
+  "denominator_zero": "score set to 0 when reference <=1e-12",
+  "counterfactual": "Requires unlearned weights evaluated on the SAME current input; not a biological readout.",
+  "thresholds": "Fit on original amplitude-1 training trials separately for each readout; fixed at evaluation.",
+  "presence": "Same independent noise-only PN sum calibration as 09, 95th percentile; identical evaluation noise reused.",
+  "nulls": [
+    {
+      "swaps": 36810,
+      "changed_fraction": 0.925971203477316,
+      "changed_weight_fraction": 0.8767565942736906,
+      "eligible_edges": 7358,
+      "seed": 50001
+    },
+    {
+      "swaps": 36810,
+      "changed_fraction": 0.9265145340939962,
+      "changed_weight_fraction": 0.8801382730893514,
+      "eligible_edges": 7358,
+      "seed": 50002
+    },
+    {
+      "swaps": 36810,
+      "changed_fraction": 0.9278728606356969,
+      "changed_weight_fraction": 0.8827684677237544,
+      "eligible_edges": 7358,
+      "seed": 50003
+    }
+  ],
+  "max_residual": 4.122854835308942e-12,
+  "max_train_residual": 3.6178005036191507e-12,
+  "interpretation": "Synthetic readout comparison; no signal identity at amplitude 0, no A/B accuracy/AUC assigned there.",
+  "limitations": [
+    "Readouts have different available information; counterfactual uses privileged reference.",
+    "Population normalization also adds information unavailable to a lone MBON.",
+    "No biological implementation, measured odor/behavior or disease inference.",
+    "Three output nulls and eight patterns are exploratory, not population samples."
+  ]
+}
