@@ -1,0 +1,21 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "pyarrow": "25.0.1"
+  },
+  "inputs": {
+    "banc_888_meta.feather": {
+      "bytes": 57503026,
+      "sha256": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098"
+    },
+    "banc_888_edgelist_simple_v2.feather": {
+      "bytes": 305250378,
+      "sha256": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+    }
+  }
+}
