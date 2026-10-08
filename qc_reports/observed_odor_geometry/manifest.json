@@ -1,0 +1,251 @@
+{
+  "door_source": {
+    "repository": "ropensci/DoOR.data",
+    "commit": "db323a496577c4b4a72b5c2fcd1859e07521ffb5",
+    "files": [
+      {
+        "file": "door_mappings.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_mappings.csv",
+        "sha256": "1197c492e769b1b587c907c5b750ffa2507d7e6c9fe9dfcb2ee8603871e00912",
+        "bytes": 12824
+      },
+      {
+        "file": "door_response_matrix.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_response_matrix.csv",
+        "sha256": "bc2aa5414ff54d3a1399f5fe171e154bcadc754bcf323a3c27711a54f70848e2",
+        "bytes": 295852
+      },
+      {
+        "file": "door_dataset_info.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_dataset_info.csv",
+        "sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269",
+        "bytes": 11105
+      },
+      {
+        "file": "odor.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/odor.csv",
+        "sha256": "a31d1841cf90ce23ec149760a5efa38eae02de7820bb2300c3a7dba221745940",
+        "bytes": 155880
+      }
+    ]
+  },
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "channels": [
+    "Or10a",
+    "Or13a",
+    "Or2a",
+    "Or42b",
+    "Or43b",
+    "Or47b",
+    "Or49b",
+    "Or59b",
+    "Or65a",
+    "Or67a",
+    "Or67b",
+    "Or67c",
+    "Or71a",
+    "Or7a",
+    "Or82a",
+    "Or83c",
+    "Or85b",
+    "Or92a",
+    "Or98a",
+    "Or9a"
+  ],
+  "odors": [
+    {
+      "odor_key": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
+      "name": "butyric acid"
+    },
+    {
+      "odor_key": "HIGQPQRQIQDZMP-DHZHZOJOSA-N",
+      "name": "geranyl acetate"
+    },
+    {
+      "odor_key": "MBDOYVRWFFCFHM-SNAWJCMRSA-N",
+      "name": "E2-hexenal"
+    },
+    {
+      "odor_key": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+      "name": "acetone"
+    },
+    {
+      "odor_key": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+      "name": "2-butanone"
+    },
+    {
+      "odor_key": "CATSNJVOTSVZJV-UHFFFAOYSA-N",
+      "name": "2-heptanone"
+    },
+    {
+      "odor_key": "QSJXEFYPDANLFS-UHFFFAOYSA-N",
+      "name": "2,3-butanedione"
+    },
+    {
+      "odor_key": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+      "name": "phenethyl alcohol"
+    },
+    {
+      "odor_key": "OSWPMRLSEDHDFF-UHFFFAOYSA-N",
+      "name": "methyl salicylate"
+    },
+    {
+      "odor_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+      "name": "benzaldehyde"
+    },
+    {
+      "odor_key": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+      "name": "eugenol"
+    },
+    {
+      "odor_key": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+      "name": "1-butanol"
+    },
+    {
+      "odor_key": "ZSIAUFGUXNUGDI-UHFFFAOYSA-N",
+      "name": "1-hexanol"
+    },
+    {
+      "odor_key": "PHTQWCKDNZKARW-UHFFFAOYSA-N",
+      "name": "3-methyl-butanol"
+    },
+    {
+      "odor_key": "VSMOENVRRABVKN-UHFFFAOYSA-N",
+      "name": "1-octen-3-ol"
+    },
+    {
+      "odor_key": "XEKOWRVHYACXOJ-UHFFFAOYSA-N",
+      "name": "ethyl acetate"
+    },
+    {
+      "odor_key": "MLFHJEHSLIIPHL-UHFFFAOYSA-N",
+      "name": "isopentyl acetate"
+    },
+    {
+      "odor_key": "OBNCKNCVKJNDBV-UHFFFAOYSA-N",
+      "name": "ethyl butyrate"
+    }
+  ],
+  "selected_pns": 45,
+  "full_pns": 138,
+  "observed_edges": 4411,
+  "full_edges": 10620,
+  "kc": 2245,
+  "theta": 0.5888234575689715,
+  "apl_gain": 4,
+  "apl_strength": 1,
+  "input_gains": [
+    1,
+    2,
+    4
+  ],
+  "noise": [
+    0.02,
+    0.1
+  ],
+  "train_per_odor": 10,
+  "test_per_odor": 20,
+  "noise_repeats": 4,
+  "null_count": 10,
+  "chance_accuracy": 0.05555555555555555,
+  "rows": 528,
+  "max_residual": 5.895089971730272e-12,
+  "nulls": [
+    {
+      "graph": 1,
+      "seed": 200001,
+      "swaps": 22055,
+      "changed_fraction": 0.9900249376558603,
+      "changed_weight_fraction": 0.9731344935395513,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 2,
+      "seed": 200002,
+      "swaps": 22055,
+      "changed_fraction": 0.9863976422579914,
+      "changed_weight_fraction": 0.965913178208782,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 3,
+      "seed": 200003,
+      "swaps": 22055,
+      "changed_fraction": 0.9888914078440263,
+      "changed_weight_fraction": 0.9682372796945466,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 4,
+      "seed": 200004,
+      "swaps": 22055,
+      "changed_fraction": 0.994105644978463,
+      "changed_weight_fraction": 0.9850593475915114,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 5,
+      "seed": 200005,
+      "swaps": 22055,
+      "changed_fraction": 0.9859442303332577,
+      "changed_weight_fraction": 0.9639210912209834,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 6,
+      "seed": 200006,
+      "swaps": 22055,
+      "changed_fraction": 0.9913851734300612,
+      "changed_weight_fraction": 0.9741305370334504,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 7,
+      "seed": 200007,
+      "swaps": 22055,
+      "changed_fraction": 0.9866243482203582,
+      "changed_weight_fraction": 0.9648064632155603,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 8,
+      "seed": 200008,
+      "swaps": 22055,
+      "changed_fraction": 0.9888914078440263,
+      "changed_weight_fraction": 0.9697590128102261,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 9,
+      "seed": 200009,
+      "swaps": 22055,
+      "changed_fraction": 0.9897982316934936,
+      "changed_weight_fraction": 0.9763162991450623,
+      "eligible_edges": 4406
+    },
+    {
+      "graph": 10,
+      "seed": 200010,
+      "swaps": 22055,
+      "changed_fraction": 0.9900249376558603,
+      "changed_weight_fraction": 0.973743186785823,
+      "eligible_edges": 4406
+    }
+  ],
+  "definition": "Observed-channel partial circuit; edges from unobserved PN inputs are excluded, not imputed as measured zero.",
+  "calibration": "Synthetic baseline theta retained; gains are fixed sensitivity settings, no outcome tuning.",
+  "noise_definition": "Independent additive Gaussian perturbation per receptor channel and trial, clipped to [0,1], then duplicated to matching PNs. Same draws across graphs/gains/transfers.",
+  "classifier": "18-way Euclidean nearest training centroid; exact/near ties scored as uniform expected accuracy.",
+  "limitations": [
+    "Direct OSN consensus to PN substitution, not measured PN physiology.",
+    "Positive-delta transfer discards inhibitory deviations; absolute transfer retains relative low responses but not biophysical units.",
+    "Only 20 channels, 18 completeness-selected odors and one connectome specimen.",
+    "Synthetic noise is not empirical trial variability; repeated trials are not biological replicates.",
+    "Existing synthetic theta may silence this partial circuit; gains are phenomenological.",
+    "Constrained nulls, exploratory selection, no significance or uniform random sampling claim.",
+    "No learning, downstream MBON, molecular mechanisms, disease or behavioral inference."
+  ]
+}

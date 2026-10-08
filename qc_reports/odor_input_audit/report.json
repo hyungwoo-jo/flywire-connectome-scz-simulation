@@ -1,0 +1,99 @@
+{
+  "door_source": {
+    "repository": "ropensci/DoOR.data",
+    "commit": "db323a496577c4b4a72b5c2fcd1859e07521ffb5",
+    "files": [
+      {
+        "file": "door_mappings.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_mappings.csv",
+        "sha256": "1197c492e769b1b587c907c5b750ffa2507d7e6c9fe9dfcb2ee8603871e00912",
+        "bytes": 12824
+      },
+      {
+        "file": "door_response_matrix.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_response_matrix.csv",
+        "sha256": "bc2aa5414ff54d3a1399f5fe171e154bcadc754bcf323a3c27711a54f70848e2",
+        "bytes": 295852
+      },
+      {
+        "file": "door_dataset_info.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_dataset_info.csv",
+        "sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269",
+        "bytes": 11105
+      },
+      {
+        "file": "odor.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/odor.csv",
+        "sha256": "a31d1841cf90ce23ec149760a5efa38eae02de7820bb2300c3a7dba221745940",
+        "bytes": 155880
+      }
+    ]
+  },
+  "pn_total": 138,
+  "mapping_status": {
+    "mapped": 77,
+    "no_response_channel": 35,
+    "ambiguous_response_channel": 16,
+    "multiple_glomeruli": 6,
+    "annotation_prefix_conflict": 4
+  },
+  "channels": [
+    "Gr21a.Gr63a",
+    "Ir31a",
+    "Ir41a",
+    "Ir64a.DC4",
+    "Ir64a.DP1m",
+    "Ir75a",
+    "Ir75d",
+    "Ir76a",
+    "Ir84a",
+    "Ir92a",
+    "Or10a",
+    "Or13a",
+    "Or23a",
+    "Or2a",
+    "Or42a",
+    "Or42b",
+    "Or43a",
+    "Or43b",
+    "Or47b",
+    "Or49b",
+    "Or59b",
+    "Or59c",
+    "Or65a",
+    "Or67a",
+    "Or67b",
+    "Or67c",
+    "Or67d",
+    "Or69a",
+    "Or71a",
+    "Or7a",
+    "Or82a",
+    "Or83c",
+    "Or85b",
+    "Or85d",
+    "Or92a",
+    "Or98a",
+    "Or9a"
+  ],
+  "odor_rows": 690,
+  "coverage_counts": {
+    "0.5": 69,
+    "0.8": 12,
+    "0.9": 3,
+    "1.0": 0
+  },
+  "response_min": 0.0,
+  "response_max": 1.0,
+  "sfr_missing_channels": [
+    "Or67d"
+  ],
+  "interpretation": "Normalized merged OSN/receptor responses, NOT measured PN activity. Potential glomerulus mapping only.",
+  "assumptions_needed": [
+    "Specify OSN-to-PN transfer; direct substitution is a model assumption.",
+    "Handle spontaneous activity and inhibitory deviations explicitly.",
+    "Do not equate missing values with zero response.",
+    "Resolve conflicting/ambiguous annotations or exclude them.",
+    "Recalibrate input/activity scaling independently of desired discrimination results."
+  ]
+}

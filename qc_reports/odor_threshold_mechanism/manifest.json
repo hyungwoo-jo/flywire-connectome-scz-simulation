@@ -1,0 +1,174 @@
+{
+  "source_manifest": "qc_reports/observed_odor_geometry/manifest.json",
+  "door_source": {
+    "repository": "ropensci/DoOR.data",
+    "commit": "db323a496577c4b4a72b5c2fcd1859e07521ffb5",
+    "files": [
+      {
+        "file": "door_mappings.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_mappings.csv",
+        "sha256": "1197c492e769b1b587c907c5b750ffa2507d7e6c9fe9dfcb2ee8603871e00912",
+        "bytes": 12824
+      },
+      {
+        "file": "door_response_matrix.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_response_matrix.csv",
+        "sha256": "bc2aa5414ff54d3a1399f5fe171e154bcadc754bcf323a3c27711a54f70848e2",
+        "bytes": 295852
+      },
+      {
+        "file": "door_dataset_info.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/door_dataset_info.csv",
+        "sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269",
+        "bytes": 11105
+      },
+      {
+        "file": "odor.csv",
+        "url": "https://raw.githubusercontent.com/ropensci/DoOR.data/db323a496577c4b4a72b5c2fcd1859e07521ffb5/data/odor.csv",
+        "sha256": "a31d1841cf90ce23ec149760a5efa38eae02de7820bb2300c3a7dba221745940",
+        "bytes": 155880
+      }
+    ]
+  },
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "channels": [
+    "Or10a",
+    "Or13a",
+    "Or2a",
+    "Or42b",
+    "Or43b",
+    "Or47b",
+    "Or49b",
+    "Or59b",
+    "Or65a",
+    "Or67a",
+    "Or67b",
+    "Or67c",
+    "Or71a",
+    "Or7a",
+    "Or82a",
+    "Or83c",
+    "Or85b",
+    "Or92a",
+    "Or98a",
+    "Or9a"
+  ],
+  "odors": [
+    {
+      "odor_key": "FERIUCNNQQJTOY-UHFFFAOYSA-N",
+      "name": "butyric acid"
+    },
+    {
+      "odor_key": "HIGQPQRQIQDZMP-DHZHZOJOSA-N",
+      "name": "geranyl acetate"
+    },
+    {
+      "odor_key": "MBDOYVRWFFCFHM-SNAWJCMRSA-N",
+      "name": "E2-hexenal"
+    },
+    {
+      "odor_key": "CSCPPACGZOOCGX-UHFFFAOYSA-N",
+      "name": "acetone"
+    },
+    {
+      "odor_key": "ZWEHNKRNPOVVGH-UHFFFAOYSA-N",
+      "name": "2-butanone"
+    },
+    {
+      "odor_key": "CATSNJVOTSVZJV-UHFFFAOYSA-N",
+      "name": "2-heptanone"
+    },
+    {
+      "odor_key": "QSJXEFYPDANLFS-UHFFFAOYSA-N",
+      "name": "2,3-butanedione"
+    },
+    {
+      "odor_key": "WRMNZCZEMHIOCP-UHFFFAOYSA-N",
+      "name": "phenethyl alcohol"
+    },
+    {
+      "odor_key": "OSWPMRLSEDHDFF-UHFFFAOYSA-N",
+      "name": "methyl salicylate"
+    },
+    {
+      "odor_key": "HUMNYLRZRPPJDN-UHFFFAOYSA-N",
+      "name": "benzaldehyde"
+    },
+    {
+      "odor_key": "RRAFCDWBNXTKKO-UHFFFAOYSA-N",
+      "name": "eugenol"
+    },
+    {
+      "odor_key": "LRHPLDYGYMQRHN-UHFFFAOYSA-N",
+      "name": "1-butanol"
+    },
+    {
+      "odor_key": "ZSIAUFGUXNUGDI-UHFFFAOYSA-N",
+      "name": "1-hexanol"
+    },
+    {
+      "odor_key": "PHTQWCKDNZKARW-UHFFFAOYSA-N",
+      "name": "3-methyl-butanol"
+    },
+    {
+      "odor_key": "VSMOENVRRABVKN-UHFFFAOYSA-N",
+      "name": "1-octen-3-ol"
+    },
+    {
+      "odor_key": "XEKOWRVHYACXOJ-UHFFFAOYSA-N",
+      "name": "ethyl acetate"
+    },
+    {
+      "odor_key": "MLFHJEHSLIIPHL-UHFFFAOYSA-N",
+      "name": "isopentyl acetate"
+    },
+    {
+      "odor_key": "OBNCKNCVKJNDBV-UHFFFAOYSA-N",
+      "name": "ethyl butyrate"
+    }
+  ],
+  "selected_pns": 45,
+  "observed_edges": 4411,
+  "rows": 128,
+  "per_odor_rows": 2304,
+  "theta": 0.5888234575689715,
+  "theta_factors": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "input_gains": [
+    1,
+    4
+  ],
+  "apl_strengths": [
+    0,
+    1
+  ],
+  "apl_gain": 4,
+  "noise": [
+    0.02,
+    0.1
+  ],
+  "repeats": 4,
+  "blank_trials_per_condition": 200,
+  "max_residual": 1.110131431225625e-11,
+  "prior_anchor_max_accuracy_difference": 1.1102230246251565e-16,
+  "transfer": "positive_delta only: clip(OSN consensus-SFR,0,infinity) then additive synthetic channel noise clipped to [0,1].",
+  "classifier": "Within-condition train10/test20 per odor, 18-way nearest Euclidean centroid, uniform expected tie score.",
+  "decomposition": "1-accuracy = silent_error_mass + active_error_mass; masses normalized to all test trials.",
+  "zero_bound": "Oracle min errors from exact zero vectors = (zero trials minus largest odor count among them) / all test trials. Uses test labels only for a descriptive bound, never prediction or calibration.",
+  "blank": "Positive-delta no-odor baseline is zero; rectified Gaussian noise only, same draws across gain/theta/APL. Exact zero also remains structurally zero for all tested settings.",
+  "limitations": [
+    "Observed-channel partial circuit; direct OSN to PN transfer, synthetic noise, one specimen.",
+    "No biological calibration, learned MBON, molecular mechanisms or disease conclusions.",
+    "No rewired graphs in this focused mechanism assay; cannot infer detailed wiring specificity.",
+    "Noise-only response means any nonzero KC, not percept, presence decision, false identification or hallucination.",
+    "Classifier retrained in each setting; does not model an organism adapting its decision instantly.",
+    "No independent biological replicates or inferential statistics."
+  ]
+}
