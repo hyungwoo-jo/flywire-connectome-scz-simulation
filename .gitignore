@@ -16,3 +16,13 @@ data/*.csv
 .DS_Store
 .idea/
 .vscode/
+
+# Pinned external odor-response raw data
+data/door/
+
+# Large or regenerable outputs (rerun the pipeline to recreate)
+qc_reports/**/*.npz
+qc_reports/associative_readout/metrics.csv
+
+# Local scratch
+notebooks/

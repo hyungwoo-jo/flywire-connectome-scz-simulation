@@ -22,9 +22,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-WORKSPACE = Path("/home/hyungwoo/codespace/flywire_connectome")
+WORKSPACE = Path(__file__).resolve().parents[2]
 DATA_DIR = WORKSPACE / "data"
-QC_DIR = WORKSPACE / "qc_reports"
+QC_DIR = WORKSPACE / "legacy" / "figures"
 QC_DIR.mkdir(parents=True, exist_ok=True)
 
 def main():
