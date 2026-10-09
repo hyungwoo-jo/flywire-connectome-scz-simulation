@@ -18,7 +18,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~32, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~33, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -50,6 +50,7 @@ data/        원자료 위치 (git 제외)
 | 30 | 모든 MBON에서 누출의 일반성 | [PREREGISTRATION_30](docs/PREREGISTRATION_30.md), [ALL_MBONS_RESULTS](docs/ALL_MBONS_RESULTS.md) |
 | 31 | 허브 KC의 정체 | [PREREGISTRATION_31](docs/PREREGISTRATION_31.md), [HUB_IDENTITY_RESULTS](docs/HUB_IDENTITY_RESULTS.md) |
 | 32 | 실제 배선 안의 보상 | [PREREGISTRATION_32](docs/PREREGISTRATION_32.md), [WIRING_COMPENSATION_RESULTS](docs/WIRING_COMPENSATION_RESULTS.md) |
+| 33 | KC별 APL 억제와 보상 | [PREREGISTRATION_33](docs/PREREGISTRATION_33.md), [APL_COMPENSATION_RESULTS](docs/APL_COMPENSATION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
