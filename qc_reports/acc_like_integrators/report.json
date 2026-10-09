@@ -1,0 +1,86 @@
+{
+  "pairwise_exploratory": {
+    "MBON+BODY": {
+      "observed": 12,
+      "null_mean": 3.595,
+      "null_p95": 9.049999999999983,
+      "p": 0.029850746268656716,
+      "classes": {
+        "unknown": 12
+      },
+      "types": {
+        "VES002": 2,
+        "SAD035": 2,
+        "CB0258": 2,
+        "LAL135": 1,
+        "SAD045,SAD046": 1,
+        "mALD4": 1,
+        "LAL199": 1,
+        "SAD082": 1,
+        "CB0519": 1
+      },
+      "output_share": {
+        "DAN": 0.0040701809847467005,
+        "DN": 0.09558997866118707,
+        "MBON": 0.007626649806370031,
+        "other": 0.8927131905476962
+      }
+    },
+    "MBON+FB": {
+      "observed": 41,
+      "null_mean": 6.98,
+      "null_p95": 15.0,
+      "p": 0.004975124378109453,
+      "classes": {
+        "CX": 38,
+        "unknown": 3
+      },
+      "types": {
+        "FB4O": 8,
+        "FB4R": 4,
+        "FB4P,FB4Q": 3,
+        "FB4A": 2,
+        "FB6P": 2,
+        "FB1H": 2,
+        "FB4H": 2,
+        "FB4X": 2,
+        "FB5AB": 2,
+        "FB4D": 2,
+        "FB5V": 2,
+        "FB5J": 2
+      },
+      "output_share": {
+        "DAN": 0.004215867686614143,
+        "DN": 0.0008393582724480647,
+        "MBON": 0.005608439365902978,
+        "other": 0.9893363346750348
+      }
+    },
+    "BODY+FB": {
+      "observed": 0,
+      "null_mean": 5.32,
+      "null_p95": 14.0,
+      "p": 1.0,
+      "classes": {},
+      "types": {},
+      "output_share": {}
+    }
+  },
+  "criteria": {
+    "min_input": 200,
+    "min_class_syn": 20,
+    "enrichment": 3.0
+  },
+  "baseline_share": {
+    "MBON": 0.00865470682563149,
+    "BODY": 0.04057010899060645,
+    "FB": 0.02246074003631861
+  },
+  "observed": 0,
+  "null_mean": 0.13,
+  "null_p95": 1.0,
+  "p": 1.0,
+  "candidates_by_class": {},
+  "loop_like": 0,
+  "top_types": []
+}

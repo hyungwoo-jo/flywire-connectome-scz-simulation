@@ -134,4 +134,5 @@
 - 실험 제안서: EXPERIMENT_PROPOSAL.md (수치: pipelines/40_proposal_numbers.py, 41_apl_variants.py)
 - 누출 이론: LEAKAGE_THEORY.md (43)
 - 전뇌 발화 모형 점검: WHOLEBRAIN_FEASIBILITY.md (42)
+- ACC 같은 통합 지점: ACC_LIKE_INTEGRATORS.md (44)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
