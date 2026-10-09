@@ -1,6 +1,6 @@
 # 연구 현황과 방향
 
-2026-10-10 기준 (40 반영). 단계별 세부는 각 문서를 본다.
+2026-10-10 기준 (43 반영). 단계별 세부는 각 문서를 본다.
 
 ## 큰 질문
 
@@ -131,5 +131,6 @@
 - 38 계획과 결과: PREREGISTRATION_38.md, MATCHED_CONTROL_RESULTS.md
 - 39 계획과 결과: PREREGISTRATION_39.md, CLAW_MANIPULATION_RESULTS.md
 - 세 커넥톰 비교 노트: CONNECTOME_COMPARISON.md
-- 실험 제안서: EXPERIMENT_PROPOSAL.md (수치: pipelines/40_proposal_numbers.py)
+- 실험 제안서: EXPERIMENT_PROPOSAL.md (수치: pipelines/40_proposal_numbers.py, 41_apl_variants.py)
+- 누출 이론: LEAKAGE_THEORY.md (43)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md

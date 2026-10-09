@@ -1,0 +1,133 @@
+{
+  "across_conditions": {
+    "rho_Lhat_leak": 0.9419127979201499,
+    "rho_H_specific": 0.7999999999999999,
+    "n_conditions": 15
+  },
+  "within_condition_median": {
+    "rho_Lhat_leak": 0.782945651131045,
+    "rho_H_specific": 0.6299487734730371
+  },
+  "per_condition": [
+    {
+      "dataset": "BANC_left",
+      "circuit": "input_comp_0.5",
+      "leak": 0.0188,
+      "specific": 0.0159,
+      "L_hat": 0.1564,
+      "H": 6.8175
+    },
+    {
+      "dataset": "BANC_left",
+      "circuit": "input_comp_1.0",
+      "leak": 0.0075,
+      "specific": -0.0061,
+      "L_hat": 0.0402,
+      "H": 2.5759
+    },
+    {
+      "dataset": "BANC_left",
+      "circuit": "original",
+      "leak": 0.0371,
+      "specific": 0.037,
+      "L_hat": 0.5008,
+      "H": 12.2916
+    },
+    {
+      "dataset": "BANC_right",
+      "circuit": "input_comp_0.5",
+      "leak": 0.0147,
+      "specific": 0.0104,
+      "L_hat": 0.1118,
+      "H": 6.5795
+    },
+    {
+      "dataset": "BANC_right",
+      "circuit": "input_comp_1.0",
+      "leak": 0.0083,
+      "specific": -0.0007,
+      "L_hat": 0.0539,
+      "H": 4.9727
+    },
+    {
+      "dataset": "BANC_right",
+      "circuit": "original",
+      "leak": 0.0349,
+      "specific": 0.0342,
+      "L_hat": 0.3757,
+      "H": 10.9165
+    },
+    {
+      "dataset": "FlyWire_left",
+      "circuit": "input_comp_0.5",
+      "leak": 0.0124,
+      "specific": 0.0086,
+      "L_hat": 0.0543,
+      "H": 2.8595
+    },
+    {
+      "dataset": "FlyWire_left",
+      "circuit": "input_comp_1.0",
+      "leak": 0.0096,
+      "specific": -0.0072,
+      "L_hat": 0.0433,
+      "H": 3.4124
+    },
+    {
+      "dataset": "FlyWire_left",
+      "circuit": "original",
+      "leak": 0.0188,
+      "specific": 0.0188,
+      "L_hat": 0.1899,
+      "H": 5.3984
+    },
+    {
+      "dataset": "FlyWire_right",
+      "circuit": "input_comp_0.5",
+      "leak": 0.0098,
+      "specific": 0.0082,
+      "L_hat": 0.0724,
+      "H": 3.6261
+    },
+    {
+      "dataset": "FlyWire_right",
+      "circuit": "input_comp_1.0",
+      "leak": 0.0096,
+      "specific": -0.0075,
+      "L_hat": 0.0433,
+      "H": 3.101
+    },
+    {
+      "dataset": "FlyWire_right",
+      "circuit": "original",
+      "leak": 0.0162,
+      "specific": 0.0162,
+      "L_hat": 0.2404,
+      "H": 6.3699
+    },
+    {
+      "dataset": "hemibrain_right",
+      "circuit": "input_comp_0.5",
+      "leak": 0.0167,
+      "specific": 0.0092,
+      "L_hat": 0.0835,
+      "H": 3.1227
+    },
+    {
+      "dataset": "hemibrain_right",
+      "circuit": "input_comp_1.0",
+      "leak": 0.0131,
+      "specific": -0.0063,
+      "L_hat": 0.054,
+      "H": 4.1527
+    },
+    {
+      "dataset": "hemibrain_right",
+      "circuit": "original",
+      "leak": 0.0277,
+      "specific": 0.0273,
+      "L_hat": 0.3627,
+      "H": 6.6327
+    }
+  ]
+}

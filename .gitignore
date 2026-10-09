@@ -32,3 +32,6 @@ data/flywire/
 
 # hemibrain v1.2 compact connectome (public)
 data/hemibrain/
+
+# third-party code (cloned, not vendored)
+external/
