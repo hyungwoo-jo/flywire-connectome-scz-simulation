@@ -1,0 +1,119 @@
+{
+  "compensation_verdict": "dataset_difference",
+  "hemibrain_compensation": true,
+  "model": {
+    "circuit": {
+      "side": "right",
+      "apl": "425790257",
+      "mbon11": "424767514",
+      "pn": 118,
+      "kc": 1927,
+      "pn_kc_edges": 10971,
+      "apl_kc_edges": 1927,
+      "kc_apl_edges": 1927,
+      "mbon11_kc_inputs": 1694
+    },
+    "mapped_pns": 45,
+    "mapped_glomeruli": 22,
+    "theta": 0.28702206503694494,
+    "H1": {
+      "active_mean": 0.09520085874131838,
+      "active_median": 0.09496626881162429,
+      "active_no_apl": 0.14858073092535065,
+      "silent_odor_fraction": 0.0,
+      "residual": 8.365946824184789e-13,
+      "passed": true
+    },
+    "H2": {
+      "observed_edges": 56,
+      "null_mean": 1.772,
+      "null_p95": 4.0,
+      "p": 0.000999000999000999,
+      "DM1_DM4_z": 5.421314818556402,
+      "top": [
+        {
+          "a": "DA4l",
+          "b": "DA4m",
+          "z": 6.61
+        },
+        {
+          "a": "VM5d",
+          "b": "VM5v",
+          "z": 6.29
+        },
+        {
+          "a": "D",
+          "b": "VL2a",
+          "z": 5.83
+        },
+        {
+          "a": "DC3",
+          "b": "VA6",
+          "z": 5.77
+        },
+        {
+          "a": "DA2",
+          "b": "VM4",
+          "z": 5.67
+        },
+        {
+          "a": "DM1",
+          "b": "DM4",
+          "z": 5.42
+        },
+        {
+          "a": "D",
+          "b": "VA6",
+          "z": 5.17
+        },
+        {
+          "a": "DC3",
+          "b": "DL5",
+          "z": 4.72
+        },
+        {
+          "a": "DL2d",
+          "b": "DL2v",
+          "z": 4.67
+        },
+        {
+          "a": "DL5",
+          "b": "VA6",
+          "z": 4.63
+        },
+        {
+          "a": "DL2d",
+          "b": "VA7l",
+          "z": 4.53
+        },
+        {
+          "a": "DC3",
+          "b": "VA3",
+          "z": 4.47
+        }
+      ],
+      "replicated": true
+    },
+    "H3": {
+      "leak_learned": 0.027726027397260274,
+      "leak_control": 0.00043835616438356166,
+      "specific": 0.027287671232876714,
+      "ci": [
+        0.023506849315068495,
+        0.030850000000000002
+      ],
+      "noise_FA": 0.046,
+      "strength_rho": 0.5997010918412157,
+      "replicated": true
+    },
+    "H4": {
+      "original": 0.027726027397260274,
+      "equalized": 0.013095890410958906,
+      "equalized_control": 0.01942465753424658,
+      "ratio": 0.4723320158102768,
+      "replicated": true
+    }
+  },
+  "pn_rule": "(_(ad|l)PN$)|(^M_(ad|l)PN)",
+  "min_syn": 5
+}
