@@ -1,0 +1,26 @@
+{
+  "H27a": "not_supported",
+  "H27b": "not_supported",
+  "results": {
+    "right": {
+      "rho": -0.09999999999999999,
+      "ratio": 0.542026708562451,
+      "dprime_gain": 2.1188686561185897,
+      "alpha0_matches_original": true
+    },
+    "left": {
+      "rho": -0.7,
+      "ratio": 0.4051660516605166,
+      "dprime_gain": -0.6221087389787172,
+      "alpha0_matches_original": true
+    }
+  },
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "quantile": 90
+}
