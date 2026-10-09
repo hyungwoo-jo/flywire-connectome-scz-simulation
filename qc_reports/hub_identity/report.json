@@ -1,0 +1,135 @@
+{
+  "verdicts": {
+    "H31a": "not_supported",
+    "H31b": "not_supported"
+  },
+  "results": {
+    "right": {
+      "hub_cut": 60.0,
+      "hubs": 71,
+      "responsive": 679,
+      "ab_share_hubs": 0.5070422535211268,
+      "ab_share_responsive": 0.5110456553755522,
+      "fisher_odds": 0.9822691777675701,
+      "fisher_p": 0.5781981035763031,
+      "cb_share_hub_median": 0.27272727272727265,
+      "cb_share_other_median": 0.33333333333333337,
+      "mwu_p": 0.9238141254302792,
+      "hub_input_total_median": 1.5588235294117645,
+      "other_input_total_median": 0.8235294117647058,
+      "hub_claws_median": 5.0,
+      "other_claws_median": 3.0,
+      "hub_noise_active": 0.053183098591549294,
+      "other_noise_active": 0.009417763157894736,
+      "by_subtype": [
+        {
+          "subtype": "KC",
+          "n": 23,
+          "hub_fraction": 0.1739,
+          "participation_median": 18.0,
+          "noise_active_mean": 0.0065,
+          "input_total_median": 0.7941
+        },
+        {
+          "subtype": "KCa'b'",
+          "n": 41,
+          "hub_fraction": 0.0732,
+          "participation_median": 7.0,
+          "noise_active_mean": 0.0103,
+          "input_total_median": 0.7647
+        },
+        {
+          "subtype": "KCab",
+          "n": 347,
+          "hub_fraction": 0.1037,
+          "participation_median": 16.0,
+          "noise_active_mean": 0.0138,
+          "input_total_median": 0.8824
+        },
+        {
+          "subtype": "KCapbp",
+          "n": 11,
+          "hub_fraction": 0.0909,
+          "participation_median": 6.0,
+          "noise_active_mean": 0.0011,
+          "input_total_median": 0.7647
+        },
+        {
+          "subtype": "KCg",
+          "n": 257,
+          "hub_fraction": 0.1051,
+          "participation_median": 15.0,
+          "noise_active_mean": 0.016,
+          "input_total_median": 0.8529
+        }
+      ]
+    },
+    "left": {
+      "hub_cut": 55.0,
+      "hubs": 72,
+      "responsive": 704,
+      "ab_share_hubs": 0.4027777777777778,
+      "ab_share_responsive": 0.40767045454545453,
+      "fisher_odds": 0.9776455741842437,
+      "fisher_p": 0.5829967895406215,
+      "cb_share_hub_median": 0.38999999999999996,
+      "cb_share_other_median": 0.11437908496732027,
+      "mwu_p": 0.010732154438755125,
+      "hub_input_total_median": 1.7000000000000002,
+      "other_input_total_median": 0.9333333333333333,
+      "hub_claws_median": 4.0,
+      "other_claws_median": 3.0,
+      "hub_noise_active": 0.05686111111111111,
+      "other_noise_active": 0.012161392405063292,
+      "by_subtype": [
+        {
+          "subtype": "KC",
+          "n": 123,
+          "hub_fraction": 0.1301,
+          "participation_median": 24.0,
+          "noise_active_mean": 0.0213,
+          "input_total_median": 1.0333
+        },
+        {
+          "subtype": "KCa'b'",
+          "n": 39,
+          "hub_fraction": 0.0513,
+          "participation_median": 7.0,
+          "noise_active_mean": 0.0107,
+          "input_total_median": 0.9
+        },
+        {
+          "subtype": "KCab",
+          "n": 287,
+          "hub_fraction": 0.101,
+          "participation_median": 17.0,
+          "noise_active_mean": 0.0147,
+          "input_total_median": 1.0
+        },
+        {
+          "subtype": "KCapbp",
+          "n": 3,
+          "hub_fraction": 0.0,
+          "participation_median": 12.0,
+          "noise_active_mean": 0.0,
+          "input_total_median": 1.3667
+        },
+        {
+          "subtype": "KCg",
+          "n": 252,
+          "hub_fraction": 0.0992,
+          "participation_median": 14.0,
+          "noise_active_mean": 0.018,
+          "input_total_median": 0.9333
+        }
+      ]
+    }
+  },
+  "top_percentile": 90,
+  "C_B": [
+    "DM2",
+    "DM4",
+    "VM2",
+    "VM3"
+  ]
+}
