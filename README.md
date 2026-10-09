@@ -14,12 +14,12 @@
 - KC 흥분성을 높이면 오탐이 크게 늘지만 민감도는 그대로입니다. 특정 냄새에 대한 기대(흥분성 증가로 근사)는 그 냄새의 검출을 돕고 작은 냄새 특이적 오탐을 만듭니다 (24).
 - 학습만 해도, 잡음으로 생긴 거짓 "있다" 판단의 약 3분의 2가 학습한 냄새의 가치 신호를 띱니다. 입력이 많은 허브 KC가 냄새와 잡음 양쪽에 참여하기 때문이며, KC 입력을 고르게 맞추면 이 누출은 사라지고 구분은 좋아집니다 (25, 26). KC 사이의 보상은 누출을 줄이고, 냄새 구분은 부분 보상에서 가장 좋습니다 (27, 29). 이 누출은 나머지 사구체에 입력을 대입한 전체 회로에서도 유지되고 (28), KC 입력을 충분히 받는 거의 모든 MBON에서 나타납니다 (30).
 - 배선 수준의 KC 보상은 hemibrain에서만 약하게 보이고 BANC와 FlyWire에서는 반대 방향입니다. 같은 정의로 비교해도 다르므로 자료 차이입니다 (32, 34, 36).
-- 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36).
+- 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36). KC끼리의 연결을 흥분성이나 억제성으로 넣어도 이 누출은 거의 바뀌지 않습니다 (37).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~36, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~37, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -55,6 +55,7 @@ data/        원자료 위치 (git 제외)
 | 34 | FlyWire(다른 개체) 재현 | [PREREGISTRATION_34](docs/PREREGISTRATION_34.md), [FLYWIRE_REPLICATION_RESULTS](docs/FLYWIRE_REPLICATION_RESULTS.md) |
 | 35 | KC 이해: 문헌과 세 커넥톰의 기술 지도 | [KC_PRIMER](docs/KC_PRIMER.md) |
 | 36 | hemibrain 재현과 보상 정의 비교 | [PREREGISTRATION_36](docs/PREREGISTRATION_36.md), [HEMIBRAIN_REPLICATION_RESULTS](docs/HEMIBRAIN_REPLICATION_RESULTS.md) |
+| 37 | KC->KC 연결을 넣은 모형 | [PREREGISTRATION_37](docs/PREREGISTRATION_37.md), [KC_RECURRENCE_RESULTS](docs/KC_RECURRENCE_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
