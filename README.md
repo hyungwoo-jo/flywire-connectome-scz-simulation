@@ -13,11 +13,12 @@
 - APL 억제를 약화해도 냄새 유무 판단의 민감도는 그대로이고 오탐은 아주 조금만 늡니다. 문턱 근처에서는 억제보다 KC 흥분성이 판단을 좌우합니다 (23).
 - KC 흥분성을 높이면 오탐이 크게 늘지만 민감도는 그대로입니다. 특정 냄새에 대한 기대(흥분성 증가로 근사)는 그 냄새의 검출을 돕고 작은 냄새 특이적 오탐을 만듭니다 (24).
 - 학습만 해도, 잡음으로 생긴 거짓 "있다" 판단의 약 3분의 2가 학습한 냄새의 가치 신호를 띱니다. 입력이 많은 허브 KC가 냄새와 잡음 양쪽에 참여하기 때문이며, KC 입력을 고르게 맞추면 이 누출은 사라지고 구분은 좋아집니다 (25, 26). KC 사이의 보상은 누출을 줄이고, 냄새 구분은 부분 보상에서 가장 좋습니다 (27, 29). 이 누출은 나머지 사구체에 입력을 대입한 전체 회로에서도 유지되고 (28), KC 입력을 충분히 받는 거의 모든 MBON에서 나타납니다 (30).
+- BANC 배선 자체에는 KC 사이의 보상이 보이지 않습니다. hemibrain에서 보고된 것과 반대 방향이며 원인은 열린 문제입니다 (32).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~31, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~32, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -48,6 +49,7 @@ data/        원자료 위치 (git 제외)
 | 29 | 입력 강도 보상으로 부분 보상 최적 검정 | [PREREGISTRATION_29](docs/PREREGISTRATION_29.md), [INPUT_COMPENSATION_RESULTS](docs/INPUT_COMPENSATION_RESULTS.md) |
 | 30 | 모든 MBON에서 누출의 일반성 | [PREREGISTRATION_30](docs/PREREGISTRATION_30.md), [ALL_MBONS_RESULTS](docs/ALL_MBONS_RESULTS.md) |
 | 31 | 허브 KC의 정체 | [PREREGISTRATION_31](docs/PREREGISTRATION_31.md), [HUB_IDENTITY_RESULTS](docs/HUB_IDENTITY_RESULTS.md) |
+| 32 | 실제 배선 안의 보상 | [PREREGISTRATION_32](docs/PREREGISTRATION_32.md), [WIRING_COMPENSATION_RESULTS](docs/WIRING_COMPENSATION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
