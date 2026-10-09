@@ -1,0 +1,42 @@
+{
+  "H33a": "inhibitory_compensation_in_wiring",
+  "H33b": "little_effect",
+  "results": {
+    "right": {
+      "rho_pn_apl": 0.188833720029615,
+      "p_pn_apl": 4.6278338623535524e-18,
+      "apl_cv": 0.7027278907078015,
+      "kc_specific": {
+        "theta": 0.3101794983170943,
+        "leak_learned": 0.034876712328767115,
+        "leak_control": 0.0006301369863013699,
+        "noise_FA": 0.052
+      },
+      "uniform": {
+        "theta": 0.30265314790368486,
+        "leak_learned": 0.03663013698630136,
+        "leak_control": 5.479452054794521e-05,
+        "noise_FA": 0.052
+      },
+      "ratio": 1.0502749410840535
+    },
+    "left": {
+      "rho_pn_apl": 0.05012217709052275,
+      "p_pn_apl": 0.021999131021841586,
+      "apl_cv": 0.7284718381413815,
+      "kc_specific": {
+        "theta": 0.3793570151306988,
+        "leak_learned": 0.03712328767123288,
+        "leak_control": 0.00010958904109589041,
+        "noise_FA": 0.054
+      },
+      "uniform": {
+        "theta": 0.3654670658806825,
+        "leak_learned": 0.036821917808219175,
+        "leak_control": 0.0,
+        "noise_FA": 0.054
+      },
+      "ratio": 0.991881918819188
+    }
+  }
+}
