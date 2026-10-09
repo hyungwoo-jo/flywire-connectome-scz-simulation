@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~34, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~35, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -53,6 +53,7 @@ data/        원자료 위치 (git 제외)
 | 32 | 실제 배선 안의 보상 | [PREREGISTRATION_32](docs/PREREGISTRATION_32.md), [WIRING_COMPENSATION_RESULTS](docs/WIRING_COMPENSATION_RESULTS.md) |
 | 33 | KC별 APL 억제와 보상 | [PREREGISTRATION_33](docs/PREREGISTRATION_33.md), [APL_COMPENSATION_RESULTS](docs/APL_COMPENSATION_RESULTS.md) |
 | 34 | FlyWire(다른 개체) 재현 | [PREREGISTRATION_34](docs/PREREGISTRATION_34.md), [FLYWIRE_REPLICATION_RESULTS](docs/FLYWIRE_REPLICATION_RESULTS.md) |
+| 35 | KC 이해: 문헌과 세 커넥톰의 기술 지도 | [KC_PRIMER](docs/KC_PRIMER.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
@@ -61,6 +62,7 @@ data/        원자료 위치 (git 제외)
 원자료는 저장소에 포함하지 않습니다. 각 스크립트는 실행 시 SHA-256으로 입력을 확인합니다.
 
 - BANC v888: `data/banc_888_meta.feather`, `data/banc_888_edgelist_simple_v2.feather` ([BANC 프로젝트](https://github.com/htem/BANC-project)). 연결의 ID는 `root_888` 입니다.
+- hemibrain v1.2 압축 연결: `https://storage.googleapis.com/hemibrain/v1.2/exported-traced-adjacencies-v1.2.tar.gz`를 `data/hemibrain/`에 풉니다(35~).
 - FlyWire v783 연결: [Zenodo 10676866](https://zenodo.org/records/10676866)의 `proofread_connections_783.feather`를 `data/flywire/`에 둡니다(34). 주석은 `data/flywire_v783_neuron_annotations.tsv`.
 - DoOR.data 커밋 `db323a49`: `data/door/` 의 CSV 4개와 `data/door/receptors/*.csv` ([ropensci/DoOR.data](https://github.com/ropensci/DoOR.data)). URL과 해시는 `data/door/SOURCE.json`, `qc_reports/hallem_calibration/manifest.json` 에 기록되어 있습니다.
 

@@ -1,6 +1,6 @@
 # 연구 현황과 방향
 
-2026-10-09 기준 (34 반영). 단계별 세부는 각 문서를 본다.
+2026-10-10 기준 (35 반영). 단계별 세부는 각 문서를 본다.
 
 ## 큰 질문
 
@@ -46,6 +46,7 @@
 | 32 | 실제 배선 안의 보상 (양 반구) | 배선 수준 보상 없음(연결 많은 KC가 연결당 시냅스도 약간 많음). hemibrain 보고와 반대, 원인 미확정. PN 주석 범위와 재구성 완성도 교란은 작음 |
 | 33 | KC별 APL 억제가 보상인가 (양 반구) | 억제 쪽 보상은 배선에 약하게 있음(rho 0.19, 0.05). 그러나 누출에는 거의 영향 없음(비율 1.05, 0.99) |
 | 34 | FlyWire(다른 개체) 재현 | 보정, 과수렴(DM1-DM4 Z 9.6, 10.9), 학습된 가치 누출 재현. 허브 제거 비율 0.59, 0.51로 기준 근소 미달. 배선 보상 없음(BANC와 일치) |
+| 35 | KC 기술 지도 (BANC, FlyWire, hemibrain) | KC 입출력의 최대 상대는 다른 KC(모형에 없음). hemibrain 칼릭스 구성은 문헌값 재현. 자료마다 시냅스 검출 정도가 다름 |
 
 ## 지금 알게 된 것
 
@@ -120,4 +121,5 @@
 - 32 계획과 결과: PREREGISTRATION_32.md, WIRING_COMPENSATION_RESULTS.md
 - 33 계획과 결과: PREREGISTRATION_33.md, APL_COMPENSATION_RESULTS.md
 - 34 계획과 결과: PREREGISTRATION_34.md, FLYWIRE_REPLICATION_RESULTS.md
+- KC 이해: KC_PRIMER.md (35)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
