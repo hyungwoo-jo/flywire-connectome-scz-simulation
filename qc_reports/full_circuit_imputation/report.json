@@ -1,0 +1,46 @@
+{
+  "verdict": "robust",
+  "results": {
+    "right": {
+      "S_partial": 0.034246575342465745,
+      "S_full_median": 0.021287671232876712,
+      "S_full_range": [
+        0.011643835616438359,
+        0.041287671232876716
+      ],
+      "positive_imputations": 20,
+      "ratio": 0.6216000000000002,
+      "partial_matches_25": true,
+      "input_cv_partial": 0.8240803365397745,
+      "input_cv_full_median": 0.6463519839802381,
+      "max_participation_partial": 73,
+      "max_participation_full_median": 73.0,
+      "strength_rho_full_median": 0.451954339753605,
+      "leak_learned_full_median": 0.022246575342465755,
+      "leak_control_full_median": 0.0009315068493150686
+    },
+    "left": {
+      "S_partial": 0.03701369863013699,
+      "S_full_median": 0.02650684931506849,
+      "S_full_range": [
+        0.0176986301369863,
+        0.04095890410958904
+      ],
+      "positive_imputations": 20,
+      "ratio": 0.7161361954108068,
+      "partial_matches_25": true,
+      "input_cv_partial": 0.8355948878814033,
+      "input_cv_full_median": 0.6798804840605718,
+      "max_participation_partial": 72,
+      "max_participation_full_median": 73.0,
+      "strength_rho_full_median": 0.49399257605267,
+      "leak_learned_full_median": 0.027863013698630135,
+      "leak_control_full_median": 0.0015479452054794523
+    }
+  },
+  "imputations": 20,
+  "seeds": [
+    280001,
+    280020
+  ]
+}
