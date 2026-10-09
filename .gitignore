@@ -26,3 +26,6 @@ qc_reports/associative_readout/metrics.csv
 
 # Local scratch
 notebooks/
+
+# FlyWire connectivity (public, large)
+data/flywire/
