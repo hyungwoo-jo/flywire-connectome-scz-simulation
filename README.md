@@ -17,7 +17,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~30, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~31, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -47,6 +47,7 @@ data/        원자료 위치 (git 제외)
 | 28 | 전체 회로 대입으로 견고성 점검 | [PREREGISTRATION_28](docs/PREREGISTRATION_28.md), [FULL_CIRCUIT_IMPUTATION_RESULTS](docs/FULL_CIRCUIT_IMPUTATION_RESULTS.md) |
 | 29 | 입력 강도 보상으로 부분 보상 최적 검정 | [PREREGISTRATION_29](docs/PREREGISTRATION_29.md), [INPUT_COMPENSATION_RESULTS](docs/INPUT_COMPENSATION_RESULTS.md) |
 | 30 | 모든 MBON에서 누출의 일반성 | [PREREGISTRATION_30](docs/PREREGISTRATION_30.md), [ALL_MBONS_RESULTS](docs/ALL_MBONS_RESULTS.md) |
+| 31 | 허브 KC의 정체 | [PREREGISTRATION_31](docs/PREREGISTRATION_31.md), [HUB_IDENTITY_RESULTS](docs/HUB_IDENTITY_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
