@@ -1,6 +1,6 @@
 # 연구 현황과 방향
 
-2026-10-10 기준 (38 반영). 단계별 세부는 각 문서를 본다.
+2026-10-10 기준 (39 반영). 단계별 세부는 각 문서를 본다.
 
 ## 큰 질문
 
@@ -50,6 +50,7 @@
 | 36 | hemibrain 재현, 보상 정의 비교 | 보정, 과수렴, 누출, 허브 인과 모두 재현(누출 비율 0.47). 배선 보상은 hemibrain에서만 약하게(D2, p 0.032), BANC와 FlyWire는 반대 -> 자료 차이 |
 | 37 | KC->KC 연결을 넣은 모형 (흥분성/억제성, 칼릭스/전체) | 누출 거의 불변(비율 0.98~1.14). 잡음 상황에서는 KC가 거의 안 켜져 KC끼리의 신호도 작음. 핵심 결과는 이 가정에 견고 |
 | 38 | 입력 강도를 맞춘 통제로 누출의 냄새 특이성 검정 (다섯 반구) | 둘 다 기여. 강도만 맞춰도 누출 상당 부분 재현(FlyWire 약 절반). 냄새 특이 성분은 상한으로 읽어야 함 |
+| 39 | 실험(Ahmed 2023 클로 수 조작)과 대조 | 규칙상 재현 실패. 반응 폭, 넓은 반응 KC, 반응 상관, 냄새 없을 때 반응 증가는 방향 일치. 이상적 판독 d'는 실험과 반대, 학습 기반 혼동은 실험과 일치(사후). 클로 하나일 때 반응 감소가 실험보다 과함 |
 
 ## 지금 알게 된 것
 
@@ -128,4 +129,5 @@
 - 36 계획과 결과: PREREGISTRATION_36.md, HEMIBRAIN_REPLICATION_RESULTS.md
 - 37 계획과 결과: PREREGISTRATION_37.md, KC_RECURRENCE_RESULTS.md
 - 38 계획과 결과: PREREGISTRATION_38.md, MATCHED_CONTROL_RESULTS.md
+- 39 계획과 결과: PREREGISTRATION_39.md, CLAW_MANIPULATION_RESULTS.md
 - 쉬운 설명: RESEARCH_FLOW_EASY.md

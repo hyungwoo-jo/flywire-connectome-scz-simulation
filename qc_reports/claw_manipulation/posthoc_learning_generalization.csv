@@ -1,0 +1,16 @@
+dataset,condition,mean_GI,odors_with_response
+BANC_right,control,0.6416735192210755,73
+BANC_right,more_claws,0.686540445058913,73
+BANC_right,one_claw,0.36226438454753873,73
+BANC_left,control,0.6089377087378046,73
+BANC_left,more_claws,0.6774635803836618,73
+BANC_left,one_claw,0.3993715685600778,73
+FlyWire_right,control,0.5086852839941595,73
+FlyWire_right,more_claws,0.6088194180929473,73
+FlyWire_right,one_claw,0.2521297378717121,73
+FlyWire_left,control,0.46236046004674364,73
+FlyWire_left,more_claws,0.5764721652333098,73
+FlyWire_left,one_claw,0.24055077602036745,73
+hemibrain_right,control,0.6066838471913102,73
+hemibrain_right,more_claws,0.6659982946656788,73
+hemibrain_right,one_claw,0.20417765838394053,73

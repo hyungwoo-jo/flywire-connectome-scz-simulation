@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~38, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~39, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -57,6 +57,7 @@ data/        원자료 위치 (git 제외)
 | 36 | hemibrain 재현과 보상 정의 비교 | [PREREGISTRATION_36](docs/PREREGISTRATION_36.md), [HEMIBRAIN_REPLICATION_RESULTS](docs/HEMIBRAIN_REPLICATION_RESULTS.md) |
 | 37 | KC->KC 연결을 넣은 모형 | [PREREGISTRATION_37](docs/PREREGISTRATION_37.md), [KC_RECURRENCE_RESULTS](docs/KC_RECURRENCE_RESULTS.md) |
 | 38 | 누출의 냄새 특이성 (입력 강도 맞춘 통제) | [PREREGISTRATION_38](docs/PREREGISTRATION_38.md), [MATCHED_CONTROL_RESULTS](docs/MATCHED_CONTROL_RESULTS.md) |
+| 39 | 실험 자료와 대조 (클로 수 조작) | [PREREGISTRATION_39](docs/PREREGISTRATION_39.md), [CLAW_MANIPULATION_RESULTS](docs/CLAW_MANIPULATION_RESULTS.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
