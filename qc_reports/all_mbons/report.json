@@ -1,0 +1,28 @@
+{
+  "verdict": "general",
+  "results": {
+    "right": {
+      "mbons": 22,
+      "positive": 22,
+      "P": 1.0,
+      "median_specific": 0.03157534246575343,
+      "mbon11_specific": 0.034246575342465745,
+      "rho_kc_inputs": 0.4455110107284021,
+      "rho_share_KCg": -0.5786578250653561,
+      "rho_share_KCab": 0.7746646798081891,
+      "rho_share_KCa'b'": -0.08215263968092819
+    },
+    "left": {
+      "mbons": 17,
+      "positive": 16,
+      "P": 0.9411764705882353,
+      "median_specific": 0.02115068493150685,
+      "mbon11_specific": 0.03701369863013699,
+      "rho_kc_inputs": 0.6029411764705883,
+      "rho_share_KCg": -0.2034313725490196,
+      "rho_share_KCab": 0.6551372739878667,
+      "rho_share_KCa'b'": -0.358723441505783
+    }
+  },
+  "min_kc": 100
+}
