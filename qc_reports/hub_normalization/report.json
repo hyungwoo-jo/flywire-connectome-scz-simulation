@@ -1,0 +1,67 @@
+{
+  "verdict": "hub_mechanism_supported",
+  "results": {
+    "right": {
+      "original": {
+        "theta": 0.3101794983170943,
+        "leak_learned": 0.034876712328767115,
+        "leak_control": 0.0006301369863013699,
+        "noise_FA": 0.052,
+        "strength_rho": 0.5902581948093586,
+        "participation_gini": 0.5117485236745621,
+        "kc_participating": 679,
+        "max_participation": 73,
+        "eval_active": 0.09373035970345059,
+        "dprime": 18.322833984367787
+      },
+      "equalized": {
+        "theta": 0.291574865966609,
+        "leak_learned": 0.0083013698630137,
+        "leak_control": 0.008958904109589041,
+        "noise_FA": 0.034,
+        "strength_rho": 0.20826460069406505,
+        "participation_gini": 0.46180379037081337,
+        "kc_participating": 1368,
+        "max_participation": 41,
+        "eval_active": 0.08591390304176709,
+        "dprime": 19.78478989870693
+      },
+      "ratio": 0.23802042419481548,
+      "diff_ci": [
+        0.023724657534246567,
+        0.029452739726027397
+      ]
+    },
+    "left": {
+      "original": {
+        "theta": 0.3793570151306988,
+        "leak_learned": 0.03712328767123288,
+        "leak_control": 0.00010958904109589041,
+        "noise_FA": 0.054,
+        "strength_rho": 0.6013594165674672,
+        "participation_gini": 0.49773399223745074,
+        "kc_participating": 704,
+        "max_participation": 72,
+        "eval_active": 0.09661171051036489,
+        "dprime": 18.185594479075817
+      },
+      "equalized": {
+        "theta": 0.3224658073641108,
+        "leak_learned": 0.007452054794520549,
+        "leak_control": 0.013534246575342466,
+        "noise_FA": 0.04,
+        "strength_rho": 0.21994293271379425,
+        "participation_gini": 0.4603980205703991,
+        "kc_participating": 1503,
+        "max_participation": 40,
+        "eval_active": 0.08796217723360407,
+        "dprime": 19.905040772763872
+      },
+      "ratio": 0.2007380073800738,
+      "diff_ci": [
+        0.02597123287671232,
+        0.03317808219178082
+      ]
+    }
+  }
+}
