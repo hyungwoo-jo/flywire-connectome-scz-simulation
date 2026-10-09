@@ -1,0 +1,254 @@
+{
+  "verdicts": {
+    "F1": "replicated",
+    "F2": "replicated",
+    "F3": "replicated",
+    "F4": "not_replicated",
+    "F5": "no_compensation_in_flywire"
+  },
+  "results": {
+    "right": {
+      "circuit": {
+        "side": "right",
+        "apl": "720575940613583001",
+        "mbon11": "720575940617749538",
+        "pn": 160,
+        "kc": 2597,
+        "pn_kc_edges": 13584,
+        "min_edge_count": 1.0,
+        "apl_kc_edges": 2597,
+        "kc_apl_edges": 2597,
+        "mbon11_kc_inputs": 2089
+      },
+      "mapped_pns": 53,
+      "mapped_glomeruli": 23,
+      "theta": 0.2702008795708107,
+      "F1": {
+        "active_mean": 0.09726185640966131,
+        "active_median": 0.09973045822102426,
+        "active_no_apl": 0.13847379220491504,
+        "silent_odor_fraction": 0.0,
+        "residual": 4.543154047409459e-13,
+        "passed": true
+      },
+      "F2": {
+        "observed_edges": 88,
+        "null_mean": 5.6,
+        "null_p95": 10.0,
+        "p": 0.000999000999000999,
+        "DM1_DM4_z": 9.636776868548845,
+        "top": [
+          {
+            "a": "CB4218",
+            "b": "VP1l+VP3",
+            "z": 28.27
+          },
+          {
+            "a": "CB4218",
+            "b": "CB4219",
+            "z": 22.35
+          },
+          {
+            "a": "CB3206",
+            "b": "CB4218",
+            "z": 22.33
+          },
+          {
+            "a": "CB4219",
+            "b": "VP1l+VP3",
+            "z": 16.9
+          },
+          {
+            "a": "CB1321",
+            "b": "VP1l+VP3",
+            "z": 11.13
+          },
+          {
+            "a": "CB1321",
+            "b": "CB4218",
+            "z": 11.13
+          },
+          {
+            "a": "DM1",
+            "b": "DM4",
+            "z": 9.64
+          },
+          {
+            "a": "CB3206",
+            "b": "VP2+",
+            "z": 9.48
+          },
+          {
+            "a": "CB3206",
+            "b": "VP1l+VP3",
+            "z": 9.07
+          },
+          {
+            "a": "VP1m+VP5",
+            "b": "VP3+VP1l",
+            "z": 9.0
+          },
+          {
+            "a": "CB1321",
+            "b": "CB3206",
+            "z": 8.71
+          },
+          {
+            "a": "CB3206",
+            "b": "VP2",
+            "z": 8.34
+          }
+        ],
+        "replicated": true
+      },
+      "F3": {
+        "leak_learned": 0.016219178082191782,
+        "leak_control": 5.479452054794521e-05,
+        "specific": 0.016164383561643837,
+        "ci": [
+          0.013122602739726028,
+          0.0193972602739726
+        ],
+        "noise_FA": 0.046,
+        "strength_rho": 0.5493639988226507,
+        "replicated": true
+      },
+      "F4": {
+        "original": 0.016219178082191782,
+        "equalized": 0.009589041095890411,
+        "ratio": 0.5912162162162162,
+        "equalized_control": 0.017123287671232876,
+        "replicated": false
+      },
+      "F5": {
+        "b": 0.21193215243451927,
+        "null_mean": 0.08863360684534914,
+        "p_less": 1.0,
+        "p_greater": 0.000999000999000999,
+        "compensation": false
+      }
+    },
+    "left": {
+      "circuit": {
+        "side": "left",
+        "apl": "720575940624547622",
+        "mbon11": "720575940623201833",
+        "pn": 155,
+        "kc": 2580,
+        "pn_kc_edges": 13991,
+        "min_edge_count": 1.0,
+        "apl_kc_edges": 2580,
+        "kc_apl_edges": 2580,
+        "mbon11_kc_inputs": 1993
+      },
+      "mapped_pns": 50,
+      "mapped_glomeruli": 23,
+      "theta": 0.2645131054985614,
+      "F1": {
+        "active_mean": 0.0937081873208028,
+        "active_median": 0.09651162790697675,
+        "active_no_apl": 0.1271901879579484,
+        "silent_odor_fraction": 0.0,
+        "residual": 4.3926147441641916e-13,
+        "passed": true
+      },
+      "F2": {
+        "observed_edges": 105,
+        "null_mean": 7.795,
+        "null_p95": 13.0,
+        "p": 0.000999000999000999,
+        "DM1_DM4_z": 10.945757099547796,
+        "top": [
+          {
+            "a": "VL1",
+            "b": "VP2",
+            "z": 11.17
+          },
+          {
+            "a": "DM1",
+            "b": "DM4",
+            "z": 10.95
+          },
+          {
+            "a": "CB1321",
+            "b": "VP2",
+            "z": 10.72
+          },
+          {
+            "a": "CB4219",
+            "b": "VP1l+VP3",
+            "z": 10.49
+          },
+          {
+            "a": "VL1",
+            "b": "VP3+VP1l",
+            "z": 10.02
+          },
+          {
+            "a": "CB1321",
+            "b": "CB3206",
+            "z": 9.75
+          },
+          {
+            "a": "VP1m+VP5",
+            "b": "VP2",
+            "z": 9.01
+          },
+          {
+            "a": "VP1m+VP5",
+            "b": "VP3+VP1l",
+            "z": 8.9
+          },
+          {
+            "a": "CB1321",
+            "b": "VP1m+VP2",
+            "z": 8.71
+          },
+          {
+            "a": "VP2",
+            "b": "VP3+VP1l",
+            "z": 8.48
+          },
+          {
+            "a": "DM1",
+            "b": "DM3",
+            "z": 8.33
+          },
+          {
+            "a": "VL1",
+            "b": "VP1d",
+            "z": 8.24
+          }
+        ],
+        "replicated": true
+      },
+      "F3": {
+        "leak_learned": 0.018794520547945205,
+        "leak_control": 2.7397260273972603e-05,
+        "specific": 0.018767123287671234,
+        "ci": [
+          0.014136986301369864,
+          0.023589041095890412
+        ],
+        "noise_FA": 0.058,
+        "strength_rho": 0.5566377468688397,
+        "replicated": true
+      },
+      "F4": {
+        "original": 0.018794520547945205,
+        "equalized": 0.009643835616438357,
+        "ratio": 0.5131195335276968,
+        "equalized_control": 0.016794520547945207,
+        "replicated": false
+      },
+      "F5": {
+        "b": 0.3730103135138293,
+        "null_mean": 0.11442643718935407,
+        "p_less": 1.0,
+        "p_greater": 0.000999000999000999,
+        "compensation": false
+      }
+    }
+  },
+  "source": "zenodo 10676866 proofread_connections_783.feather"
+}
