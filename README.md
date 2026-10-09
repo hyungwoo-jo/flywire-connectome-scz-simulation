@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~41, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~43, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -60,6 +60,7 @@ data/        원자료 위치 (git 제외)
 | 39 | 실험 자료와 대조 (클로 수 조작) | [PREREGISTRATION_39](docs/PREREGISTRATION_39.md), [CLAW_MANIPULATION_RESULTS](docs/CLAW_MANIPULATION_RESULTS.md) |
 | 비교 | 세 커넥톰의 버섯체 비교 노트 | [CONNECTOME_COMPARISON](docs/CONNECTOME_COMPARISON.md) |
 | 40~41 | 실험 제안서: 초파리에서 검증할 예측 4가지, 실험 1, 2 구체화 | [EXPERIMENT_PROPOSAL](docs/EXPERIMENT_PROPOSAL.md) |
+| 42 | 전뇌 발화 모형(Shiu 2024)으로 디지털 검증 가능성 점검 | [WHOLEBRAIN_FEASIBILITY](docs/WHOLEBRAIN_FEASIBILITY.md) |
 | 43 | 학습 누출의 닫힌 식 이론 (허브 인자 H) | [LEAKAGE_THEORY](docs/LEAKAGE_THEORY.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.

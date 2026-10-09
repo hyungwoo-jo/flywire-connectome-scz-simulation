@@ -1,0 +1,149 @@
+{
+  "odors": [
+    1,
+    6,
+    11,
+    12,
+    18,
+    24,
+    25,
+    27
+  ],
+  "results": [
+    {
+      "mode": "orn_background",
+      "v_th_kc": -45.0,
+      "blank_kc_frac": 0.6303427031189834,
+      "odor_kc_frac": 0.6460338852522141,
+      "kc_pattern_corr": 0.9744912879584652,
+      "pn_rate_corr": 0.9972354458401215,
+      "input_corr": 0.6622432469654126
+    },
+    {
+      "mode": "orn_background",
+      "v_th_kc": -40.0,
+      "blank_kc_frac": 0.31651906045437045,
+      "odor_kc_frac": 0.3503080477474009,
+      "kc_pattern_corr": 0.9506546591303994,
+      "pn_rate_corr": 0.997223415863152,
+      "input_corr": 0.6622432469654126
+    },
+    {
+      "mode": "orn_background",
+      "v_th_kc": -35.0,
+      "blank_kc_frac": 0.1124374278013092,
+      "odor_kc_frac": 0.12485560261840585,
+      "kc_pattern_corr": 0.938534766131788,
+      "pn_rate_corr": 0.9974023535465489,
+      "input_corr": 0.6622432469654126
+    },
+    {
+      "mode": "orn_background",
+      "v_th_kc": -30.0,
+      "blank_kc_frac": 0.023103581055063535,
+      "odor_kc_frac": 0.029408933384674624,
+      "kc_pattern_corr": 0.9131940581074743,
+      "pn_rate_corr": 0.997487869281585,
+      "input_corr": 0.6622432469654126
+    },
+    {
+      "mode": "orn_background",
+      "v_th_kc": -25.0,
+      "blank_kc_frac": 0.003850596842510589,
+      "odor_kc_frac": 0.004235656526761648,
+      "kc_pattern_corr": 0.9589469251297189,
+      "pn_rate_corr": 0.9973931441896882,
+      "input_corr": 0.6622432469654126
+    },
+    {
+      "mode": "orn_odor_only",
+      "v_th_kc": -45.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.6290431266846361,
+      "kc_pattern_corr": 0.9697621291253516,
+      "pn_rate_corr": 0.9967990633080043,
+      "input_corr": 0.5674292193168223
+    },
+    {
+      "mode": "orn_odor_only",
+      "v_th_kc": -40.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.31815556411243745,
+      "kc_pattern_corr": 0.9443891409456223,
+      "pn_rate_corr": 0.9969002135731245,
+      "input_corr": 0.5674292193168223
+    },
+    {
+      "mode": "orn_odor_only",
+      "v_th_kc": -35.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.10598767809010397,
+      "kc_pattern_corr": 0.9367274066094714,
+      "pn_rate_corr": 0.9968767963965556,
+      "input_corr": 0.5674292193168223
+    },
+    {
+      "mode": "orn_odor_only",
+      "v_th_kc": -30.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.02377743550250289,
+      "kc_pattern_corr": 0.9229086309928578,
+      "pn_rate_corr": 0.9970768324001532,
+      "input_corr": 0.5674292193168223
+    },
+    {
+      "mode": "orn_odor_only",
+      "v_th_kc": -25.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.003706199460916442,
+      "kc_pattern_corr": 0.9289506781894505,
+      "pn_rate_corr": 0.9969992027114757,
+      "input_corr": 0.5674292193168223
+    },
+    {
+      "mode": "pn_level",
+      "v_th_kc": -45.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.6387177512514439,
+      "kc_pattern_corr": 0.9725733683382718,
+      "pn_rate_corr": 0.9958343464464064,
+      "input_corr": 0.4011829042647756
+    },
+    {
+      "mode": "pn_level",
+      "v_th_kc": -40.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.335723912206392,
+      "kc_pattern_corr": 0.9450207974948671,
+      "pn_rate_corr": 0.9959167695921299,
+      "input_corr": 0.4011829042647756
+    },
+    {
+      "mode": "pn_level",
+      "v_th_kc": -35.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.11455525606469003,
+      "kc_pattern_corr": 0.9294732034733901,
+      "pn_rate_corr": 0.9960192070236301,
+      "input_corr": 0.4011829042647756
+    },
+    {
+      "mode": "pn_level",
+      "v_th_kc": -30.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.027916827108201772,
+      "kc_pattern_corr": 0.9037286983807952,
+      "pn_rate_corr": 0.9959786230601588,
+      "input_corr": 0.4011829042647756
+    },
+    {
+      "mode": "pn_level",
+      "v_th_kc": -25.0,
+      "blank_kc_frac": 0.0,
+      "odor_kc_frac": 0.0036580670003850597,
+      "kc_pattern_corr": 0.9611599576282671,
+      "pn_rate_corr": 0.9959536299226536,
+      "input_corr": 0.4011829042647756
+    }
+  ]
+}
