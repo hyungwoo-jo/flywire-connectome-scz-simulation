@@ -1,0 +1,85 @@
+{
+  "verdict": "both_contribute",
+  "results": {
+    "BANC_left": {
+      "leak_learned": 0.03712328767123288,
+      "leak_random": 0.00010958904109589041,
+      "leak_matched": 0.004109589041095891,
+      "S_rand": 0.03701369863013699,
+      "S_match": 0.033013698630136985,
+      "S_match_ci": [
+        0.02821506849315068,
+        0.03821986301369863
+      ],
+      "ratio": 0.8919319022945965,
+      "matched_fraction": 1.0,
+      "strength_active": 1.4178341420139722,
+      "strength_matched": 1.1757899336228654,
+      "strength_random": 0.48503346500003913
+    },
+    "BANC_right": {
+      "leak_learned": 0.034876712328767115,
+      "leak_random": 0.0006301369863013699,
+      "leak_matched": 0.0036438356164383563,
+      "S_rand": 0.034246575342465745,
+      "S_match": 0.031232876712328772,
+      "S_match_ci": [
+        0.02769794520547945,
+        0.03435753424657534
+      ],
+      "ratio": 0.9120000000000004,
+      "matched_fraction": 1.0,
+      "strength_active": 1.250671498444655,
+      "strength_matched": 1.038021885173319,
+      "strength_random": 0.411564065869061
+    },
+    "FlyWire_left": {
+      "leak_learned": 0.018794520547945205,
+      "leak_random": 2.7397260273972603e-05,
+      "leak_matched": 0.009917808219178084,
+      "S_rand": 0.018767123287671234,
+      "S_match": 0.008876712328767123,
+      "S_match_ci": [
+        0.002601369863013699,
+        0.014663698630136982
+      ],
+      "ratio": 0.47299270072992694,
+      "matched_fraction": 1.0,
+      "strength_active": 0.8271950189830592,
+      "strength_matched": 0.7717975270451578,
+      "strength_random": 0.36739437067859604
+    },
+    "FlyWire_right": {
+      "leak_learned": 0.016219178082191782,
+      "leak_random": 5.479452054794521e-05,
+      "leak_matched": 0.008493150684931507,
+      "S_rand": 0.016164383561643837,
+      "S_match": 0.007726027397260273,
+      "S_match_ci": [
+        0.00315,
+        0.01224794520547945
+      ],
+      "ratio": 0.47796610169491516,
+      "matched_fraction": 1.0,
+      "strength_active": 0.889196003441917,
+      "strength_matched": 0.8080932834679277,
+      "strength_random": 0.38981036683218107
+    },
+    "hemibrain_right": {
+      "leak_learned": 0.027726027397260274,
+      "leak_random": 0.00043835616438356166,
+      "leak_matched": 0.00136986301369863,
+      "S_rand": 0.027287671232876714,
+      "S_match": 0.026356164383561646,
+      "S_match_ci": [
+        0.02224452054794521,
+        0.030113013698630134
+      ],
+      "ratio": 0.9658634538152611,
+      "matched_fraction": 1.0,
+      "strength_active": 1.0830992399185775,
+      "strength_matched": 0.9303438219084119,
+      "strength_random": 0.444652215955175
+    }
+  }
+}
