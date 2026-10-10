@@ -1,0 +1,172 @@
+{
+  "mbons": 53,
+  "mbon_compartments": {
+    "aversive": 27,
+    "appetitive": 26
+  },
+  "mbon_signs": {
+    "1.0": 27,
+    "-1.0": 26
+  },
+  "integrators": 12,
+  "pairs": 60,
+  "eta": 5.0,
+  "per_integrator": [
+    {
+      "integrator": "720575940617638946",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.0,
+      "mean_abs_A": 0.0,
+      "mean_abs_B": 0.0,
+      "mean_abs_AB": 0.0,
+      "cell_type": "VES002",
+      "side": "left",
+      "mbon_inputs": 0,
+      "mbon_syn": 0
+    },
+    {
+      "integrator": "720575940622791364",
+      "opposed": 0.11666666666666667,
+      "cancel": 0.016666666666666666,
+      "amplify": 0.0,
+      "mean_abs_A": 0.0399,
+      "mean_abs_B": 0.0143,
+      "mean_abs_AB": 0.0342,
+      "cell_type": "LAL135",
+      "side": "left",
+      "mbon_inputs": 4,
+      "mbon_syn": 48
+    },
+    {
+      "integrator": "720575940625167546",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.1416,
+      "mean_abs_B": 0.0863,
+      "mean_abs_AB": 0.1407,
+      "cell_type": "SAD035",
+      "side": "right",
+      "mbon_inputs": 1,
+      "mbon_syn": 19
+    },
+    {
+      "integrator": "720575940625680688",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.0149,
+      "mean_abs_B": 0.0091,
+      "mean_abs_AB": 0.0148,
+      "cell_type": "SAD045,SAD046",
+      "side": "left",
+      "mbon_inputs": 1,
+      "mbon_syn": 2
+    },
+    {
+      "integrator": "720575940630826827",
+      "opposed": 0.016666666666666666,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.017,
+      "mean_abs_B": 0.0097,
+      "mean_abs_AB": 0.0159,
+      "cell_type": "CB0258",
+      "side": "left",
+      "mbon_inputs": 1,
+      "mbon_syn": 6
+    },
+    {
+      "integrator": "720575940631365260",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.0,
+      "mean_abs_A": 0.3313,
+      "mean_abs_B": 0.1631,
+      "mean_abs_AB": 0.3029,
+      "cell_type": "mALD4",
+      "side": "left",
+      "mbon_inputs": 2,
+      "mbon_syn": 85
+    },
+    {
+      "integrator": "720575940633126983",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.0,
+      "mean_abs_A": 0.0679,
+      "mean_abs_B": 0.0331,
+      "mean_abs_AB": 0.0617,
+      "cell_type": "LAL199",
+      "side": "right",
+      "mbon_inputs": 3,
+      "mbon_syn": 21
+    },
+    {
+      "integrator": "720575940635113976",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.0894,
+      "mean_abs_B": 0.0545,
+      "mean_abs_AB": 0.0888,
+      "cell_type": "SAD082",
+      "side": "left",
+      "mbon_inputs": 1,
+      "mbon_syn": 12
+    },
+    {
+      "integrator": "720575940636635760",
+      "opposed": 0.016666666666666666,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.0707,
+      "mean_abs_B": 0.0405,
+      "mean_abs_AB": 0.0663,
+      "cell_type": "CB0258",
+      "side": "right",
+      "mbon_inputs": 1,
+      "mbon_syn": 25
+    },
+    {
+      "integrator": "720575940641282267",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.1192,
+      "mean_abs_B": 0.0727,
+      "mean_abs_AB": 0.1185,
+      "cell_type": "CB0519",
+      "side": "right",
+      "mbon_inputs": 1,
+      "mbon_syn": 16
+    },
+    {
+      "integrator": "720575940642428405",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.149,
+      "mean_abs_B": 0.0908,
+      "mean_abs_AB": 0.1481,
+      "cell_type": "SAD035",
+      "side": "left",
+      "mbon_inputs": 1,
+      "mbon_syn": 20
+    },
+    {
+      "integrator": "720575940644914967",
+      "opposed": 0.0,
+      "cancel": 0.0,
+      "amplify": 0.016666666666666666,
+      "mean_abs_A": 0.313,
+      "mean_abs_B": 0.1908,
+      "mean_abs_AB": 0.3109,
+      "cell_type": "VES002",
+      "side": "right",
+      "mbon_inputs": 1,
+      "mbon_syn": 42
+    }
+  ]
+}

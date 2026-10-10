@@ -135,4 +135,5 @@
 - 누출 이론: LEAKAGE_THEORY.md (43)
 - 전뇌 발화 모형 점검: WHOLEBRAIN_FEASIBILITY.md (42)
 - ACC 같은 통합 지점: ACC_LIKE_INTEGRATORS.md (44)
+- 갈등 시뮬레이션: CONFLICT_SIMULATION.md (45)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
