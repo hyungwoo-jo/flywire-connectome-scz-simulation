@@ -1,0 +1,469 @@
+{
+  "dns": 1303,
+  "intermediates": 8327,
+  "odors": 73,
+  "leak": {
+    "learned": 0.021287671232876712,
+    "random": 0.002164383561643836,
+    "matched": 0.009150684931506848
+  },
+  "consistent_dns": 66,
+  "consistent_types": [
+    {
+      "cell_type": "MDN",
+      "n": 4,
+      "consistency": 0.997,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNde003",
+      "n": 3,
+      "consistency": 0.895,
+      "direction": -0.333
+    },
+    {
+      "cell_type": "DNa03",
+      "n": 2,
+      "consistency": 0.836,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNbe002",
+      "n": 2,
+      "consistency": 0.664,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNa13",
+      "n": 2,
+      "consistency": 0.993,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNg30",
+      "n": 2,
+      "consistency": 0.993,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNg34",
+      "n": 2,
+      "consistency": 0.842,
+      "direction": -0.959
+    },
+    {
+      "cell_type": "DNg104",
+      "n": 2,
+      "consistency": 0.959,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNg03",
+      "n": 2,
+      "consistency": 0.986,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNp52",
+      "n": 2,
+      "consistency": 0.938,
+      "direction": 0.89
+    },
+    {
+      "cell_type": "DNp68",
+      "n": 2,
+      "consistency": 0.911,
+      "direction": -0.986
+    },
+    {
+      "cell_type": "DNpe023",
+      "n": 2,
+      "consistency": 0.986,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp70",
+      "n": 2,
+      "consistency": 0.856,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNge138",
+      "n": 2,
+      "consistency": 0.767,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNbe007",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNde007",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNb05",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNg66",
+      "n": 1,
+      "consistency": 0.932,
+      "direction": -0.973
+    },
+    {
+      "cell_type": "DNg40",
+      "n": 1,
+      "consistency": 0.562,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNg111",
+      "n": 1,
+      "consistency": 0.918,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNg13",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNb08",
+      "n": 1,
+      "consistency": 0.986,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNbe006",
+      "n": 1,
+      "consistency": 0.644,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNge053",
+      "n": 1,
+      "consistency": 0.863,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNge023",
+      "n": 1,
+      "consistency": 0.575,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNge152",
+      "n": 1,
+      "consistency": 0.836,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNp08",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp42",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp24",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNge149",
+      "n": 1,
+      "consistency": 0.973,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNge150",
+      "n": 1,
+      "consistency": 0.986,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNge151",
+      "n": 1,
+      "consistency": 0.986,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNge083",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp59",
+      "n": 1,
+      "consistency": 0.822,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp57",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp49",
+      "n": 1,
+      "consistency": 0.836,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp46",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": -1.0
+    },
+    {
+      "cell_type": "DNp69",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp71",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe006",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNp62",
+      "n": 1,
+      "consistency": 0.945,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe021",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe026",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe029",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe028",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe039",
+      "n": 1,
+      "consistency": 0.973,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe042",
+      "n": 1,
+      "consistency": 0.932,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe043",
+      "n": 1,
+      "consistency": 0.973,
+      "direction": 1.0
+    },
+    {
+      "cell_type": "DNpe045",
+      "n": 1,
+      "consistency": 1.0,
+      "direction": 1.0
+    }
+  ],
+  "top_dns": [
+    {
+      "id": "720575940641148149",
+      "cell_type": "DNp42",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.037
+    },
+    {
+      "id": "720575940623582867",
+      "cell_type": "DNp46",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": -1.0,
+      "mbon_reach": 0.039
+    },
+    {
+      "id": "720575940633170643",
+      "cell_type": "DNp08",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.004
+    },
+    {
+      "id": "720575940633095137",
+      "cell_type": "DNp71",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.007
+    },
+    {
+      "id": "720575940631082808",
+      "cell_type": "MDN",
+      "side": "left",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.004
+    },
+    {
+      "id": "720575940616274619",
+      "cell_type": "DNpe026",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.006
+    },
+    {
+      "id": "720575940620918789",
+      "cell_type": "DNa03",
+      "side": "left",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.021
+    },
+    {
+      "id": "720575940612488341",
+      "cell_type": "DNpe045",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.003
+    },
+    {
+      "id": "720575940629461442",
+      "cell_type": "DNb05",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.006
+    },
+    {
+      "id": "720575940629170250",
+      "cell_type": "DNp57",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.002
+    },
+    {
+      "id": "720575940619038366",
+      "cell_type": "DNge083",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.002
+    },
+    {
+      "id": "720575940623446860",
+      "cell_type": "DNg30",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.005
+    },
+    {
+      "id": "720575940606112940",
+      "cell_type": "DNg13",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": -1.0,
+      "mbon_reach": 0.014
+    },
+    {
+      "id": "720575940631609391",
+      "cell_type": "DNpe029",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.02
+    },
+    {
+      "id": "720575940625718053",
+      "cell_type": "DNde003",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": -1.0,
+      "mbon_reach": 0.021
+    },
+    {
+      "id": "720575940644279319",
+      "cell_type": "DNpe028",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.004
+    },
+    {
+      "id": "720575940629155227",
+      "cell_type": "DNpe021",
+      "side": "right",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.012
+    },
+    {
+      "id": "720575940613408552",
+      "cell_type": "DNa13",
+      "side": "left",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.01
+    },
+    {
+      "id": "720575940623068841",
+      "cell_type": "DNde007",
+      "side": "left",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.009
+    },
+    {
+      "id": "720575940616026939",
+      "cell_type": "MDN",
+      "side": "left",
+      "consistency": 1.0,
+      "direction": 1.0,
+      "mbon_reach": 0.009
+    }
+  ]
+}
