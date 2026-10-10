@@ -1,0 +1,93 @@
+{
+  "partA_leak_rates": {
+    "comparators": {
+      "learned": 0.018356164383561642,
+      "random": 0.0013424657534246577,
+      "matched": 0.007068493150684932
+    },
+    "integrators": {
+      "learned": 0.022136986301369864,
+      "random": 0.002465753424657534,
+      "matched": 0.011863013698630138
+    }
+  },
+  "partA_odors": 73,
+  "noise_reported_present": 0.046,
+  "partB": {
+    "neurons": 96,
+    "and_capable_majority": 15,
+    "and_capable_any": 69,
+    "top": [
+      {
+        "id": "720575940623891637",
+        "group": "comparator",
+        "and_capable": 0.85,
+        "cell_type": "CB1079",
+        "side": "right"
+      },
+      {
+        "id": "720575940606664894",
+        "group": "comparator",
+        "and_capable": 0.833,
+        "cell_type": "CRE042",
+        "side": "right"
+      },
+      {
+        "id": "720575940630765253",
+        "group": "comparator",
+        "and_capable": 0.833,
+        "cell_type": "CB1079",
+        "side": "right"
+      },
+      {
+        "id": "720575940620252075",
+        "group": "comparator",
+        "and_capable": 0.783,
+        "cell_type": "LHPV4m1",
+        "side": "right"
+      },
+      {
+        "id": "720575940627486485",
+        "group": "comparator",
+        "and_capable": 0.783,
+        "cell_type": "CB4159",
+        "side": "right"
+      },
+      {
+        "id": "720575940627109202",
+        "group": "comparator",
+        "and_capable": 0.783,
+        "cell_type": "CB1079",
+        "side": "right"
+      },
+      {
+        "id": "720575940638028607",
+        "group": "comparator",
+        "and_capable": 0.767,
+        "cell_type": "MBON06",
+        "side": "right"
+      },
+      {
+        "id": "720575940631142956",
+        "group": "comparator",
+        "and_capable": 0.767,
+        "cell_type": "CRE048",
+        "side": "right"
+      },
+      {
+        "id": "720575940617577702",
+        "group": "comparator",
+        "and_capable": 0.717,
+        "cell_type": "CB1079",
+        "side": "right"
+      },
+      {
+        "id": "720575940629947964",
+        "group": "comparator",
+        "and_capable": 0.683,
+        "cell_type": "CB1079",
+        "side": "right"
+      }
+    ]
+  }
+}
