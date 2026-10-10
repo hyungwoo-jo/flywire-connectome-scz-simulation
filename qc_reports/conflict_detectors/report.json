@@ -1,0 +1,169 @@
+{
+  "top_auc": 0.7261111111111112,
+  "null_top_auc_mean": 0.7312666666666666,
+  "null_top_auc_p95": 0.7527777777777778,
+  "p_top": 0.693069306930693,
+  "top5_auc": 0.7086666666666667,
+  "null_top5_mean": 0.7179055555555557,
+  "null_top5_p95": 0.7365,
+  "p_top5": 0.8217821782178217,
+  "neurons": 96,
+  "detectors": 0,
+  "null_mean": 0.0,
+  "null_p95": 0.0,
+  "p": 1.0,
+  "detector_types": {},
+  "detector_orientation": {},
+  "top": [
+    {
+      "auc": 0.726,
+      "bal_acc": 0.708,
+      "orientation": "suppression",
+      "id": "720575940606664894",
+      "group": "comparator",
+      "cell_type": "CRE042",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.721,
+      "bal_acc": 0.658,
+      "orientation": "suppression",
+      "id": "720575940630765253",
+      "group": "comparator",
+      "cell_type": "CB1079",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.701,
+      "bal_acc": 0.633,
+      "orientation": "activation",
+      "id": "720575940638028607",
+      "group": "comparator",
+      "cell_type": "MBON06",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.699,
+      "bal_acc": 0.625,
+      "orientation": "suppression",
+      "id": "720575940627486485",
+      "group": "comparator",
+      "cell_type": "CB4159",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.696,
+      "bal_acc": 0.575,
+      "orientation": "suppression",
+      "id": "720575940623891637",
+      "group": "comparator",
+      "cell_type": "CB1079",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.696,
+      "bal_acc": 0.592,
+      "orientation": "suppression",
+      "id": "720575940629947964",
+      "group": "comparator",
+      "cell_type": "CB1079",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.691,
+      "bal_acc": 0.583,
+      "orientation": "suppression",
+      "id": "720575940617577702",
+      "group": "comparator",
+      "cell_type": "CB1079",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.687,
+      "bal_acc": 0.542,
+      "orientation": "suppression",
+      "id": "720575940620252075",
+      "group": "comparator",
+      "cell_type": "LHPV4m1",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.686,
+      "bal_acc": 0.575,
+      "orientation": "suppression",
+      "id": "720575940627109202",
+      "group": "comparator",
+      "cell_type": "CB1079",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.683,
+      "bal_acc": 0.625,
+      "orientation": "suppression",
+      "id": "720575940624803511",
+      "group": "comparator",
+      "cell_type": "CB2018",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.682,
+      "bal_acc": 0.617,
+      "orientation": "suppression",
+      "id": "720575940633333916",
+      "group": "comparator",
+      "cell_type": "CB2018",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.679,
+      "bal_acc": 0.675,
+      "orientation": "activation",
+      "id": "720575940641282267",
+      "group": "integrator",
+      "cell_type": "CB0519",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.679,
+      "bal_acc": 0.675,
+      "orientation": "activation",
+      "id": "720575940635113976",
+      "group": "integrator",
+      "cell_type": "SAD082",
+      "side": "left",
+      "detector": false
+    },
+    {
+      "auc": 0.679,
+      "bal_acc": 0.675,
+      "orientation": "activation",
+      "id": "720575940644914967",
+      "group": "integrator",
+      "cell_type": "VES002",
+      "side": "right",
+      "detector": false
+    },
+    {
+      "auc": 0.679,
+      "bal_acc": 0.675,
+      "orientation": "activation",
+      "id": "720575940625680688",
+      "group": "integrator",
+      "cell_type": "SAD045,SAD046",
+      "side": "left",
+      "detector": false
+    }
+  ]
+}
