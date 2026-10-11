@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~49, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~50, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -68,6 +68,7 @@ data/        원자료 위치 (git 제외)
 | 47 | 갈래 1: 갈등 감시 뉴런이 실제로 작동하는가 | [TRACK1_CONFLICT_DETECTORS](docs/TRACK1_CONFLICT_DETECTORS.md) |
 | 48 | 갈래 2: 몸 상태와 거짓 가치 신호 | [TRACK2_BODY_STATE](docs/TRACK2_BODY_STATE.md) |
 | 49 | 갈래 3: 거짓 신호가 가는 행동 명령 (하행 뉴런) | [TRACK3_DESCENDING](docs/TRACK3_DESCENDING.md) |
+| 50 | 하행 뉴런의 가치 특이성: 처벌 대 보상, 구역 무작위 대조 | [DN_VALENCE](docs/DN_VALENCE.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 

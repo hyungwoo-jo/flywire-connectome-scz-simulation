@@ -1,0 +1,176 @@
+{
+  "dns": 1303,
+  "odors": 73,
+  "permutations": 1000,
+  "mdn_aversive": {
+    "score": 0.026704750666650418,
+    "null_mean": 0.010855672517925737,
+    "null_p95": 0.04519411613026671,
+    "p": 0.164,
+    "type_percentile": 0.9696969696969697
+  },
+  "mdn_appetitive": {
+    "score": -0.04827225093152771,
+    "null_mean": 0.00954405318343113,
+    "null_p5": -0.02242485278055367,
+    "p_low": 0.019,
+    "type_percentile": 0.008658008658008658
+  },
+  "valence_correlation": -0.03947597386881832,
+  "named": [
+    {
+      "cell_type": "MDN",
+      "n": 4,
+      "aversive": 0.0267,
+      "appetitive": -0.0483
+    },
+    {
+      "cell_type": "DNp09",
+      "n": 2,
+      "aversive": 0.002,
+      "appetitive": -0.0002
+    },
+    {
+      "cell_type": "DNa02",
+      "n": 2,
+      "aversive": 0.0058,
+      "appetitive": -0.0003
+    },
+    {
+      "cell_type": "DNa01",
+      "n": 2,
+      "aversive": 0.0039,
+      "appetitive": -0.0002
+    },
+    {
+      "cell_type": "DNp01",
+      "n": 2,
+      "aversive": 0.0002,
+      "appetitive": -0.0
+    }
+  ],
+  "top_aversive": [
+    {
+      "cell_type": "DNp42",
+      "n": 2,
+      "aversive": 0.3155,
+      "appetitive": -0.0002
+    },
+    {
+      "cell_type": "DNpe021",
+      "n": 2,
+      "aversive": 0.103,
+      "appetitive": 0.001
+    },
+    {
+      "cell_type": "DNp52",
+      "n": 2,
+      "aversive": 0.081,
+      "appetitive": -0.304
+    },
+    {
+      "cell_type": "DNpe006",
+      "n": 2,
+      "aversive": 0.0732,
+      "appetitive": -0.0009
+    },
+    {
+      "cell_type": "DNp71",
+      "n": 2,
+      "aversive": 0.0556,
+      "appetitive": 0.0003
+    },
+    {
+      "cell_type": "DNpe026",
+      "n": 2,
+      "aversive": 0.0508,
+      "appetitive": -0.0149
+    },
+    {
+      "cell_type": "DNb05",
+      "n": 2,
+      "aversive": 0.0368,
+      "appetitive": 0.0007
+    },
+    {
+      "cell_type": "DNg30",
+      "n": 2,
+      "aversive": 0.0352,
+      "appetitive": -0.023
+    },
+    {
+      "cell_type": "DNp24",
+      "n": 2,
+      "aversive": 0.0341,
+      "appetitive": 0.0057
+    },
+    {
+      "cell_type": "DNp08",
+      "n": 2,
+      "aversive": 0.0296,
+      "appetitive": 0.0025
+    }
+  ],
+  "top_appetitive": [
+    {
+      "cell_type": "DNp54",
+      "n": 2,
+      "aversive": 0.0073,
+      "appetitive": 0.0774
+    },
+    {
+      "cell_type": "oviDNa_b",
+      "n": 2,
+      "aversive": -0.002,
+      "appetitive": 0.0721
+    },
+    {
+      "cell_type": "DNg103",
+      "n": 2,
+      "aversive": -0.0056,
+      "appetitive": 0.0707
+    },
+    {
+      "cell_type": "DNg63",
+      "n": 2,
+      "aversive": -0.0033,
+      "appetitive": 0.0577
+    },
+    {
+      "cell_type": "DNp29",
+      "n": 2,
+      "aversive": -0.0002,
+      "appetitive": 0.057
+    },
+    {
+      "cell_type": "DNa14",
+      "n": 2,
+      "aversive": -0.0062,
+      "appetitive": 0.0476
+    },
+    {
+      "cell_type": "oviDNb",
+      "n": 2,
+      "aversive": 0.0084,
+      "appetitive": 0.0409
+    },
+    {
+      "cell_type": "DNp62",
+      "n": 2,
+      "aversive": 0.0108,
+      "appetitive": 0.0402
+    },
+    {
+      "cell_type": "DNge077",
+      "n": 2,
+      "aversive": -0.0008,
+      "appetitive": 0.0309
+    },
+    {
+      "cell_type": "DNg104",
+      "n": 2,
+      "aversive": -0.1576,
+      "appetitive": 0.0286
+    }
+  ]
+}

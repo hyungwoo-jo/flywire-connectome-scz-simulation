@@ -138,4 +138,5 @@
 - 갈등 시뮬레이션: CONFLICT_SIMULATION.md (45)
 - 거짓 신호의 행동 쪽 전달과 갈등 감시 후보: LEAK_TO_BEHAVIOR.md (46)
 - 갈래 1~3: TRACK1_CONFLICT_DETECTORS.md (47), TRACK2_BODY_STATE.md (48), TRACK3_DESCENDING.md (49)
+- 하행 뉴런의 처벌/보상 특이성: DN_VALENCE.md (50)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
