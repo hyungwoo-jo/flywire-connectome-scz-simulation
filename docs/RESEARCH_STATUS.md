@@ -139,4 +139,5 @@
 - 거짓 신호의 행동 쪽 전달과 갈등 감시 후보: LEAK_TO_BEHAVIOR.md (46)
 - 갈래 1~3: TRACK1_CONFLICT_DETECTORS.md (47), TRACK2_BODY_STATE.md (48), TRACK3_DESCENDING.md (49)
 - 하행 뉴런의 처벌/보상 특이성: DN_VALENCE.md (50)
+- 동역학 모형과 MDN: DYNAMIC_MDN.md (51)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
