@@ -1,0 +1,479 @@
+{
+  "g": 0.9,
+  "odors": [
+    0,
+    2,
+    5,
+    8,
+    10,
+    14,
+    15,
+    19,
+    28,
+    32,
+    39,
+    41,
+    46,
+    48,
+    50,
+    54,
+    56,
+    57,
+    61,
+    64,
+    70,
+    79,
+    85,
+    86,
+    90,
+    97,
+    100,
+    104,
+    106,
+    108
+  ],
+  "regimes": [
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "mdn_sd": 2.1722726481116554e-07,
+      "mdn_active": 0.952,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "mdn_sd": 2.5006234854462567e-07,
+      "mdn_active": 0.946,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "mdn_sd": 3.6621516040424195e-07,
+      "mdn_active": 0.938,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "mdn_sd": 6.540316976291686e-07,
+      "mdn_active": 0.938,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "mdn_sd": 1.3961214148838318e-07,
+      "mdn_active": 0.162,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "mdn_sd": 1.1345783545391653e-07,
+      "mdn_active": 0.18,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "mdn_sd": 1.2621994068250105e-07,
+      "mdn_active": 0.188,
+      "mdn_ext_over_in": 0.9482564107642826
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "mdn_sd": 1.4698937155292277e-07,
+      "mdn_active": 0.204,
+      "mdn_ext_over_in": 0.9482564107642826
+    }
+  ],
+  "summary": [
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 1.2339,
+      "flip": 0.087
+    },
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.5046,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.1065,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 1.2091,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.5913,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.1241,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 1.0491,
+      "flip": 0.1522
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.4358,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.094,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 1.0647,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.5427,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.1237,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 0.6952,
+      "flip": 0.1739
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.3025,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.0656,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 0.7136,
+      "flip": 0.1304
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.3917,
+      "flip": 0.087
+    },
+    {
+      "q": 0.5,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.0958,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 0.3773,
+      "flip": 0.087
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.1636,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.0343,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 0.383,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.2423,
+      "flip": 0.0
+    },
+    {
+      "q": 0.5,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.051,
+      "flip": 0.0
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 1.6178,
+      "flip": 0.1739
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.7562,
+      "flip": 0.0652
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.1747,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 1.6777,
+      "flip": 0.1522
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.8859,
+      "flip": 0.087
+    },
+    {
+      "q": 0.95,
+      "kappa": 0.5,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.2082,
+      "flip": 0.0
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 1.631,
+      "flip": 0.3043
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.7958,
+      "flip": 0.1304
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.1911,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 1.8847,
+      "flip": 0.2174
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 1.0065,
+      "flip": 0.1304
+    },
+    {
+      "q": 0.95,
+      "kappa": 1.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.2272,
+      "flip": 0.0217
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 1.2505,
+      "flip": 0.3261
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.5948,
+      "flip": 0.1957
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.1407,
+      "flip": 0.0217
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 1.3439,
+      "flip": 0.087
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.7012,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.95,
+      "kappa": 2.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.1556,
+      "flip": 0.0
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "learned",
+      "z": 0.2071,
+      "flip": 0.2609
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "matched",
+      "z": 0.0956,
+      "flip": 0.1522
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "appetitive",
+      "control": "random",
+      "z": 0.0404,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "learned",
+      "z": 0.5952,
+      "flip": 0.087
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "matched",
+      "z": 0.3523,
+      "flip": 0.0435
+    },
+    {
+      "q": 0.95,
+      "kappa": 4.0,
+      "valence": "aversive",
+      "control": "random",
+      "z": 0.0766,
+      "flip": 0.0
+    }
+  ]
+}
