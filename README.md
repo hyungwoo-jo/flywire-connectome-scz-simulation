@@ -72,6 +72,7 @@ data/        원자료 위치 (git 제외)
 | 51 | 문턱, 되먹임, 시간이 있는 동역학 모형에서 거짓 신호와 MDN | [DYNAMIC_MDN](docs/DYNAMIC_MDN.md) |
 | 52 | 모형 밖 입력의 변동을 넣은 MDN 효과 | [DYNAMIC_MDN_EXTERNAL](docs/DYNAMIC_MDN_EXTERNAL.md) |
 | 53 | 누출 식의 일반성: 합성 확장층 회로 | [LEAKAGE_GENERALITY](docs/LEAKAGE_GENERALITY.md) |
+| 정리 | 이론 노트: 01~53을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 

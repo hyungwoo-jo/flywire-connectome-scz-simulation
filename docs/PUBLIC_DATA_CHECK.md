@@ -9,7 +9,7 @@ EXPERIMENT_PROPOSAL.md의 예측(특히 실험 4: 학습 뒤 용매 자극에서
 | Ahmed et al. 2023 (클로 수 조작, PMC9900841) | 단일 KC 반응, 클로 수 조작군 | 공개 저장소를 찾지 못함 | 저자 요청 필요 |
 | Bilz et al. 2020, Neuron 106:963 (Mendeley Data wf7gz3wfr3, CC BY 4.0) | 단일 KC의 γ엽 시냅스 말단 칼슘, 학습 전후, MCH/3-Oct/1-Oct/미네랄 오일 | 내려받음(`data/bilz2020/`, 저장소에는 넣지 않음) | 이번 예측 검증에는 부적합 |
 
-Bilz 자료 파일: xlsxData.zip (sha256 f2fb9485...8fb8912), matData.zip (sha256 5bfe72dd...4ccb0b0). 각 세포는 85 프레임(4 Hz) x 시냅스 말단 x 자극 4개 x 학습 전/후 배열이다. 짝 학습군 16개 세포 중 학습 전후가 모두 있는 세포는 13개, 대조군 7개, 그 밖에 순방향, 역방향, 비짝 조건이 각 4개다.
+Bilz 자료 파일: xlsxData.zip (sha256 f2fb9485...8fb8912), matData.zip (sha256 5bfe72dd...4ccb0b0). 각 세포는 85 프레임(4 Hz) x 시냅스 말단 x 자극 4개 x 학습 전/후 배열이다. 짝 학습군 24개 세포 중 학습 전후가 모두 있는 세포는 13개, 대조군 7개, 그 밖에 순방향, 역방향, 비짝 조건이 각 4개다.
 
 ## Bilz 자료가 부적합한 이유
 
