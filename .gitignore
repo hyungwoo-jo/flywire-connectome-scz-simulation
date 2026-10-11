@@ -35,3 +35,4 @@ data/hemibrain/
 
 # third-party code (cloned, not vendored)
 external/
+data/bilz2020/
