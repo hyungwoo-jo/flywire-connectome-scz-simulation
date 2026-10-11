@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~52, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~53, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -71,6 +71,7 @@ data/        원자료 위치 (git 제외)
 | 50 | 하행 뉴런의 가치 특이성: 처벌 대 보상, 구역 무작위 대조 | [DN_VALENCE](docs/DN_VALENCE.md) |
 | 51 | 문턱, 되먹임, 시간이 있는 동역학 모형에서 거짓 신호와 MDN | [DYNAMIC_MDN](docs/DYNAMIC_MDN.md) |
 | 52 | 모형 밖 입력의 변동을 넣은 MDN 효과 | [DYNAMIC_MDN_EXTERNAL](docs/DYNAMIC_MDN_EXTERNAL.md) |
+| 53 | 누출 식의 일반성: 합성 확장층 회로 | [LEAKAGE_GENERALITY](docs/LEAKAGE_GENERALITY.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 

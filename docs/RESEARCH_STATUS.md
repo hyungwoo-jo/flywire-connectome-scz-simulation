@@ -141,4 +141,5 @@
 - 하행 뉴런의 처벌/보상 특이성: DN_VALENCE.md (50)
 - 동역학 모형과 MDN: DYNAMIC_MDN.md (51)
 - 바깥 입력 변동과 MDN: DYNAMIC_MDN_EXTERNAL.md (52)
+- 누출의 일반성: LEAKAGE_GENERALITY.md (53)
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
