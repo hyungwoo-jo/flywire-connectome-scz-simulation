@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~53, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~54, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -72,7 +72,8 @@ data/        원자료 위치 (git 제외)
 | 51 | 문턱, 되먹임, 시간이 있는 동역학 모형에서 거짓 신호와 MDN | [DYNAMIC_MDN](docs/DYNAMIC_MDN.md) |
 | 52 | 모형 밖 입력의 변동을 넣은 MDN 효과 | [DYNAMIC_MDN_EXTERNAL](docs/DYNAMIC_MDN_EXTERNAL.md) |
 | 53 | 누출 식의 일반성: 합성 확장층 회로 | [LEAKAGE_GENERALITY](docs/LEAKAGE_GENERALITY.md) |
-| 정리 | 이론 노트: 01~53을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 54 | 허브 인자의 그래프 분해: 노드 세기 대 구성, 재배선 | [PREREGISTRATION_54](docs/PREREGISTRATION_54.md), [HUB_GRAPH_DECOMPOSITION](docs/HUB_GRAPH_DECOMPOSITION.md) |
+| 정리 | 이론 노트: 01~54를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 

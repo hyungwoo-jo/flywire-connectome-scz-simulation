@@ -1,0 +1,266 @@
+{
+  "verdicts": {
+    "P1": true,
+    "P2": "supported",
+    "P3": false
+  },
+  "decomposition": [
+    {
+      "dataset": "BANC_right",
+      "n_kc": 2245,
+      "n_read": 1027,
+      "share_raw": 0.5908,
+      "share_raw_perm95": 0.0163,
+      "share_raw_perm_median": 0.007,
+      "cv_raw": 0.8241,
+      "cv_raw_read": 1.0399,
+      "share_spont": 0.6247,
+      "share_spont_perm95": 0.017,
+      "share_spont_perm_median": 0.0075,
+      "cv_spont": 0.8967,
+      "cv_spont_read": 1.0966,
+      "H_median": 10.7633,
+      "noise_share_top10_spont": 0.8733,
+      "rho_raw_spont": 0.9576
+    },
+    {
+      "dataset": "BANC_left",
+      "n_kc": 2260,
+      "n_read": 668,
+      "share_raw": 0.6774,
+      "share_raw_perm95": 0.0274,
+      "share_raw_perm_median": 0.012,
+      "cv_raw": 0.8356,
+      "cv_raw_read": 1.0128,
+      "share_spont": 0.5823,
+      "share_spont_perm95": 0.0296,
+      "share_spont_perm_median": 0.0109,
+      "cv_spont": 0.8918,
+      "cv_spont_read": 1.0344,
+      "H_median": 11.5399,
+      "noise_share_top10_spont": 0.9125,
+      "rho_raw_spont": 0.9551
+    },
+    {
+      "dataset": "FlyWire_right",
+      "n_kc": 2597,
+      "n_read": 2089,
+      "share_raw": 0.9071,
+      "share_raw_perm95": 0.0159,
+      "share_raw_perm_median": 0.0062,
+      "cv_raw": 0.6429,
+      "cv_raw_read": 0.7293,
+      "share_spont": 0.8439,
+      "share_spont_perm95": 0.0129,
+      "share_spont_perm_median": 0.0062,
+      "cv_spont": 0.7194,
+      "cv_spont_read": 0.8009,
+      "H_median": 5.0535,
+      "noise_share_top10_spont": 0.9132,
+      "rho_raw_spont": 0.9323
+    },
+    {
+      "dataset": "FlyWire_left",
+      "n_kc": 2580,
+      "n_read": 1993,
+      "share_raw": 1.0014,
+      "share_raw_perm95": 0.0161,
+      "share_raw_perm_median": 0.0074,
+      "cv_raw": 0.6263,
+      "cv_raw_read": 0.7104,
+      "share_spont": 1.1464,
+      "share_spont_perm95": 0.0174,
+      "share_spont_perm_median": 0.0064,
+      "cv_spont": 0.7033,
+      "cv_spont_read": 0.783,
+      "H_median": 4.0225,
+      "noise_share_top10_spont": 0.8875,
+      "rho_raw_spont": 0.9389
+    },
+    {
+      "dataset": "hemibrain_right",
+      "n_kc": 1927,
+      "n_read": 1694,
+      "share_raw": 0.6513,
+      "share_raw_perm95": 0.0191,
+      "share_raw_perm_median": 0.0074,
+      "cv_raw": 0.6541,
+      "cv_raw_read": 0.8335,
+      "share_spont": 0.6316,
+      "share_spont_perm95": 0.0189,
+      "share_spont_perm_median": 0.0071,
+      "cv_spont": 0.791,
+      "cv_spont_read": 0.9617,
+      "H_median": 6.2185,
+      "noise_share_top10_spont": 0.8858,
+      "rho_raw_spont": 0.9355
+    }
+  ],
+  "H_ratios": {
+    "rewired": {
+      "BANC_left": 0.8917770851146151,
+      "BANC_right": 1.2695574300712966,
+      "FlyWire_left": 1.0953735744942497,
+      "FlyWire_right": 1.1103250779054872,
+      "hemibrain_right": 0.931619814316545
+    },
+    "flat": {
+      "BANC_left": 0.20956916205696252,
+      "BANC_right": 0.4555182497606154,
+      "FlyWire_left": 0.632115788414335,
+      "FlyWire_right": 0.48682538797232555,
+      "hemibrain_right": 0.6260991958582159
+    },
+    "rewired_flat_H": {
+      "BANC_left": 3.3749824508882944,
+      "BANC_right": 5.479670982937035,
+      "FlyWire_left": 3.2829551171190863,
+      "FlyWire_right": 3.213949497355424,
+      "hemibrain_right": 3.893443911708751
+    }
+  },
+  "medians": [
+    {
+      "dataset": "BANC_left",
+      "condition": "flat",
+      "H": 2.5759,
+      "leak": 0.0075,
+      "specific": -0.0061
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "original",
+      "H": 12.2916,
+      "leak": 0.0371,
+      "specific": 0.037
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "rewired",
+      "H": 10.9614,
+      "leak": 0.0344,
+      "specific": 0.0343
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "rewired_flat",
+      "H": 3.375,
+      "leak": 0.0083,
+      "specific": -0.0035
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "flat",
+      "H": 4.9727,
+      "leak": 0.0083,
+      "specific": -0.0007
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "original",
+      "H": 10.9165,
+      "leak": 0.0349,
+      "specific": 0.0342
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "rewired",
+      "H": 13.8592,
+      "leak": 0.0302,
+      "specific": 0.03
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "rewired_flat",
+      "H": 5.4797,
+      "leak": 0.0098,
+      "specific": -0.0011
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "flat",
+      "H": 3.4124,
+      "leak": 0.0096,
+      "specific": -0.0072
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "original",
+      "H": 5.3984,
+      "leak": 0.0188,
+      "specific": 0.0188
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "rewired",
+      "H": 5.9133,
+      "leak": 0.0203,
+      "specific": 0.02
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "rewired_flat",
+      "H": 3.283,
+      "leak": 0.0098,
+      "specific": -0.0056
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "flat",
+      "H": 3.101,
+      "leak": 0.0096,
+      "specific": -0.0075
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "original",
+      "H": 6.3699,
+      "leak": 0.0162,
+      "specific": 0.0162
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "rewired",
+      "H": 7.0726,
+      "leak": 0.0171,
+      "specific": 0.017
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "rewired_flat",
+      "H": 3.2139,
+      "leak": 0.0097,
+      "specific": -0.0061
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "flat",
+      "H": 4.1527,
+      "leak": 0.0131,
+      "specific": -0.0063
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "original",
+      "H": 6.6327,
+      "leak": 0.0277,
+      "specific": 0.0273
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "rewired",
+      "H": 6.1791,
+      "leak": 0.0237,
+      "specific": 0.0237
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "rewired_flat",
+      "H": 3.8934,
+      "leak": 0.0116,
+      "specific": -0.0061
+    }
+  ],
+  "n_null": 20,
+  "bins": 10
+}
