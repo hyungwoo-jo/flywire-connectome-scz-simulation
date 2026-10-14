@@ -19,7 +19,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~55, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~56, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -74,7 +74,8 @@ data/        원자료 위치 (git 제외)
 | 53 | 누출 식의 일반성: 합성 확장층 회로 | [LEAKAGE_GENERALITY](docs/LEAKAGE_GENERALITY.md) |
 | 54 | 허브 인자의 그래프 분해: 노드 세기 대 구성, 재배선 | [PREREGISTRATION_54](docs/PREREGISTRATION_54.md), [HUB_GRAPH_DECOMPOSITION](docs/HUB_GRAPH_DECOMPOSITION.md) |
 | 55 | 기억 성능과 누출: Abdelrahman 2021의 보상과 비교 | [PREREGISTRATION_55](docs/PREREGISTRATION_55.md), [MEMORY_VS_LEAK](docs/MEMORY_VS_LEAK.md) |
-| 정리 | 이론 노트: 01~55를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 56 | 자발 활동 기준 항상성: 남은 누출 제거와 기억 비용 | [PREREGISTRATION_56](docs/PREREGISTRATION_56.md), [SPONTANEOUS_HOMEOSTASIS](docs/SPONTANEOUS_HOMEOSTASIS.md) |
+| 정리 | 이론 노트: 01~56을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
