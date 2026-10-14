@@ -1,0 +1,150 @@
+{
+  "verdicts": {
+    "P1": true,
+    "P2": true,
+    "P3": false,
+    "P4": false
+  },
+  "best": "cv_spont_read",
+  "loio_mae": {
+    "cv_spont": 0.7642808699914034,
+    "cv_spont_read": 0.0733009800821808,
+    "cv_spont_w": 1.4073201350102533,
+    "H": 1.9991374607048313,
+    "top10": 1.2532165611569757,
+    "rho_w": 2.650662927487054
+  },
+  "sd_median": 0.4793869057715712,
+  "predictions": [
+    {
+      "candidate": "cv_spont_read",
+      "dataset": "MaleCNS_right",
+      "x": 0.828,
+      "pred": 2.1752,
+      "lo": 1.9071,
+      "hi": 2.4432,
+      "obs": 2.3142,
+      "abs_err": 0.1391,
+      "inside": true
+    },
+    {
+      "candidate": "cv_spont_read",
+      "dataset": "MaleCNS_left",
+      "x": 0.823,
+      "pred": 2.1392,
+      "lo": 1.8697,
+      "hi": 2.4086,
+      "obs": 3.231,
+      "abs_err": 1.0918,
+      "inside": false
+    },
+    {
+      "candidate": "cv_spont",
+      "dataset": "MaleCNS_right",
+      "x": 0.6756,
+      "pred": 1.629,
+      "lo": 0.3525,
+      "hi": 2.9055,
+      "obs": 2.3142,
+      "abs_err": 0.6852,
+      "inside": true
+    },
+    {
+      "candidate": "cv_spont",
+      "dataset": "MaleCNS_left",
+      "x": 0.6727,
+      "pred": 1.5984,
+      "lo": 0.3135,
+      "hi": 2.8832,
+      "obs": 3.231,
+      "abs_err": 1.6326,
+      "inside": false
+    }
+  ],
+  "per_hemisphere": [
+    {
+      "dataset": "BANC_right",
+      "specific_mean": 4.1564,
+      "specific_sd": 0.8745,
+      "specific_seed0": 3.4247,
+      "cv_spont": 0.8967,
+      "cv_spont_read": 1.0966,
+      "cv_spont_w": 1.0909,
+      "H": 10.9165,
+      "top10": 0.8733,
+      "rho_w": -0.0457
+    },
+    {
+      "dataset": "BANC_left",
+      "specific_mean": 3.5688,
+      "specific_sd": 0.6182,
+      "specific_seed0": 3.7014,
+      "cv_spont": 0.8918,
+      "cv_spont_read": 1.0344,
+      "cv_spont_w": 1.0552,
+      "H": 12.2916,
+      "top10": 0.9125,
+      "rho_w": -0.056
+    },
+    {
+      "dataset": "FlyWire_right",
+      "specific_mean": 2.011,
+      "specific_sd": 0.3807,
+      "specific_seed0": 1.6164,
+      "cv_spont": 0.7194,
+      "cv_spont_read": 0.8009,
+      "cv_spont_w": 0.7628,
+      "H": 6.3699,
+      "top10": 0.9132,
+      "rho_w": 0.1277
+    },
+    {
+      "dataset": "FlyWire_left",
+      "specific_mean": 1.8178,
+      "specific_sd": 0.2597,
+      "specific_seed0": 1.8767,
+      "cv_spont": 0.7033,
+      "cv_spont_read": 0.783,
+      "cv_spont_w": 0.7642,
+      "H": 5.3984,
+      "top10": 0.8875,
+      "rho_w": 0.1048
+    },
+    {
+      "dataset": "hemibrain_right",
+      "specific_mean": 3.1921,
+      "specific_sd": 0.7158,
+      "specific_seed0": 2.7288,
+      "cv_spont": 0.791,
+      "cv_spont_read": 0.9617,
+      "cv_spont_w": 0.8575,
+      "H": 6.6327,
+      "top10": 0.8858,
+      "rho_w": 0.396
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "specific_mean": 2.3142,
+      "specific_sd": 0.3268,
+      "specific_seed0": 2.2712,
+      "cv_spont": 0.6756,
+      "cv_spont_read": 0.828,
+      "cv_spont_w": 0.8128,
+      "H": 7.3697,
+      "top10": 0.9026,
+      "rho_w": 0.1959
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "specific_mean": 3.231,
+      "specific_sd": 0.4794,
+      "specific_seed0": 3.2658,
+      "cv_spont": 0.6727,
+      "cv_spont_read": 0.823,
+      "cv_spont_w": 0.8081,
+      "H": 7.6136,
+      "top10": 0.9278,
+      "rho_w": 0.1476
+    }
+  ]
+}
