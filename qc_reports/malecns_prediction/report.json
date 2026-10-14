@@ -1,0 +1,343 @@
+{
+  "verdicts": {
+    "Q1": true,
+    "Q2": false,
+    "Q3": true,
+    "Q4": true,
+    "Q5": true,
+    "Q6": true,
+    "Q7": true
+  },
+  "per_hemisphere": {
+    "Q1": [
+      true,
+      true
+    ],
+    "Q2": [
+      true,
+      false
+    ],
+    "Q3": [
+      true,
+      true
+    ],
+    "Q4": [
+      true,
+      true
+    ],
+    "Q5": [
+      true,
+      true
+    ],
+    "Q6": [
+      true,
+      true
+    ],
+    "Q7": [
+      true,
+      true
+    ]
+  },
+  "predictions": {
+    "MaleCNS_right": {
+      "cv_spont": 0.675587675071604,
+      "specific_pred": [
+        1.4516821826484252,
+        0.47635362990002394,
+        2.427010735396826
+      ],
+      "H_pred": [
+        4.356042498649501,
+        -0.1988594573106317,
+        8.910944454609634
+      ],
+      "odor_homeo_pred": [
+        -0.24382798430615793,
+        -1.2380911180110923,
+        0.7504351493987765
+      ],
+      "specific_obs": 2.2712328767123284,
+      "H_obs": 7.369746936274677,
+      "odor_homeo_obs": 0.024657534246575324
+    },
+    "MaleCNS_left": {
+      "cv_spont": 0.672688371477768,
+      "specific_pred": [
+        1.4234023753941498,
+        0.4417207127900179,
+        2.405084037998282
+      ],
+      "H_pred": [
+        4.263946119991303,
+        -0.3206256251150119,
+        8.848517865097618
+      ],
+      "odor_homeo_pred": [
+        -0.25775044016375803,
+        -1.2584900200837967,
+        0.7429891397562807
+      ],
+      "specific_obs": 3.2657534246575346,
+      "H_obs": 7.613641384731233,
+      "odor_homeo_obs": -0.1506849315068493
+    }
+  },
+  "circuit": {
+    "MaleCNS_right": {
+      "side": "right",
+      "apl": "10540",
+      "mbon11": "11402",
+      "pn": 121,
+      "kc": 2045,
+      "pn_kc_edges": 10104,
+      "apl_kc_edges": 2044,
+      "kc_apl_edges": 2044,
+      "mbon11_kc_inputs": 1840,
+      "pn_kc_synapses": 180725.0,
+      "kc_with_pn": 1892,
+      "mapped_pns": 53,
+      "mapped_glomeruli": 23
+    },
+    "MaleCNS_left": {
+      "side": "left",
+      "apl": "10977",
+      "mbon11": "10704",
+      "pn": 129,
+      "kc": 2019,
+      "pn_kc_edges": 10135,
+      "apl_kc_edges": 2019,
+      "kc_apl_edges": 2019,
+      "mbon11_kc_inputs": 1724,
+      "pn_kc_synapses": 176180.0,
+      "kc_with_pn": 1871,
+      "mapped_pns": 54,
+      "mapped_glomeruli": 23
+    }
+  },
+  "rows": [
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "original",
+      "par": NaN,
+      "acc_all": 0.72384,
+      "acc_20": 0.81225,
+      "H": 7.36975,
+      "H_median": 7.26732,
+      "leak": 0.02271,
+      "leak_control": 0.0,
+      "specific": 0.02271,
+      "active_odor": 0.0953,
+      "active_noise": 0.0031,
+      "cv_spont": 0.67559,
+      "cv_raw": 0.57938
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "flat",
+      "par": NaN,
+      "acc_all": 0.70274,
+      "acc_20": 0.7735,
+      "H": 3.57185,
+      "H_median": 1.81801,
+      "leak": 0.00918,
+      "leak_control": 0.01723,
+      "specific": -0.00805,
+      "active_odor": 0.08652,
+      "active_noise": 0.00244,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "odor_homeo",
+      "par": NaN,
+      "acc_all": 0.74514,
+      "acc_20": 0.849,
+      "H": 1.76175,
+      "H_median": 0.96642,
+      "leak": 0.01288,
+      "leak_control": 0.01263,
+      "specific": 0.00025,
+      "active_odor": 0.09513,
+      "active_noise": 0.00504,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "spont",
+      "par": 1.0,
+      "acc_all": 0.67411,
+      "acc_20": 0.7085,
+      "H": 2.20133,
+      "H_median": 0.0,
+      "leak": 0.00066,
+      "leak_control": 0.00082,
+      "specific": -0.00016,
+      "active_odor": 0.08782,
+      "active_noise": 2e-05,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "total_homeo",
+      "par": 0.1,
+      "acc_all": 0.73945,
+      "acc_20": 0.8605,
+      "H": 1.04215,
+      "H_median": 0.59959,
+      "leak": 0.008,
+      "leak_control": 0.01132,
+      "specific": -0.00332,
+      "active_odor": 0.0903,
+      "active_noise": 0.00077,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "total_homeo",
+      "par": 0.01,
+      "acc_all": 0.71753,
+      "acc_20": 0.82475,
+      "H": 1.167,
+      "H_median": 0.67701,
+      "leak": 0.00545,
+      "leak_control": 0.00578,
+      "specific": -0.00033,
+      "active_odor": 0.08726,
+      "active_noise": 0.00011,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "mix",
+      "par": 0.2,
+      "acc_all": 0.74226,
+      "acc_20": 0.84175,
+      "H": 0.79712,
+      "H_median": 0.27823,
+      "leak": 0.00742,
+      "leak_control": 0.01356,
+      "specific": -0.00614,
+      "active_odor": 0.09112,
+      "active_noise": 0.00192,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "original",
+      "par": NaN,
+      "acc_all": 0.71651,
+      "acc_20": 0.79225,
+      "H": 7.61364,
+      "H_median": 7.16925,
+      "leak": 0.03268,
+      "leak_control": 3e-05,
+      "specific": 0.03266,
+      "active_odor": 0.09363,
+      "active_noise": 0.00259,
+      "cv_spont": 0.67269,
+      "cv_raw": 0.5834
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "flat",
+      "par": NaN,
+      "acc_all": 0.69589,
+      "acc_20": 0.771,
+      "H": 3.75869,
+      "H_median": 2.62366,
+      "leak": 0.0109,
+      "leak_control": 0.01742,
+      "specific": -0.00652,
+      "active_odor": 0.08649,
+      "active_noise": 0.00302,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "odor_homeo",
+      "par": NaN,
+      "acc_all": 0.7424,
+      "acc_20": 0.852,
+      "H": 1.63699,
+      "H_median": 1.05221,
+      "leak": 0.01564,
+      "leak_control": 0.01715,
+      "specific": -0.00151,
+      "active_odor": 0.09385,
+      "active_noise": 0.00544,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "spont",
+      "par": 1.0,
+      "acc_all": 0.68377,
+      "acc_20": 0.7105,
+      "H": 2.19223,
+      "H_median": 0.22168,
+      "leak": 0.0009,
+      "leak_control": 0.00058,
+      "specific": 0.00033,
+      "active_odor": 0.09059,
+      "active_noise": 2e-05,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "total_homeo",
+      "par": 0.1,
+      "acc_all": 0.73911,
+      "acc_20": 0.85275,
+      "H": 1.01423,
+      "H_median": 0.63933,
+      "leak": 0.00844,
+      "leak_control": 0.01167,
+      "specific": -0.00323,
+      "active_odor": 0.08947,
+      "active_noise": 0.00082,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "total_homeo",
+      "par": 0.01,
+      "acc_all": 0.71247,
+      "acc_20": 0.82175,
+      "H": 1.63929,
+      "H_median": 0.80664,
+      "leak": 0.00649,
+      "leak_control": 0.00564,
+      "specific": 0.00085,
+      "active_odor": 0.08678,
+      "active_noise": 0.00012,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "mix",
+      "par": 0.2,
+      "acc_all": 0.74589,
+      "acc_20": 0.83475,
+      "H": 0.69399,
+      "H_median": 0.24837,
+      "leak": 0.00737,
+      "leak_control": 0.01921,
+      "specific": -0.01184,
+      "active_odor": 0.09006,
+      "active_noise": 0.00217,
+      "cv_spont": NaN,
+      "cv_raw": NaN
+    }
+  ]
+}

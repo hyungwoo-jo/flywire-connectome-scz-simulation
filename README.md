@@ -15,11 +15,12 @@
 - 학습만 해도, 잡음으로 생긴 거짓 "있다" 판단의 약 3분의 2가 학습한 냄새의 가치 신호를 띱니다. 입력이 많은 허브 KC가 냄새와 잡음 양쪽에 참여하기 때문이며, KC 입력을 고르게 맞추면 이 누출은 사라지고 구분은 좋아집니다 (25, 26). KC 사이의 보상은 누출을 줄이고, 냄새 구분은 부분 보상에서 가장 좋습니다 (27, 29). 이 누출은 나머지 사구체에 입력을 대입한 전체 회로에서도 유지되고 (28), KC 입력을 충분히 받는 거의 모든 MBON에서 나타납니다 (30).
 - 배선 수준의 KC 보상은 hemibrain에서만 약하게 보이고 BANC와 FlyWire에서는 반대 방향입니다. 같은 정의로 비교해도 다르므로 자료 차이입니다 (32, 34, 36).
 - 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36). KC끼리의 연결을 흥분성이나 억제성으로 넣어도 이 누출은 거의 바뀌지 않습니다 (37). 다만 누출의 상당 부분은 냄새 표상 자체보다 "입력 많은 KC에서 학습이 일어났다"는 점에서 옵니다 (38).
+- 처음 보는 수컷 커넥톰(MaleCNS 좌우)에서도 누출과 보상 방식별 효과가 사전 등록한 대로 재현됩니다. 자발 상태에서 자기 전체 활동을 맞추는 항상성은 기억을 지키면서 누출을 없앱니다. 다만 누출 크기를 숫자 하나(자발 입력 변동계수)로 예측하지는 못했습니다 (57, 58).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~57, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~58, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -76,7 +77,8 @@ data/        원자료 위치 (git 제외)
 | 55 | 기억 성능과 누출: Abdelrahman 2021의 보상과 비교 | [PREREGISTRATION_55](docs/PREREGISTRATION_55.md), [MEMORY_VS_LEAK](docs/MEMORY_VS_LEAK.md) |
 | 56 | 자발 활동 기준 항상성: 남은 누출 제거와 기억 비용 | [PREREGISTRATION_56](docs/PREREGISTRATION_56.md), [SPONTANEOUS_HOMEOSTASIS](docs/SPONTANEOUS_HOMEOSTASIS.md) |
 | 57 | 냄새 기준과 자발 기준 항상성의 혼합, 전체 활동 항상성 | [PREREGISTRATION_57](docs/PREREGISTRATION_57.md), [MIXED_HOMEOSTASIS](docs/MIXED_HOMEOSTASIS.md) |
-| 정리 | 이론 노트: 01~57을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 58 | MaleCNS(수컷)에서 미리 정한 예측 확인 | [PREREGISTRATION_58](docs/PREREGISTRATION_58.md), [MALECNS_PREDICTION](docs/MALECNS_PREDICTION.md) |
+| 정리 | 이론 노트: 01~58을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
@@ -86,6 +88,7 @@ data/        원자료 위치 (git 제외)
 
 - BANC v888: `data/banc_888_meta.feather`, `data/banc_888_edgelist_simple_v2.feather` ([BANC 프로젝트](https://github.com/htem/BANC-project)). 연결의 ID는 `root_888` 입니다.
 - hemibrain v1.2 압축 연결: `https://storage.googleapis.com/hemibrain/v1.2/exported-traced-adjacencies-v1.2.tar.gz`를 `data/hemibrain/`에 풉니다(35~).
+- MaleCNS v1.0 (CC-BY): [다운로드 페이지](https://male-cns.janelia.org/download/)의 `body-annotations-male-cns-v1.0-minconf-0.5.feather`, `connectome-weights-male-cns-v1.0-minconf-0.5.feather`를 `data/malecns/`에 둡니다(58).
 - FlyWire v783 연결: [Zenodo 10676866](https://zenodo.org/records/10676866)의 `proofread_connections_783.feather`를 `data/flywire/`에 둡니다(34). 주석은 `data/flywire_v783_neuron_annotations.tsv`.
 - DoOR.data 커밋 `db323a49`: `data/door/` 의 CSV 4개와 `data/door/receptors/*.csv` ([ropensci/DoOR.data](https://github.com/ropensci/DoOR.data)). URL과 해시는 `data/door/SOURCE.json`, `qc_reports/hallem_calibration/manifest.json` 에 기록되어 있습니다.
 
