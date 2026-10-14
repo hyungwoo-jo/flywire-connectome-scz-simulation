@@ -20,7 +20,7 @@
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~59, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~60, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -79,7 +79,8 @@ data/        원자료 위치 (git 제외)
 | 57 | 냄새 기준과 자발 기준 항상성의 혼합, 전체 활동 항상성 | [PREREGISTRATION_57](docs/PREREGISTRATION_57.md), [MIXED_HOMEOSTASIS](docs/MIXED_HOMEOSTASIS.md) |
 | 58 | MaleCNS(수컷)에서 미리 정한 예측 확인 | [PREREGISTRATION_58](docs/PREREGISTRATION_58.md), [MALECNS_PREDICTION](docs/MALECNS_PREDICTION.md) |
 | 59 | 누출 크기의 예측 변수와 시뮬레이션 표본 잡음 | [PREREGISTRATION_59](docs/PREREGISTRATION_59.md), [LEAK_PREDICTORS](docs/LEAK_PREDICTORS.md) |
-| 정리 | 이론 노트: 01~59을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 60 | 도파민 뉴런(PPL101) 배선으로 학습 위치 정하기 | [PREREGISTRATION_60](docs/PREREGISTRATION_60.md), [DAN_GATING](docs/DAN_GATING.md) |
+| 정리 | 이론 노트: 01~60을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 

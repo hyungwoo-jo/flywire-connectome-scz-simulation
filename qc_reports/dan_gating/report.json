@@ -1,0 +1,197 @@
+{
+  "verdicts": {
+    "P1": true,
+    "P2": true,
+    "P3": true
+  },
+  "specific_mean_pct": [
+    {
+      "dataset": "BANC_right",
+      "dan": 2.632,
+      "dan_shuffle": 3.022,
+      "uniform": 4.34
+    },
+    {
+      "dataset": "BANC_left",
+      "dan": 2.117,
+      "dan_shuffle": 0.83,
+      "uniform": 3.831
+    },
+    {
+      "dataset": "FlyWire_right",
+      "dan": 2.233,
+      "dan_shuffle": 2.459,
+      "uniform": 2.136
+    },
+    {
+      "dataset": "FlyWire_left",
+      "dan": 2.159,
+      "dan_shuffle": 2.177,
+      "uniform": 1.903
+    },
+    {
+      "dataset": "hemibrain_right",
+      "dan": 3.796,
+      "dan_shuffle": 3.532,
+      "uniform": 3.312
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "dan": 2.751,
+      "dan_shuffle": 2.7,
+      "uniform": 2.438
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "dan": 3.309,
+      "dan_shuffle": 3.397,
+      "uniform": 3.067
+    }
+  ],
+  "specific_sd_pct": [
+    {
+      "dataset": "BANC_right",
+      "dan": 0.713,
+      "dan_shuffle": 0.664,
+      "uniform": 1.15
+    },
+    {
+      "dataset": "BANC_left",
+      "dan": 0.707,
+      "dan_shuffle": 0.421,
+      "uniform": 0.53
+    },
+    {
+      "dataset": "FlyWire_right",
+      "dan": 0.532,
+      "dan_shuffle": 0.421,
+      "uniform": 0.41
+    },
+    {
+      "dataset": "FlyWire_left",
+      "dan": 0.273,
+      "dan_shuffle": 0.193,
+      "uniform": 0.23
+    },
+    {
+      "dataset": "hemibrain_right",
+      "dan": 0.751,
+      "dan_shuffle": 0.802,
+      "uniform": 0.673
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "dan": 0.344,
+      "dan_shuffle": 0.323,
+      "uniform": 0.319
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "dan": 0.636,
+      "dan_shuffle": 0.694,
+      "uniform": 0.567
+    }
+  ],
+  "H_mean": [
+    {
+      "dataset": "BANC_right",
+      "dan": 10.622,
+      "dan_shuffle": 9.602,
+      "uniform": 10.644
+    },
+    {
+      "dataset": "BANC_left",
+      "dan": 38.157,
+      "dan_shuffle": 11.38,
+      "uniform": 12.11
+    },
+    {
+      "dataset": "FlyWire_right",
+      "dan": 5.144,
+      "dan_shuffle": 6.466,
+      "uniform": 6.36
+    },
+    {
+      "dataset": "FlyWire_left",
+      "dan": 4.958,
+      "dan_shuffle": 5.47,
+      "uniform": 5.416
+    },
+    {
+      "dataset": "hemibrain_right",
+      "dan": 7.241,
+      "dan_shuffle": 6.817,
+      "uniform": 6.731
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "dan": 8.58,
+      "dan_shuffle": 8.125,
+      "uniform": 7.453
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "dan": 8.06,
+      "dan_shuffle": 8.425,
+      "uniform": 7.636
+    }
+  ],
+  "gate_stats": [
+    {
+      "dataset": "BANC_right",
+      "dan": "720575941689127692",
+      "gated_kc": 97,
+      "gated_read_share": 0.0837,
+      "rho_s_gate": -0.0299,
+      "rho_s_gate_within_mean": -0.0067
+    },
+    {
+      "dataset": "BANC_left",
+      "dan": "720575941416009108",
+      "gated_kc": 53,
+      "gated_read_share": 0.0569,
+      "rho_s_gate": -0.0866,
+      "rho_s_gate_within_mean": -0.0667
+    },
+    {
+      "dataset": "FlyWire_right",
+      "dan": "720575940617691170",
+      "gated_kc": 602,
+      "gated_read_share": 0.281,
+      "rho_s_gate": 0.061,
+      "rho_s_gate_within_mean": 0.0334
+    },
+    {
+      "dataset": "FlyWire_left",
+      "dan": "720575940621040737",
+      "gated_kc": 887,
+      "gated_read_share": 0.4305,
+      "rho_s_gate": 0.07,
+      "rho_s_gate_within_mean": 0.0307
+    },
+    {
+      "dataset": "hemibrain_right",
+      "dan": "393766777",
+      "gated_kc": 1304,
+      "gated_read_share": 0.7692,
+      "rho_s_gate": 0.3448,
+      "rho_s_gate_within_mean": 0.1567
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "dan": "11327",
+      "gated_kc": 1330,
+      "gated_read_share": 0.7201,
+      "rho_s_gate": 0.1245,
+      "rho_s_gate_within_mean": 0.0044
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "dan": "11900",
+      "gated_kc": 1272,
+      "gated_read_share": 0.7297,
+      "rho_s_gate": 0.1556,
+      "rho_s_gate_within_mean": 0.1099
+    }
+  ]
+}
