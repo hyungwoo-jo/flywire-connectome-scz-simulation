@@ -1,0 +1,284 @@
+{
+  "verdicts": {
+    "Q1": "criterion",
+    "Q2": false,
+    "Q3": false
+  },
+  "swap_mean_pct": {
+    "seed": 200.0,
+    "LL": 3.0805,
+    "RR": 2.4389,
+    "LR": 2.4718,
+    "RL": 2.9468,
+    "crit_part": 0.5584,
+    "noise_part": 0.0833
+  },
+  "lr_specific_diff_pct": {
+    "original": 0.6284931506849318,
+    "shuffle": 0.4191780821917801,
+    "uniform": 0.536986301369863
+  },
+  "summary": [
+    {
+      "dataset": "BANC_left",
+      "variant": "original",
+      "rep_rate": 0.0592,
+      "crit_median": 0.38907,
+      "noise_value_mean": 0.46903,
+      "learned": 0.03864,
+      "control": 0.00032,
+      "specific": 0.03831
+    },
+    {
+      "dataset": "BANC_left",
+      "variant": "shuffle",
+      "rep_rate": 0.0592,
+      "crit_median": 0.38966,
+      "noise_value_mean": 0.45895,
+      "learned": 0.03764,
+      "control": 0.00042,
+      "specific": 0.03722
+    },
+    {
+      "dataset": "BANC_left",
+      "variant": "uniform",
+      "rep_rate": 0.0592,
+      "crit_median": 0.38761,
+      "noise_value_mean": 0.45935,
+      "learned": 0.03822,
+      "control": 0.0002,
+      "specific": 0.03802
+    },
+    {
+      "dataset": "BANC_right",
+      "variant": "original",
+      "rep_rate": 0.0648,
+      "crit_median": 0.35369,
+      "noise_value_mean": 0.42988,
+      "learned": 0.04363,
+      "control": 0.00022,
+      "specific": 0.0434
+    },
+    {
+      "dataset": "BANC_right",
+      "variant": "shuffle",
+      "rep_rate": 0.0648,
+      "crit_median": 0.36703,
+      "noise_value_mean": 0.46112,
+      "learned": 0.04541,
+      "control": 0.00012,
+      "specific": 0.04529
+    },
+    {
+      "dataset": "BANC_right",
+      "variant": "uniform",
+      "rep_rate": 0.0648,
+      "crit_median": 0.36881,
+      "noise_value_mean": 0.47292,
+      "learned": 0.04623,
+      "control": 4e-05,
+      "specific": 0.04619
+    },
+    {
+      "dataset": "FlyWire_left",
+      "variant": "original",
+      "rep_rate": 0.058,
+      "crit_median": 0.25271,
+      "noise_value_mean": 0.17285,
+      "learned": 0.01917,
+      "control": 0.00014,
+      "specific": 0.01903
+    },
+    {
+      "dataset": "FlyWire_left",
+      "variant": "shuffle",
+      "rep_rate": 0.058,
+      "crit_median": 0.25913,
+      "noise_value_mean": 0.1706,
+      "learned": 0.01849,
+      "control": 0.00024,
+      "specific": 0.01825
+    },
+    {
+      "dataset": "FlyWire_left",
+      "variant": "uniform",
+      "rep_rate": 0.058,
+      "crit_median": 0.25773,
+      "noise_value_mean": 0.16913,
+      "learned": 0.01849,
+      "control": 0.00028,
+      "specific": 0.01821
+    },
+    {
+      "dataset": "FlyWire_right",
+      "variant": "original",
+      "rep_rate": 0.06,
+      "crit_median": 0.27671,
+      "noise_value_mean": 0.2124,
+      "learned": 0.0214,
+      "control": 3e-05,
+      "specific": 0.02136
+    },
+    {
+      "dataset": "FlyWire_right",
+      "variant": "shuffle",
+      "rep_rate": 0.06,
+      "crit_median": 0.28892,
+      "noise_value_mean": 0.22249,
+      "learned": 0.02213,
+      "control": 0.0001,
+      "specific": 0.02203
+    },
+    {
+      "dataset": "FlyWire_right",
+      "variant": "uniform",
+      "rep_rate": 0.06,
+      "crit_median": 0.29347,
+      "noise_value_mean": 0.22559,
+      "learned": 0.02224,
+      "control": 4e-05,
+      "specific": 0.0222
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "variant": "original",
+      "rep_rate": 0.0576,
+      "crit_median": 0.27012,
+      "noise_value_mean": 0.2802,
+      "learned": 0.03081,
+      "control": 0.00014,
+      "specific": 0.03067
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "variant": "shuffle",
+      "rep_rate": 0.0576,
+      "crit_median": 0.27174,
+      "noise_value_mean": 0.25901,
+      "learned": 0.02866,
+      "control": 0.00032,
+      "specific": 0.02834
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "variant": "uniform",
+      "rep_rate": 0.0576,
+      "crit_median": 0.27635,
+      "noise_value_mean": 0.27227,
+      "learned": 0.02928,
+      "control": 0.00014,
+      "specific": 0.02915
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "variant": "original",
+      "rep_rate": 0.0544,
+      "crit_median": 0.30164,
+      "noise_value_mean": 0.28538,
+      "learned": 0.02439,
+      "control": 1e-05,
+      "specific": 0.02438
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "variant": "shuffle",
+      "rep_rate": 0.0544,
+      "crit_median": 0.29146,
+      "noise_value_mean": 0.2698,
+      "learned": 0.02416,
+      "control": 1e-05,
+      "specific": 0.02415
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "variant": "uniform",
+      "rep_rate": 0.0544,
+      "crit_median": 0.28937,
+      "noise_value_mean": 0.26967,
+      "learned": 0.02379,
+      "control": 2e-05,
+      "specific": 0.02378
+    },
+    {
+      "dataset": "hemibrain_right",
+      "variant": "original",
+      "rep_rate": 0.0544,
+      "crit_median": 0.29178,
+      "noise_value_mean": 0.35283,
+      "learned": 0.03327,
+      "control": 0.00014,
+      "specific": 0.03312
+    },
+    {
+      "dataset": "hemibrain_right",
+      "variant": "shuffle",
+      "rep_rate": 0.0544,
+      "crit_median": 0.29232,
+      "noise_value_mean": 0.34427,
+      "learned": 0.03174,
+      "control": 0.00012,
+      "specific": 0.03162
+    },
+    {
+      "dataset": "hemibrain_right",
+      "variant": "uniform",
+      "rep_rate": 0.0544,
+      "crit_median": 0.29458,
+      "noise_value_mean": 0.35125,
+      "learned": 0.03265,
+      "control": 0.0001,
+      "specific": 0.03255
+    }
+  ],
+  "overlap": [
+    {
+      "dataset": "BANC_right",
+      "rho_w_breadth": -0.1193,
+      "rho_w_noise": -0.0773,
+      "rho_w_spont": -0.0472,
+      "w_gini": 0.3642
+    },
+    {
+      "dataset": "BANC_left",
+      "rho_w_breadth": -0.1146,
+      "rho_w_noise": -0.107,
+      "rho_w_spont": -0.0581,
+      "w_gini": 0.2875
+    },
+    {
+      "dataset": "FlyWire_right",
+      "rho_w_breadth": 0.1099,
+      "rho_w_noise": 0.0674,
+      "rho_w_spont": 0.1244,
+      "w_gini": 0.3066
+    },
+    {
+      "dataset": "FlyWire_left",
+      "rho_w_breadth": 0.0664,
+      "rho_w_noise": 0.0934,
+      "rho_w_spont": 0.1051,
+      "w_gini": 0.3215
+    },
+    {
+      "dataset": "hemibrain_right",
+      "rho_w_breadth": 0.3558,
+      "rho_w_noise": 0.3517,
+      "rho_w_spont": 0.3911,
+      "w_gini": 0.3351
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "rho_w_breadth": 0.1327,
+      "rho_w_noise": 0.2288,
+      "rho_w_spont": 0.195,
+      "w_gini": 0.3807
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "rho_w_breadth": 0.1093,
+      "rho_w_noise": 0.1749,
+      "rho_w_spont": 0.144,
+      "w_gini": 0.3355
+    }
+  ]
+}
