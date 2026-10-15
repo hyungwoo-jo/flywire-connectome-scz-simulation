@@ -1,0 +1,323 @@
+{
+  "verdicts": {
+    "V1": true,
+    "V2": {
+      "original": true,
+      "flat": true,
+      "theta_homeo": false,
+      "total_homeo": false
+    }
+  },
+  "real": {
+    "rho_B_S": 0.24206493628611486,
+    "p": 0.0038996100389961006,
+    "rho_B_Sr": 0.30868317062396616,
+    "p_Sr": 0.00039996000399960006,
+    "n_cells": 124,
+    "B_counts": [
+      78,
+      27,
+      9,
+      4,
+      3,
+      3,
+      0
+    ],
+    "S_mean": 0.08064516129032256,
+    "odor_sig_trial_frac": {
+      "ethyl-lactate": 0.24596774193548387,
+      "ethyloctanoate": 0.08333333333333333,
+      "methyloctanoate": 0.0739247311827957,
+      "2-heptanone": 0.2163978494623656,
+      "pentyl-acetate": 0.10080645161290322,
+      "diethyl-succinate": 0.0739247311827957
+    },
+    "odor_reliable_frac": {
+      "ethyl-lactate": 0.21774193548387097,
+      "ethyloctanoate": 0.08064516129032258,
+      "methyloctanoate": 0.024193548387096774,
+      "2-heptanone": 0.21774193548387097,
+      "pentyl-acetate": 0.08064516129032258,
+      "diethyl-succinate": 0.056451612903225805
+    },
+    "rho_B_basesd": 0.11262215706545453
+  },
+  "model_pooled_interval": {
+    "original": [
+      -0.048241933915369344,
+      0.4345175417312253
+    ],
+    "flat": [
+      -0.12174636745920321,
+      0.29802120629935347
+    ],
+    "theta_homeo": [
+      -0.17065646045028335,
+      0.21065640624040233
+    ],
+    "total_homeo": [
+      -0.06597944605660379,
+      0.07144564841664629
+    ]
+  },
+  "posthoc_obs_percentile": {
+    "original": 0.6601428571428571,
+    "flat": 0.9334285714285714,
+    "theta_homeo": 0.9877142857142858,
+    "total_homeo": 0.9995714285714286
+  },
+  "model": [
+    {
+      "dataset": "BANC_right",
+      "condition": "original",
+      "rho_lo": -0.0471,
+      "rho_med": 0.2047,
+      "rho_hi": 0.459,
+      "odor_active": 0.1034,
+      "blank_active": 0.004
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "original",
+      "rho_lo": -0.0416,
+      "rho_med": 0.2484,
+      "rho_hi": 0.4876,
+      "odor_active": 0.1055,
+      "blank_active": 0.0049
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "original",
+      "rho_lo": -0.0514,
+      "rho_med": 0.1824,
+      "rho_hi": 0.3985,
+      "odor_active": 0.1021,
+      "blank_active": 0.0031
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "original",
+      "rho_lo": -0.0493,
+      "rho_med": 0.1548,
+      "rho_hi": 0.384,
+      "odor_active": 0.0977,
+      "blank_active": 0.003
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "original",
+      "rho_lo": -0.0472,
+      "rho_med": 0.2214,
+      "rho_hi": 0.4716,
+      "odor_active": 0.1062,
+      "blank_active": 0.005
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "original",
+      "rho_lo": -0.0493,
+      "rho_med": 0.1847,
+      "rho_hi": 0.3875,
+      "odor_active": 0.108,
+      "blank_active": 0.0032
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "original",
+      "rho_lo": -0.0514,
+      "rho_med": 0.1691,
+      "rho_hi": 0.3862,
+      "odor_active": 0.1085,
+      "blank_active": 0.0026
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "flat",
+      "rho_lo": -0.1208,
+      "rho_med": 0.0,
+      "rho_hi": 0.2394,
+      "odor_active": 0.1162,
+      "blank_active": 0.0023
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "flat",
+      "rho_lo": -0.1264,
+      "rho_med": 0.0,
+      "rho_hi": 0.2769,
+      "odor_active": 0.1181,
+      "blank_active": 0.0034
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "flat",
+      "rho_lo": -0.1313,
+      "rho_med": 0.0,
+      "rho_hi": 0.3109,
+      "odor_active": 0.112,
+      "blank_active": 0.0034
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "flat",
+      "rho_lo": -0.1253,
+      "rho_med": 0.0,
+      "rho_hi": 0.3105,
+      "odor_active": 0.1091,
+      "blank_active": 0.0032
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "flat",
+      "rho_lo": -0.1155,
+      "rho_med": 0.0,
+      "rho_hi": 0.3325,
+      "odor_active": 0.118,
+      "blank_active": 0.0035
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "flat",
+      "rho_lo": -0.1171,
+      "rho_med": 0.0,
+      "rho_hi": 0.2716,
+      "odor_active": 0.1232,
+      "blank_active": 0.0022
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "flat",
+      "rho_lo": -0.1169,
+      "rho_med": 0.0,
+      "rho_hi": 0.2939,
+      "odor_active": 0.1151,
+      "blank_active": 0.0029
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1336,
+      "rho_med": 0.0633,
+      "rho_hi": 0.2617,
+      "odor_active": 0.1112,
+      "blank_active": 0.0081
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1322,
+      "rho_med": 0.0432,
+      "rho_hi": 0.2465,
+      "odor_active": 0.1068,
+      "blank_active": 0.0091
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1679,
+      "rho_med": -0.019,
+      "rho_hi": 0.1917,
+      "odor_active": 0.1011,
+      "blank_active": 0.0058
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1711,
+      "rho_med": -0.0337,
+      "rho_hi": 0.1565,
+      "odor_active": 0.1005,
+      "blank_active": 0.006
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1815,
+      "rho_med": -0.0656,
+      "rho_hi": 0.1494,
+      "odor_active": 0.1109,
+      "blank_active": 0.0056
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1806,
+      "rho_med": -0.0362,
+      "rho_hi": 0.1509,
+      "odor_active": 0.1112,
+      "blank_active": 0.0057
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.1707,
+      "rho_med": -0.0249,
+      "rho_hi": 0.176,
+      "odor_active": 0.1041,
+      "blank_active": 0.0057
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.0609,
+      "rho_med": 0.0,
+      "rho_hi": 0.0897,
+      "odor_active": 0.1137,
+      "blank_active": 0.0002
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.0639,
+      "rho_med": 0.0,
+      "rho_hi": 0.1366,
+      "odor_active": 0.1165,
+      "blank_active": 0.0003
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.065,
+      "rho_med": 0.0,
+      "rho_hi": 0.0,
+      "odor_active": 0.1132,
+      "blank_active": 0.0002
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.0671,
+      "rho_med": 0.0,
+      "rho_hi": 0.0054,
+      "odor_active": 0.1062,
+      "blank_active": 0.0002
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.0682,
+      "rho_med": 0.0,
+      "rho_hi": 0.0004,
+      "odor_active": 0.1225,
+      "blank_active": 0.0001
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.0671,
+      "rho_med": 0.0,
+      "rho_hi": 0.0,
+      "odor_active": 0.1182,
+      "blank_active": 0.0001
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.0665,
+      "rho_med": 0.0,
+      "rho_hi": 0.0,
+      "odor_active": 0.1144,
+      "blank_active": 0.0001
+    }
+  ]
+}

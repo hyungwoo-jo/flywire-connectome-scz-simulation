@@ -17,11 +17,12 @@
 - 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36). KC끼리의 연결을 흥분성이나 억제성으로 넣어도 이 누출은 거의 바뀌지 않습니다 (37). 다만 누출의 상당 부분은 냄새 표상 자체보다 "입력 많은 KC에서 학습이 일어났다"는 점에서 옵니다 (38).
 - 처음 보는 수컷 커넥톰(MaleCNS 좌우)에서도 누출과 보상 방식별 효과가 사전 등록한 대로 재현됩니다. 자발 상태에서 자기 전체 활동을 맞추는 항상성은 기억을 지키면서 누출을 없앱니다. 다만 누출 크기를 숫자 하나(자발 입력 변동계수)로 예측하지는 못했습니다 (57, 58).
 - 누출은 "자발 신호 대 약한 진짜 신호"의 비율입니다. MaleCNS 왼쪽은 PN 입력이 약해 학습이 얕게 새겨지고, 그만큼 약한 진짜 신호가 작아 같은 잡음을 더 자주 의미 있게 받아들입니다. 억제(APL)나 MBON11 가중치 배열은 원인이 아니었습니다 (61, 62).
+- 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~62, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~63, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -83,7 +84,8 @@ data/        원자료 위치 (git 제외)
 | 60 | 도파민 뉴런(PPL101) 배선으로 학습 위치 정하기 | [PREREGISTRATION_60](docs/PREREGISTRATION_60.md), [DAN_GATING](docs/DAN_GATING.md) |
 | 61 | MaleCNS 왼쪽의 큰 누출 분해 (기준 교환, 가중치 반사실) | [PREREGISTRATION_61](docs/PREREGISTRATION_61.md), [LEAK_LEFT_RIGHT](docs/LEAK_LEFT_RIGHT.md) |
 | 62 | 왼쪽의 약한 냄새 신호가 작은 이유 (회로 반사실, 겹침 분해) | [PREREGISTRATION_62](docs/PREREGISTRATION_62.md), [WEAK_SIGNAL_SOURCES](docs/WEAK_SIGNAL_SOURCES.md) |
-| 정리 | 이론 노트: 01~62를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 63 | 실제 KC 영상(Campbell 2013)으로 허브 기전 확인 | [PREREGISTRATION_63](docs/PREREGISTRATION_63.md), [KC_IMAGING_HUBS](docs/KC_IMAGING_HUBS.md) |
+| 정리 | 이론 노트: 01~63을 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
@@ -94,6 +96,7 @@ data/        원자료 위치 (git 제외)
 - BANC v888: `data/banc_888_meta.feather`, `data/banc_888_edgelist_simple_v2.feather` ([BANC 프로젝트](https://github.com/htem/BANC-project)). 연결의 ID는 `root_888` 입니다.
 - hemibrain v1.2 압축 연결: `https://storage.googleapis.com/hemibrain/v1.2/exported-traced-adjacencies-v1.2.tar.gz`를 `data/hemibrain/`에 풉니다(35~).
 - MaleCNS v1.0 (CC-BY): [다운로드 페이지](https://male-cns.janelia.org/download/)의 `body-annotations-male-cns-v1.0-minconf-0.5.feather`, `connectome-weights-male-cns-v1.0-minconf-0.5.feather`를 `data/malecns/`에 둡니다(58).
+- Campbell et al. 2013 KC 칼슘 영상 (CC-BY 4.0): [Zenodo 8021893](https://zenodo.org/records/8021893)의 `data_series_time_frames.zip`(gzip tar)을 `data/campbell2013/`에 두고 `raw/`에 풉니다(63).
 - FlyWire v783 연결: [Zenodo 10676866](https://zenodo.org/records/10676866)의 `proofread_connections_783.feather`를 `data/flywire/`에 둡니다(34). 주석은 `data/flywire_v783_neuron_annotations.tsv`.
 - DoOR.data 커밋 `db323a49`: `data/door/` 의 CSV 4개와 `data/door/receptors/*.csv` ([ropensci/DoOR.data](https://github.com/ropensci/DoOR.data)). URL과 해시는 `data/door/SOURCE.json`, `qc_reports/hallem_calibration/manifest.json` 에 기록되어 있습니다.
 
