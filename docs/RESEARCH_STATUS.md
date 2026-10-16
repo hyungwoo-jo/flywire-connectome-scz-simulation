@@ -152,5 +152,6 @@
 - 61 계획과 결과: PREREGISTRATION_61.md, LEAK_LEFT_RIGHT.md
 - 62 계획과 결과: PREREGISTRATION_62.md, WEAK_SIGNAL_SOURCES.md
 - 63 계획과 결과: PREREGISTRATION_63.md, KC_IMAGING_HUBS.md (첫 실측 대조)
+- 64 계획과 결과: PREREGISTRATION_64.md, KC_SPONTANEOUS_EVENTS.md (순수 자발 구간, 63과 반대 방향)
 - 이론 노트(전체 요약): THEORY_NOTE.md, 공개 자료 점검: PUBLIC_DATA_CHECK.md
 - 쉬운 설명: RESEARCH_FLOW_EASY.md

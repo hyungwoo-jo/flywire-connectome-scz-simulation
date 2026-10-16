@@ -1,0 +1,295 @@
+{
+  "verdicts": {
+    "W1": false,
+    "W2_pass": true,
+    "W3": {
+      "original": false,
+      "flat": true,
+      "theta_homeo": true,
+      "total_homeo": true
+    },
+    "W4": false
+  },
+  "real": {
+    "rho_B_Rpos": -0.036830575546375977,
+    "p": 0.6635336466353364,
+    "rho_B_Rneg": 0.12826641247310824,
+    "p_neg_two_sided": 0.15358464153584642,
+    "rho_B_Rpos_Blt4": 0.030707519324875015,
+    "p_Blt4": 0.3775622437756224,
+    "n_Blt4": 118,
+    "mean_Rpos": 0.034754224270353296,
+    "mean_Rneg": 0.01094470046082949,
+    "rho_Rpos_S": -0.08404896782046349,
+    "sensitivity": {
+      "z2.5_run2": {
+        "rho_pos": -0.06570769736799603,
+        "rho_neg": 0.10734237676071978,
+        "mean_pos": 0.0814132104454685,
+        "mean_neg": 0.04109062980030722
+      },
+      "z3.5_run2": {
+        "rho_pos": -0.06000941183160396,
+        "rho_neg": 0.13272628751099272,
+        "mean_pos": 0.014784946236559137,
+        "mean_neg": 0.0030721966205837174
+      },
+      "z3.0_run1": {
+        "rho_pos": 0.11150574138183364,
+        "rho_neg": 0.04813645425244442,
+        "mean_pos": 0.09082181259600612,
+        "mean_neg": 0.03341013824884792
+      }
+    }
+  },
+  "model_pooled_interval": {
+    "original": [
+      0.2700278602491215,
+      0.7214940050740369
+    ],
+    "flat": [
+      -0.0899910726159492,
+      0.30954645477811144
+    ],
+    "theta_homeo": [
+      -0.2753949757938565,
+      0.2420377529103451
+    ],
+    "total_homeo": [
+      -0.18104090200991246,
+      0.20528711138775288
+    ]
+  },
+  "obs_percentile": {
+    "original": 0.0,
+    "flat": 0.07371428571428572,
+    "theta_homeo": 0.6178571428571429,
+    "total_homeo": 0.477
+  },
+  "model": [
+    {
+      "dataset": "BANC_right",
+      "condition": "original",
+      "rho_lo": 0.3677,
+      "rho_med": 0.5847,
+      "rho_hi": 0.7524,
+      "blank_active": 0.0042
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "original",
+      "rho_lo": 0.4148,
+      "rho_med": 0.6117,
+      "rho_hi": 0.7794,
+      "blank_active": 0.0051
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "original",
+      "rho_lo": 0.2909,
+      "rho_med": 0.5007,
+      "rho_hi": 0.671,
+      "blank_active": 0.0032
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "original",
+      "rho_lo": 0.2665,
+      "rho_med": 0.4765,
+      "rho_hi": 0.6586,
+      "blank_active": 0.003
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "original",
+      "rho_lo": 0.2575,
+      "rho_med": 0.4787,
+      "rho_hi": 0.6597,
+      "blank_active": 0.0048
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "original",
+      "rho_lo": 0.2361,
+      "rho_med": 0.4346,
+      "rho_hi": 0.6133,
+      "blank_active": 0.0032
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "original",
+      "rho_lo": 0.254,
+      "rho_med": 0.4562,
+      "rho_hi": 0.6362,
+      "blank_active": 0.0026
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "flat",
+      "rho_lo": -0.1142,
+      "rho_med": 0.0719,
+      "rho_hi": 0.2899,
+      "blank_active": 0.0023
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "flat",
+      "rho_lo": -0.0621,
+      "rho_med": 0.1227,
+      "rho_hi": 0.3299,
+      "blank_active": 0.0036
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "flat",
+      "rho_lo": -0.0639,
+      "rho_med": 0.1282,
+      "rho_hi": 0.3109,
+      "blank_active": 0.0034
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "flat",
+      "rho_lo": -0.097,
+      "rho_med": 0.0977,
+      "rho_hi": 0.2931,
+      "blank_active": 0.0033
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "flat",
+      "rho_lo": -0.1009,
+      "rho_med": 0.083,
+      "rho_hi": 0.2765,
+      "blank_active": 0.0031
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "flat",
+      "rho_lo": -0.0722,
+      "rho_med": 0.1256,
+      "rho_hi": 0.3262,
+      "blank_active": 0.0024
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "flat",
+      "rho_lo": -0.0611,
+      "rho_med": 0.1353,
+      "rho_hi": 0.3175,
+      "blank_active": 0.0032
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.0398,
+      "rho_med": 0.1398,
+      "rho_hi": 0.3085,
+      "blank_active": 0.0081
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.0887,
+      "rho_med": 0.0791,
+      "rho_hi": 0.2545,
+      "blank_active": 0.0093
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.2792,
+      "rho_med": -0.1219,
+      "rho_hi": 0.063,
+      "blank_active": 0.0061
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.2464,
+      "rho_med": -0.0825,
+      "rho_hi": 0.0944,
+      "blank_active": 0.0063
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.306,
+      "rho_med": -0.1607,
+      "rho_hi": -0.0074,
+      "blank_active": 0.0057
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "theta_homeo",
+      "rho_lo": -0.2938,
+      "rho_med": -0.1394,
+      "rho_hi": 0.0265,
+      "blank_active": 0.0053
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "theta_homeo",
+      "rho_lo": -0.2856,
+      "rho_med": -0.1303,
+      "rho_hi": 0.0261,
+      "blank_active": 0.0059
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.1258,
+      "rho_med": 0.0492,
+      "rho_hi": 0.2418,
+      "blank_active": 0.0002
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.1169,
+      "rho_med": 0.0671,
+      "rho_hi": 0.2785,
+      "blank_active": 0.0003
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.1841,
+      "rho_med": -0.0431,
+      "rho_hi": 0.1384,
+      "blank_active": 0.0001
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.1951,
+      "rho_med": -0.0662,
+      "rho_hi": 0.1177,
+      "blank_active": 0.0002
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.1704,
+      "rho_med": -0.0346,
+      "rho_hi": 0.1455,
+      "blank_active": 0.0001
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "total_homeo",
+      "rho_lo": -0.1936,
+      "rho_med": -0.0819,
+      "rho_hi": 0.0889,
+      "blank_active": 0.0001
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "total_homeo",
+      "rho_lo": -0.1835,
+      "rho_med": -0.0651,
+      "rho_hi": 0.1235,
+      "blank_active": 0.0001
+    }
+  ]
+}
