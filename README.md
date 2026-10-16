@@ -17,12 +17,12 @@
 - 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36). KC끼리의 연결을 흥분성이나 억제성으로 넣어도 이 누출은 거의 바뀌지 않습니다 (37). 다만 누출의 상당 부분은 냄새 표상 자체보다 "입력 많은 KC에서 학습이 일어났다"는 점에서 옵니다 (38).
 - 처음 보는 수컷 커넥톰(MaleCNS 좌우)에서도 누출과 보상 방식별 효과가 사전 등록한 대로 재현됩니다. 자발 상태에서 자기 전체 활동을 맞추는 항상성은 기억을 지키면서 누출을 없앱니다. 다만 누출 크기를 숫자 하나(자발 입력 변동계수)로 예측하지는 못했습니다 (57, 58).
 - 누출은 "자발 신호 대 약한 진짜 신호"의 비율입니다. MaleCNS 왼쪽은 PN 입력이 약해 학습이 얕게 새겨지고, 그만큼 약한 진짜 신호가 작아 같은 잡음을 더 자주 의미 있게 받아들입니다. 억제(APL)나 MBON11 가중치 배열은 원인이 아니었습니다 (61, 62).
-- 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63). 그러나 자극 없는 냄새 전 구간의 자발 칼슘 사건에서는 이 상관이 없었고(−0.04), 원래 커넥톰 모형의 예측(0.27 이상)과 맞지 않았습니다. GCaMP3의 감도 한계가 있어 아직 열린 문제입니다 (64).
+- 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63). 그러나 자극 없는 냄새 전 구간의 자발 칼슘 사건에서는 이 상관이 없었고(−0.04), 원래 커넥톰 모형의 예측(0.27 이상)과 맞지 않았습니다. 더 민감한 GCaMP6f로 찍은 20마리, 세포 2,286개에서도 같았습니다. 반응 폭이 넓은 KC는 약한 비특이 자극(용매)에는 잘 반응하지만(20/20마리), 자발적으로 더 켜지지는 않습니다. 원래 커넥톰 모형의 이 예측은 기각되었고, 실측은 자발 활동을 보상한 모형(57의 전체 활동 항상성 등)과 맞습니다. 순수 자발 누출은 원래 모형에서 과대평가되었을 가능성이 큽니다 (64, 65).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~64, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~65, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -86,7 +86,8 @@ data/        원자료 위치 (git 제외)
 | 62 | 왼쪽의 약한 냄새 신호가 작은 이유 (회로 반사실, 겹침 분해) | [PREREGISTRATION_62](docs/PREREGISTRATION_62.md), [WEAK_SIGNAL_SOURCES](docs/WEAK_SIGNAL_SOURCES.md) |
 | 63 | 실제 KC 영상(Campbell 2013)으로 허브 기전 확인 | [PREREGISTRATION_63](docs/PREREGISTRATION_63.md), [KC_IMAGING_HUBS](docs/KC_IMAGING_HUBS.md) |
 | 64 | 같은 KC 영상의 냄새 전 자발 칼슘 사건으로 다시 확인 | [PREREGISTRATION_64](docs/PREREGISTRATION_64.md), [KC_SPONTANEOUS_EVENTS](docs/KC_SPONTANEOUS_EVENTS.md) |
-| 정리 | 이론 노트: 01~64를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
+| 65 | GCaMP6f 20마리 KC 영상(Chan 2026)으로 63과 64 재검증 | [PREREGISTRATION_65](docs/PREREGISTRATION_65.md), [KC_IMAGING_CHAN2026](docs/KC_IMAGING_CHAN2026.md) |
+| 정리 | 이론 노트: 01~65를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
 
@@ -98,6 +99,7 @@ data/        원자료 위치 (git 제외)
 - hemibrain v1.2 압축 연결: `https://storage.googleapis.com/hemibrain/v1.2/exported-traced-adjacencies-v1.2.tar.gz`를 `data/hemibrain/`에 풉니다(35~).
 - MaleCNS v1.0 (CC-BY): [다운로드 페이지](https://male-cns.janelia.org/download/)의 `body-annotations-male-cns-v1.0-minconf-0.5.feather`, `connectome-weights-male-cns-v1.0-minconf-0.5.feather`를 `data/malecns/`에 둡니다(58).
 - Campbell et al. 2013 KC 칼슘 영상 (CC-BY 4.0): [Zenodo 8021893](https://zenodo.org/records/8021893)의 `data_series_time_frames.zip`(gzip tar)을 `data/campbell2013/`에 두고 `raw/`에 풉니다(63).
+- Chan et al. 2026 KC 칼슘 영상 (CC-BY 4.0): [Zenodo 21821328](https://zenodo.org/records/21821328)의 `traces.tar.xz`를 `data/chan2026/`에 두고 `raw/`에 풉니다(65).
 - FlyWire v783 연결: [Zenodo 10676866](https://zenodo.org/records/10676866)의 `proofread_connections_783.feather`를 `data/flywire/`에 둡니다(34). 주석은 `data/flywire_v783_neuron_annotations.tsv`.
 - DoOR.data 커밋 `db323a49`: `data/door/` 의 CSV 4개와 `data/door/receptors/*.csv` ([ropensci/DoOR.data](https://github.com/ropensci/DoOR.data)). URL과 해시는 `data/door/SOURCE.json`, `qc_reports/hallem_calibration/manifest.json` 에 기록되어 있습니다.
 

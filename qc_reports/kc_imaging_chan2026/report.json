@@ -1,0 +1,329 @@
+{
+  "verdicts": {
+    "X1": true,
+    "X2": false,
+    "X2_neg_guard_ok": true,
+    "X3": {
+      "oil": {
+        "original": false,
+        "flat": false,
+        "theta_homeo": false,
+        "total_homeo": false
+      },
+      "spont": {
+        "original": false,
+        "flat": true,
+        "theta_homeo": true,
+        "total_homeo": true
+      }
+    }
+  },
+  "real": {
+    "oil": 0.2679840368546607,
+    "p_oil": 9.5367431640625e-07,
+    "spont": 0.021010714999534292,
+    "p_spont": 0.28529834747314453,
+    "neg": 0.023255781363789682,
+    "p_neg": 0.38837623596191406,
+    "n_flies_oil": 20,
+    "n_flies_sp": 20
+  },
+  "by_type": [
+    {
+      "type": "ab",
+      "rho_oil": 0.2338,
+      "rho_sp": 0.0055,
+      "rho_neg": -0.0368,
+      "mean_B": 1.2641,
+      "mean_S": 0.2116,
+      "mean_Rp": 0.0121,
+      "odor_frac": 0.2107
+    },
+    {
+      "type": "all",
+      "rho_oil": 0.3626,
+      "rho_sp": 0.081,
+      "rho_neg": 0.0353,
+      "mean_B": 2.2487,
+      "mean_S": 0.2783,
+      "mean_Rp": 0.0194,
+      "odor_frac": 0.3748
+    },
+    {
+      "type": "apbp",
+      "rho_oil": 0.315,
+      "rho_sp": 0.0486,
+      "rho_neg": 0.0336,
+      "mean_B": 2.1218,
+      "mean_S": 0.3419,
+      "mean_Rp": 0.0231,
+      "odor_frac": 0.3536
+    },
+    {
+      "type": "g",
+      "rho_oil": 0.1606,
+      "rho_sp": -0.0511,
+      "rho_neg": 0.061,
+      "mean_B": 0.9287,
+      "mean_S": 0.1463,
+      "mean_Rp": 0.0146,
+      "odor_frac": 0.1548
+    }
+  ],
+  "sens": {
+    "B12_oil": 0.32727504955331654,
+    "B12_sp": 0.08601958682035345,
+    "sp_z2.5": 0.05889451272440597,
+    "sp_z3.5": 0.0326495952198567
+  },
+  "model_interval": {
+    "oil": {
+      "original": [
+        NaN,
+        NaN
+      ],
+      "flat": [
+        NaN,
+        NaN
+      ],
+      "theta_homeo": [
+        NaN,
+        NaN
+      ],
+      "total_homeo": [
+        NaN,
+        NaN
+      ]
+    },
+    "spont": {
+      "original": [
+        0.25248855424568123,
+        0.6199752900996736
+      ],
+      "flat": [
+        -0.031812690583762675,
+        0.21396354086124453
+      ],
+      "theta_homeo": [
+        -0.25098229431717667,
+        0.11789554428918501
+      ],
+      "total_homeo": [
+        -0.10717483342046279,
+        0.17032996139687415
+      ]
+    }
+  },
+  "obs_percentile": {
+    "oil": {
+      "original": 0.855,
+      "flat": 0.5792857142857143,
+      "theta_homeo": 0.9757142857142858,
+      "total_homeo": 0.2342857142857143
+    },
+    "spont": {
+      "original": 0.0,
+      "flat": 0.09071428571428572,
+      "theta_homeo": 0.7392857142857143,
+      "total_homeo": 0.7285714285714285
+    }
+  },
+  "model": [
+    {
+      "dataset": "BANC_right",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.5517,
+      "odor_active": 0.1162
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.0661,
+      "odor_active": 0.1389
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": 0.0562,
+      "odor_active": 0.1257
+    },
+    {
+      "dataset": "BANC_right",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": 0.0397,
+      "odor_active": 0.1281
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.5721,
+      "odor_active": 0.1131
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.0845,
+      "odor_active": 0.1346
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "theta_homeo",
+      "oil_med": 0.0327,
+      "spont_med": 0.0796,
+      "odor_active": 0.118
+    },
+    {
+      "dataset": "BANC_left",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": 0.0894,
+      "odor_active": 0.1252
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.4355,
+      "odor_active": 0.1113
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.1071,
+      "odor_active": 0.1276
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.1595,
+      "odor_active": 0.1163
+    },
+    {
+      "dataset": "FlyWire_right",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.038,
+      "odor_active": 0.1273
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.3939,
+      "odor_active": 0.1073
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.1131,
+      "odor_active": 0.1243
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.1161,
+      "odor_active": 0.1135
+    },
+    {
+      "dataset": "FlyWire_left",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.0492,
+      "odor_active": 0.1215
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.2983,
+      "odor_active": 0.1141
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.124,
+      "odor_active": 0.1393
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.2121,
+      "odor_active": 0.1249
+    },
+    {
+      "dataset": "hemibrain_right",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.0371,
+      "odor_active": 0.1373
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.3185,
+      "odor_active": 0.1155
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.1196,
+      "odor_active": 0.1384
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.202,
+      "odor_active": 0.1224
+    },
+    {
+      "dataset": "MaleCNS_right",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.0484,
+      "odor_active": 0.1355
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "original",
+      "oil_med": NaN,
+      "spont_med": 0.3115,
+      "odor_active": 0.119
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "flat",
+      "oil_med": NaN,
+      "spont_med": 0.1348,
+      "odor_active": 0.1339
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "theta_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.213,
+      "odor_active": 0.1206
+    },
+    {
+      "dataset": "MaleCNS_left",
+      "condition": "total_homeo",
+      "oil_med": NaN,
+      "spont_med": -0.0436,
+      "odor_active": 0.1338
+    }
+  ]
+}
