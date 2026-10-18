@@ -42,3 +42,10 @@ data/malecns/
 data/campbell2013/
 data/chan2026/
 data/campbell2013_supp/
+
+# Primary physiological literature used for measurement review
+data/physiology_review/
+
+# 67 regenerable per-trial metrics
+qc_reports/postlearning_readout/metrics.csv
+qc_reports/postlearning_readout_validation/metrics.csv

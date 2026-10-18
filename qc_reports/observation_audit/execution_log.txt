@@ -1,0 +1,56 @@
+/home/hyungwoo/codespace/flywire_connectome/pipelines/65x_observation_model.py:57: RuntimeWarning: All-NaN slice encountered
+  peak=np.nanmax(norm[:,before:],axis=1);peaks.extend(peak[ok&np.isfinite(peak)].tolist())
+latent bank original complete
+latent bank flat complete
+latent bank theta_homeo complete
+latent bank total_homeo complete
+observations original complete
+observations flat complete
+observations theta_homeo complete
+observations total_homeo complete
+{
+  "real": {
+    "rho_oil": {
+      "mean": 0.2546635427363705,
+      "lo": 0.22559252524668846,
+      "hi": 0.28761912468231254
+    },
+    "rho_sp": {
+      "mean": 0.016449686968203127,
+      "lo": -0.05864646250447359,
+      "hi": 0.0839091936675678
+    },
+    "rho_neg": {
+      "mean": 0.03791267250041697,
+      "lo": -0.03137668020863466,
+      "hi": 0.09881850669855967
+    },
+    "mean_B": {
+      "mean": 1.4846228312907879,
+      "lo": 1.2353923453171425,
+      "hi": 1.727631876834485
+    },
+    "mean_S": {
+      "mean": 0.239385129100141,
+      "lo": 0.22323263575544186,
+      "hi": 0.2535448780502274
+    },
+    "mean_Rp": {
+      "mean": 0.017174303907495355,
+      "lo": 0.01332060578612776,
+      "hi": 0.02145156880766444
+    },
+    "mean_Rn": {
+      "mean": 0.008229733273932463,
+      "lo": 0.00658333451646535,
+      "hi": 0.010020337766751677
+    }
+  },
+  "latent": {
+    "flat": 0.21089124772646,
+    "original": 0.5990728763888442,
+    "theta_homeo": 0.05638708010582927,
+    "total_homeo": 0.087213595925734
+  },
+  "joint_matches": 0
+}

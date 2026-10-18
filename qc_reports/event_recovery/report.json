@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-18",
+  "plan": "docs/EVENT_RECOVERY_PLAN.md",
+  "n_flies": 12,
+  "seed_repeats": 10,
+  "rows": 960,
+  "source": "data/chan2026; same raw traces MD5 and evaluation split as observation audit",
+  "caveat": "Exploratory injected effects in previously analyzed baselines, not validation of original connectome or inferred biological event sizes.",
+  "recovery": "New positive event anywhere in the 8-frame injection window when no pre-existing event was present; window attribution, not spike truth.",
+  "summary": [
+    {
+      "probability": 0.02,
+      "snr": 0.0,
+      "recovery_fraction": null,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.4971734191343194,
+      "rho_observed": 0.016449686968203127,
+      "rho_added": null,
+      "mean_positive_rate": 0.017174303907495355,
+      "mean_negative_rate": 0.008229733273932461
+    },
+    {
+      "probability": 0.02,
+      "snr": 2.0,
+      "recovery_fraction": 0.011012325469920125,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.4971734191343194,
+      "rho_observed": 0.01984559218283984,
+      "rho_added": 0.03419810798586728,
+      "mean_positive_rate": 0.017257507076746222,
+      "mean_negative_rate": 0.008206576955676734
+    },
+    {
+      "probability": 0.02,
+      "snr": 4.0,
+      "recovery_fraction": 0.2142099690165331,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.4971734191343194,
+      "rho_observed": 0.11999323032919727,
+      "rho_added": 0.26074192372475963,
+      "mean_positive_rate": 0.01960198576661393,
+      "mean_negative_rate": 0.008183063595035988
+    },
+    {
+      "probability": 0.02,
+      "snr": 8.0,
+      "recovery_fraction": 0.968248545969109,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.4971734191343194,
+      "rho_observed": 0.3290889982847131,
+      "rho_added": 0.48800500472847824,
+      "mean_positive_rate": 0.028625436829038873,
+      "mean_negative_rate": 0.00815511666767332
+    },
+    {
+      "probability": 0.1,
+      "snr": 0.0,
+      "recovery_fraction": null,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.7145467781030835,
+      "rho_observed": 0.016449686968203127,
+      "rho_added": null,
+      "mean_positive_rate": 0.017174303907495355,
+      "mean_negative_rate": 0.008229733273932461
+    },
+    {
+      "probability": 0.1,
+      "snr": 2.0,
+      "recovery_fraction": 0.008789577033979663,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.7145467781030835,
+      "rho_observed": 0.025271792059522527,
+      "rho_added": 0.017561165084547848,
+      "mean_positive_rate": 0.01725903101894178,
+      "mean_negative_rate": 0.008069002216631602
+    },
+    {
+      "probability": 0.1,
+      "snr": 4.0,
+      "recovery_fraction": 0.1826975647801503,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.7145467781030835,
+      "rho_observed": 0.2928513143844374,
+      "rho_added": 0.4073244285718079,
+      "mean_positive_rate": 0.02706097514428313,
+      "mean_negative_rate": 0.00793256309003909
+    },
+    {
+      "probability": 0.1,
+      "snr": 8.0,
+      "recovery_fraction": 0.939981492194678,
+      "rho_propensity": 1.0,
+      "rho_injected": 0.7145467781030835,
+      "rho_observed": 0.6326476047415396,
+      "rho_added": 0.7075206772930783,
+      "mean_positive_rate": 0.07190041478968759,
+      "mean_negative_rate": 0.0077995378459823775
+    }
+  ]
+}

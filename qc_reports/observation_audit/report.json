@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-18",
+  "plan": "docs/OBSERVATION_AUDIT_PLAN.md",
+  "scope": "BANC_right exploratory observation sensitivity; previously inspected animals, no independent validation.",
+  "calibration_flies": [
+    "ab0",
+    "ab1",
+    "all0",
+    "all1",
+    "apbp0",
+    "apbp1",
+    "g0",
+    "g1"
+  ],
+  "evaluation_flies": [
+    "ab2",
+    "ab3",
+    "ab4",
+    "all2",
+    "all3",
+    "all4",
+    "apbp2",
+    "apbp3",
+    "apbp4",
+    "g2",
+    "g3",
+    "g4"
+  ],
+  "real_evaluation": {
+    "rho_oil": {
+      "mean": 0.2546635427363705,
+      "lo": 0.22559252524668846,
+      "hi": 0.28761912468231254
+    },
+    "rho_sp": {
+      "mean": 0.016449686968203127,
+      "lo": -0.05864646250447359,
+      "hi": 0.0839091936675678
+    },
+    "rho_neg": {
+      "mean": 0.03791267250041697,
+      "lo": -0.03137668020863466,
+      "hi": 0.09881850669855967
+    },
+    "mean_B": {
+      "mean": 1.4846228312907879,
+      "lo": 1.2353923453171425,
+      "hi": 1.727631876834485
+    },
+    "mean_S": {
+      "mean": 0.239385129100141,
+      "lo": 0.22323263575544186,
+      "hi": 0.2535448780502274
+    },
+    "mean_Rp": {
+      "mean": 0.017174303907495355,
+      "lo": 0.01332060578612776,
+      "hi": 0.02145156880766444
+    },
+    "mean_Rn": {
+      "mean": 0.008229733273932463,
+      "lo": 0.00658333451646535,
+      "hi": 0.010020337766751677
+    }
+  },
+  "latent_median_positive_k": 0.15977291691200046,
+  "calibration": {
+    "ab": {
+      "sd": 0.04708041508065661,
+      "rho": 0.06467698770612167,
+      "peak": 0.19655445560125534
+    },
+    "all": {
+      "sd": 0.0622397939399041,
+      "rho": 0.08493102227002361,
+      "peak": 0.2684848948121029
+    },
+    "apbp": {
+      "sd": 0.22926232936183444,
+      "rho": 0.06617496532265894,
+      "peak": 1.375116109227855
+    },
+    "g": {
+      "sd": 0.07466210160447023,
+      "rho": 0.19558052546096139,
+      "peak": 0.22203415583350328
+    }
+  },
+  "tau_grid": [
+    0.3,
+    0.7
+  ],
+  "gain_factors": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "repeats": 3,
+  "model_fly_rows": 864,
+  "latent_summary": {
+    "flat": 0.21089124772646,
+    "original": 0.5990728763888442,
+    "theta_homeo": 0.05638708010582927,
+    "total_homeo": 0.087213595925734
+  },
+  "n_joint_summary_matches": 0,
+  "data_md5": "0207facff58cd4721b15b95e85200c5c",
+  "source": "https://zenodo.org/records/21821328",
+  "limitations": [
+    "Relative rate lowpass, not identified spike-to-GCaMP6f model.",
+    "0.5s ORN samples held 3 frames; unknown biological temporal covariance.",
+    "AR noise fitted on real baseline includes biological activity; possible double counting.",
+    "Finite common latent bank reused; repeats/hemispheres are not independent animals.",
+    "No neuropil dynamics, motion artifacts, indicator saturation or missing frames simulated.",
+    "Marginal summary intervals are descriptive, not a joint test or model-selection posterior.",
+    "Oil input remains zero; step66 solvent input question is not answered here.",
+    "KC subtype mappings coarse, one connectome specimen."
+  ],
+  "solvent_audit": {
+    "channels": 24,
+    "available_same_study_sfr": 6,
+    "metadata_sha256": "6ab8bc1c843ffe4763e563eb763029c421898dce7889c31dc2c21b544c9be269",
+    "warning": "Hallem 2004 EN baseline subtraction is not uniformly guaranteed. Do not use all raw solvent values as delta input in step66."
+  },
+  "verification": {
+    "unittest_count": 99,
+    "unittest_passed": true,
+    "sha256_checks": "Pinned receptor CSV and BANC raw data matched",
+    "telegram_messages": [
+      3982,
+      3983,
+      3984,
+      3985
+    ]
+  }
+}

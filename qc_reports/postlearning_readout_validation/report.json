@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-18",
+  "plan": "docs/POSTLEARNING_READOUT_PLAN.md",
+  "seeds": {
+    "train": 681000,
+    "test": 682000,
+    "noise_cal": 683000,
+    "noise_test": 684000,
+    "control": 675000
+  },
+  "n_odors": 73,
+  "eta": 5.0,
+  "signal_rows": 15768,
+  "anchors": [
+    {
+      "side": "right",
+      "condition": "original",
+      "n_odors": 73,
+      "clean_active_fraction": 0.09373035970345059,
+      "pn_gate": 5.776378658188043
+    },
+    {
+      "side": "right",
+      "condition": "total_homeo",
+      "n_odors": 73,
+      "clean_active_fraction": 0.08678646611953504,
+      "pn_gate": 5.776378658188043
+    },
+    {
+      "side": "left",
+      "condition": "original",
+      "n_odors": 73,
+      "clean_active_fraction": 0.09661171051036489,
+      "pn_gate": 6.222201396085521
+    },
+    {
+      "side": "left",
+      "condition": "total_homeo",
+      "n_odors": 73,
+      "clean_active_fraction": 0.0899684810280034,
+      "pn_gate": 6.222201396085521
+    }
+  ],
+  "data_sha256": {
+    "banc_888_meta.feather": "86ccf5df0c67419f8c5f43e93a7ed38d23a080e9f7fde26737290252f3780098",
+    "banc_888_edgelist_simple_v2.feather": "363fdef3813b72a5e45a42f17034cd5a544b654c838929cecf6e1ce5f60625cb"
+  },
+  "fixed_criterion_plan": "docs/FIXED_READOUT_CRITERION_PLAN.md",
+  "interpretation": "Abstract circuit information-access audit only. No solvent input, calcium observation claim or behavior inference.",
+  "access": {
+    "raw_after": "post-learning MBON output only",
+    "pn_normalized_after": "post-learning MBON and additional PN total channel",
+    "privileged_fraction": "same-input pre-learning output is privileged diagnostic information"
+  },
+  "limitations": [
+    "One animal, two hemispheres; noise repeats and shared odor trials are not biological replicates.",
+    "Readout calibrated separately after each learning condition using labeled A/B examples; adaptation is assumed.",
+    "Strong and weak amplitudes mixed during calibration; test amplitude is not provided to predictor.",
+    "B is matched by total clean KC activity, not all feature distributions.",
+    "Same-weight/subtype shuffle is restricted and may leave singleton inputs unchanged.",
+    "Noise metrics repeated in both amplitude rows use the same trials, not independent observations.",
+    "No wiring-specificity claim, identified downstream circuit or physical fluorescence calibration."
+  ],
+  "verification": {
+    "unit_tests": 104,
+    "passed": true,
+    "learned_A_adaptive_fixed_identity": true,
+    "telegram_messages": [
+      3986,
+      3987,
+      3988,
+      3989
+    ]
+  }
+}

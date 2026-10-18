@@ -1,0 +1,13 @@
+right original learned_A complete
+right original matched_shuffle complete
+right original none complete
+right total_homeo learned_A complete
+right total_homeo matched_shuffle complete
+right total_homeo none complete
+left original learned_A complete
+left original matched_shuffle complete
+left original none complete
+left total_homeo learned_A complete
+left total_homeo matched_shuffle complete
+left total_homeo none complete
+signal rows 15768

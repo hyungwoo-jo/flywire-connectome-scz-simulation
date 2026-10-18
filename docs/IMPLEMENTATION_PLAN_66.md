@@ -1,5 +1,7 @@
 # 66 단계 실행 계획 (실행 담당 모델용)
 
+> **2026-10-19 실행 중지.** 입력 s의 단위 전제(Hallem 2004 용매 값 = 자발 발화를 뺀 증가분)가 틀렸다. [SOLVENT_INPUT_PREEXECUTION_AUDIT](SOLVENT_INPUT_PREEXECUTION_AUDIT.md)를 본다. 아래 본문은 기록으로 보존한다.
+
 이 문서는 [PREREGISTRATION_66.md](PREREGISTRATION_66.md)를 코드로 옮겨 실행하는 절차다. 사전 등록이 기준이다. 이 문서와 사전 등록이 다르면 사전 등록을 따르고, 차이를 결과 문서에 적는다.
 
 ## 0. 지켜야 할 규칙

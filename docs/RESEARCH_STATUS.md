@@ -2,6 +2,16 @@
 
 2026-10-10 기준 (43 반영). 단계별 세부는 각 문서를 본다.
 
+## 2026-10-18 갱신: 65 이후 사후 감사 (65x, 65y, 67)
+
+65의 "원래 모형 기각"은 보류한다. 모형의 잠재 활성(k > 0)과 영상의 칼슘 사건은 같은 측정이 아니기 때문이다.
+
+- **65x 관측 감사** ([OBSERVATION_AUDIT](OBSERVATION_AUDIT.md)): 잠재 활동을 형광 사건으로 바꾸면 원래 모형의 상관이 관측 계수에 따라 0.08~0.29로 바뀐다. 24설정 모두 반응 폭과 사건률을 함께 맞추지 못해 모형 선택을 하지 않는다.
+- **65y 사건 주입과 회수** ([EVENT_RECOVERY](EVENT_RECOVERY.md)): 실제 기저 영상에 허브 쪽으로 치우친 사건을 넣으면, 2 SD 사건은 약 1%만 검출되고 상관이 보이지 않는다. 8 SD 사건은 약 95% 검출되고 상관이 0.33~0.63으로 보인다. 허브 쪽 자발 사건이 있다면 형광으로 작아야 한다.
+- **66 중지** ([SOLVENT_INPUT_PREEXECUTION_AUDIT](SOLVENT_INPUT_PREEXECUTION_AUDIT.md)): Hallem 2004 용매 값은 자발 발화를 뺀 증가분이 아니다(Or47b 용매 72.6, 같은 연구 SFR 73.1). 66 계획의 입력 전제가 틀려 실행하지 않는다.
+- **67 학습 후 출력만 쓰는 판독** ([POSTLEARNING_READOUT](POSTLEARNING_READOUT.md), [FIXED_READOUT_CRITERION](FIXED_READOUT_CRITERION.md)): MBON11 출력 하나에도 강한 학습 정보가 남는다(A/B 83~89%, 통제 56~58%). 반면 잡음을 학습 냄새로 읽는 차이는 판독 기준을 고정하면 원래 회로에서 반대 방향, 항상성 회로에서 0 근처다. 25 이후의 누출 지표는 학습 전후 출력을 둘 다 아는 분석자용 진단값이며, 단일 출력 판독의 기능적 누출로 확대하지 않는다.
+- 생리 단위 근거 점검: [PHYSIOLOGICAL_CALIBRATION_REVIEW](PHYSIOLOGICAL_CALIBRATION_REVIEW.md).
+
 ## 큰 질문
 
 초파리 연결망(BANC 커넥톰) 위에서 회로가 어떤 기능을 만드는지, 그리고 그 기능이 어떻게 틀어지는지(기억 오류, 환각에 가까운 현상)를 단순 모형으로 탐구한다.
@@ -93,7 +103,7 @@
 
 ## 다음 단계 (우선순위 순)
 
-0. **(66, 사전 등록 완료) 용매를 약한 비특이 입력으로 넣은 모형.** Hallem 2004의 용매 반응을 입력으로 넣어, 63~65의 네 실측 측정(용매 두 개, 자발 두 개)을 함께 맞추는 조건이 있는지 본다. 그 조건에서 용매 시행에 학습된 가치가 새는지도 본다. 실행 절차는 IMPLEMENTATION_PLAN_66.md에 있다.
+0. (66은 입력 단위 전제 오류로 중지했다. 위 "2026-10-18 갱신" 절을 본다.)
 1. (37에서 확인) KC->KC 연결은 흥분성이든 억제성이든 누출을 거의 바꾸지 않는다. 엽의 KC->KC는 출력 조절 쪽일 수 있으므로 MBON 출력 모형에서 다시 본다.
 2. **배선 밖의 보상을 넣은 모형.** 입력 시냅스와 스파이크 시작 부위의 거리(시냅스 좌표 필요)를 넣고 누출이 얼마나 남는지 본다. KC별 APL 억제는 33에서 누출에 영향이 없음을 확인했다.
 3. 더 사실적인 학습 회로(MBON 구획, 여러 DAN)로 누출이 행동 출력까지 이어지는지 본다.
@@ -155,6 +165,7 @@
 - 63 계획과 결과: PREREGISTRATION_63.md, KC_IMAGING_HUBS.md (첫 실측 대조)
 - 64 계획과 결과: PREREGISTRATION_64.md, KC_SPONTANEOUS_EVENTS.md (순수 자발 구간, 63과 반대 방향)
 - 65 계획과 결과: PREREGISTRATION_65.md, KC_IMAGING_CHAN2026.md (20마리 재검증, 원래 모형의 자발 허브 예측 기각)
-- 66 사전 등록과 실행 계획: PREREGISTRATION_66.md, IMPLEMENTATION_PLAN_66.md (용매를 약한 비특이 입력으로 넣은 모형, 실행 전)
+- 66 사전 등록과 실행 계획: PREREGISTRATION_66.md, IMPLEMENTATION_PLAN_66.md (실행 중지, 입력 단위 전제 오류)
+- 65x, 65y, 67 사후 감사: OBSERVATION_AUDIT.md, EVENT_RECOVERY.md, POSTLEARNING_READOUT.md, FIXED_READOUT_CRITERION.md (각 _PLAN.md가 실행 전 계획)
 - 이론 노트(전체 요약): THEORY_NOTE.md, 공개 자료 점검: PUBLIC_DATA_CHECK.md
 - 쉬운 설명: RESEARCH_FLOW_EASY.md

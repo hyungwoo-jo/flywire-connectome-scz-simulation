@@ -17,12 +17,12 @@
 - 보정, 사구체 쌍 과수렴, 학습된 가치의 누출은 다른 두 개체(FlyWire 두 반구, hemibrain)에서도 재현됩니다. 세 개체, 다섯 반구입니다 (34, 36). KC끼리의 연결을 흥분성이나 억제성으로 넣어도 이 누출은 거의 바뀌지 않습니다 (37). 다만 누출의 상당 부분은 냄새 표상 자체보다 "입력 많은 KC에서 학습이 일어났다"는 점에서 옵니다 (38).
 - 처음 보는 수컷 커넥톰(MaleCNS 좌우)에서도 누출과 보상 방식별 효과가 사전 등록한 대로 재현됩니다. 자발 상태에서 자기 전체 활동을 맞추는 항상성은 기억을 지키면서 누출을 없앱니다. 다만 누출 크기를 숫자 하나(자발 입력 변동계수)로 예측하지는 못했습니다 (57, 58).
 - 누출은 "자발 신호 대 약한 진짜 신호"의 비율입니다. MaleCNS 왼쪽은 PN 입력이 약해 학습이 얕게 새겨지고, 그만큼 약한 진짜 신호가 작아 같은 잡음을 더 자주 의미 있게 받아들입니다. 억제(APL)나 MBON11 가중치 배열은 원인이 아니었습니다 (61, 62).
-- 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63). 그러나 자극 없는 냄새 전 구간의 자발 칼슘 사건에서는 이 상관이 없었고(−0.04), 원래 커넥톰 모형의 예측(0.27 이상)과 맞지 않았습니다. 더 민감한 GCaMP6f로 찍은 20마리, 세포 2,286개에서도 같았습니다. 반응 폭이 넓은 KC는 약한 비특이 자극(용매)에는 잘 반응하지만(20/20마리), 자발적으로 더 켜지지는 않습니다. 원래 커넥톰 모형의 이 예측은 기각되었고, 실측은 자발 활동을 보상한 모형(57의 전체 활동 항상성 등)과 맞습니다. 순수 자발 누출은 원래 모형에서 과대평가되었을 가능성이 큽니다 (64, 65).
+- 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63). 그러나 자극 없는 냄새 전 구간의 자발 칼슘 사건에서는 이 상관이 없었고(−0.04), 원래 커넥톰 모형의 예측(0.27 이상)과 맞지 않았습니다. 더 민감한 GCaMP6f로 찍은 20마리, 세포 2,286개에서도 같았습니다. 반응 폭이 넓은 KC는 약한 비특이 자극(용매)에는 잘 반응하지만(20/20마리), 자발적으로 더 켜지지는 않습니다. 원래 모형의 잠재 활성 예측과 실측 칼슘 사건은 어긋났습니다. 두 측정을 맞추기 전까지 모형 기각 및 보상 기제 선택은 보류합니다. 여러 모형 변형이 실측과 양립합니다. 순수 자발 누출은 원래 모형에서 과대평가되었을 가능성이 큽니다 (64, 65).
 
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~65, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~67, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -87,6 +87,9 @@ data/        원자료 위치 (git 제외)
 | 63 | 실제 KC 영상(Campbell 2013)으로 허브 기전 확인 | [PREREGISTRATION_63](docs/PREREGISTRATION_63.md), [KC_IMAGING_HUBS](docs/KC_IMAGING_HUBS.md) |
 | 64 | 같은 KC 영상의 냄새 전 자발 칼슘 사건으로 다시 확인 | [PREREGISTRATION_64](docs/PREREGISTRATION_64.md), [KC_SPONTANEOUS_EVENTS](docs/KC_SPONTANEOUS_EVENTS.md) |
 | 65 | GCaMP6f 20마리 KC 영상(Chan 2026)으로 63과 64 재검증 | [PREREGISTRATION_65](docs/PREREGISTRATION_65.md), [KC_IMAGING_CHAN2026](docs/KC_IMAGING_CHAN2026.md) |
+| 65x, 65y | 사후 감사: 잠재 활성과 칼슘 사건의 관측 차이, 실제 기저 영상의 사건 주입과 회수 | [OBSERVATION_AUDIT](docs/OBSERVATION_AUDIT.md), [EVENT_RECOVERY](docs/EVENT_RECOVERY.md) |
+| 66 | 용매 입력 모형 (중지: Hallem 2004 용매 값의 단위 전제 오류) | [PREREGISTRATION_66](docs/PREREGISTRATION_66.md), [SOLVENT_INPUT_PREEXECUTION_AUDIT](docs/SOLVENT_INPUT_PREEXECUTION_AUDIT.md) |
+| 67 | 학습 후 MBON 출력만 쓰는 판독, 고정 판독 기준 | [POSTLEARNING_READOUT](docs/POSTLEARNING_READOUT.md), [FIXED_READOUT_CRITERION](docs/FIXED_READOUT_CRITERION.md) |
 | 정리 | 이론 노트: 01~65를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
