@@ -93,6 +93,7 @@
 
 ## 다음 단계 (우선순위 순)
 
+0. **(66, 사전 등록 완료) 용매를 약한 비특이 입력으로 넣은 모형.** Hallem 2004의 용매 반응을 입력으로 넣어, 63~65의 네 실측 측정(용매 두 개, 자발 두 개)을 함께 맞추는 조건이 있는지 본다. 그 조건에서 용매 시행에 학습된 가치가 새는지도 본다. 실행 절차는 IMPLEMENTATION_PLAN_66.md에 있다.
 1. (37에서 확인) KC->KC 연결은 흥분성이든 억제성이든 누출을 거의 바꾸지 않는다. 엽의 KC->KC는 출력 조절 쪽일 수 있으므로 MBON 출력 모형에서 다시 본다.
 2. **배선 밖의 보상을 넣은 모형.** 입력 시냅스와 스파이크 시작 부위의 거리(시냅스 좌표 필요)를 넣고 누출이 얼마나 남는지 본다. KC별 APL 억제는 33에서 누출에 영향이 없음을 확인했다.
 3. 더 사실적인 학습 회로(MBON 구획, 여러 DAN)로 누출이 행동 출력까지 이어지는지 본다.
@@ -154,5 +155,6 @@
 - 63 계획과 결과: PREREGISTRATION_63.md, KC_IMAGING_HUBS.md (첫 실측 대조)
 - 64 계획과 결과: PREREGISTRATION_64.md, KC_SPONTANEOUS_EVENTS.md (순수 자발 구간, 63과 반대 방향)
 - 65 계획과 결과: PREREGISTRATION_65.md, KC_IMAGING_CHAN2026.md (20마리 재검증, 원래 모형의 자발 허브 예측 기각)
+- 66 사전 등록과 실행 계획: PREREGISTRATION_66.md, IMPLEMENTATION_PLAN_66.md (용매를 약한 비특이 입력으로 넣은 모형, 실행 전)
 - 이론 노트(전체 요약): THEORY_NOTE.md, 공개 자료 점검: PUBLIC_DATA_CHECK.md
 - 쉬운 설명: RESEARCH_FLOW_EASY.md
