@@ -1,0 +1,202 @@
+{
+  "verdicts": {
+    "F1": "flatter",
+    "F3_ident": "equalizing flattens",
+    "F2": "flatter",
+    "F3_mem": "equalizing flattens",
+    "F4": {
+      "ident": "positive",
+      "mem": "positive"
+    }
+  },
+  "detail": {
+    "ident": {
+      "real": {
+        "BANC_left": 0.002397260273972468,
+        "BANC_right": -0.0002054794520547354,
+        "FlyWire_left": 0.0013013698630137682,
+        "FlyWire_right": -0.0006164383561644282,
+        "hemibrain_right": 0.0015753424657534154
+      },
+      "null_median": {
+        "BANC_left": 0.003321917808219166,
+        "BANC_right": 0.0014041095890410804,
+        "FlyWire_left": 0.0017808219178081508,
+        "FlyWire_right": 0.0014041095890410804,
+        "hemibrain_right": 0.00328767123287671
+      },
+      "flat": {
+        "BANC_left": -0.11280821917808215,
+        "BANC_right": -0.10226027397260273,
+        "FlyWire_left": -0.08849315068493147,
+        "FlyWire_right": -0.09582191780821925,
+        "hemibrain_right": -0.09527397260273962
+      }
+    },
+    "mem": {
+      "real": {
+        "BANC_left": -0.007774999999999976,
+        "BANC_right": -0.009524999999999895,
+        "FlyWire_left": -0.0034999999999999476,
+        "FlyWire_right": -0.001674999999999982,
+        "hemibrain_right": 0.0
+      },
+      "null_median": {
+        "BANC_left": -0.00301250000000014,
+        "BANC_right": -0.0015125000000000277,
+        "FlyWire_left": -0.0014125000000000387,
+        "FlyWire_right": -0.0024500000000000077,
+        "hemibrain_right": 0.0010375000000000245
+      },
+      "flat": {
+        "BANC_left": -0.012899999999999912,
+        "BANC_right": -0.01442499999999991,
+        "FlyWire_left": -0.01585000000000003,
+        "FlyWire_right": -0.018449999999999966,
+        "hemibrain_right": -0.007650000000000046
+      }
+    },
+    "F4_rho": {
+      "ident": {
+        "BANC_left": 0.48029924153497144,
+        "BANC_right": 0.8584564381571795,
+        "FlyWire_left": 0.574172534596893,
+        "FlyWire_right": -0.01605521478936168,
+        "hemibrain_right": 0.7711690671524613
+      },
+      "mem": {
+        "BANC_left": 0.5636363636363637,
+        "BANC_right": 0.8181818181818182,
+        "FlyWire_left": 0.6090909090909091,
+        "FlyWire_right": 0.8636363636363636,
+        "hemibrain_right": 0.5818181818181819
+      }
+    }
+  },
+  "report_only": {
+    "P0_real_vs_null": {
+      "BANC_left": {
+        "ident_real": 0.95,
+        "ident_null_median": 0.9547945205479452,
+        "mem_real": 0.766,
+        "mem_null_median": 0.78075
+      },
+      "BANC_right": {
+        "ident_real": 0.9534246575342465,
+        "ident_null_median": 0.959931506849315,
+        "mem_real": 0.745,
+        "mem_null_median": 0.7518750000000001
+      },
+      "FlyWire_left": {
+        "ident_real": 0.9678082191780822,
+        "ident_null_median": 0.9688356164383561,
+        "mem_real": 0.77375,
+        "mem_null_median": 0.78125
+      },
+      "FlyWire_right": {
+        "ident_real": 0.9698630136986301,
+        "ident_null_median": 0.9691780821917808,
+        "mem_real": 0.782,
+        "mem_null_median": 0.7827500000000001
+      },
+      "hemibrain_right": {
+        "ident_real": 0.9445205479452055,
+        "ident_null_median": 0.9561643835616438,
+        "mem_real": 0.7905,
+        "mem_null_median": 0.7931250000000001
+      }
+    },
+    "cv_gini": [
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "cv": 0.0,
+        "gini": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "null",
+        "cv": 0.8356,
+        "gini": 0.4442
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "cv": 0.8356,
+        "gini": 0.4442
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "cv": 0.0,
+        "gini": 0.0
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "null",
+        "cv": 0.8241,
+        "gini": 0.4414
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "cv": 0.8241,
+        "gini": 0.4414
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "cv": 0.0,
+        "gini": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "null",
+        "cv": 0.6263,
+        "gini": 0.3523
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "cv": 0.6263,
+        "gini": 0.3523
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "cv": 0.0,
+        "gini": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "null",
+        "cv": 0.6429,
+        "gini": 0.3578
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "cv": 0.6429,
+        "gini": 0.3578
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "cv": 0.0,
+        "gini": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "null",
+        "cv": 0.6541,
+        "gini": 0.3572
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "cv": 0.6541,
+        "gini": 0.3572
+      }
+    ]
+  }
+}

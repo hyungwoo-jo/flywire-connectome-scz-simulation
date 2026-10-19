@@ -1,0 +1,981 @@
+{
+  "verdicts": {
+    "I1": true,
+    "I2": false,
+    "I3": false,
+    "I4": false,
+    "I5": {
+      "consistent": false,
+      "direction": "none",
+      "rho": {
+        "BANC_left": 0.16658689053395542,
+        "BANC_right": 0.08323542358296059,
+        "FlyWire_left": 0.12675335215216416,
+        "FlyWire_right": 0.12339832161644962,
+        "hemibrain_right": 0.06402956384548983
+      }
+    }
+  },
+  "detail": {
+    "median_auc": [
+      {
+        "dataset": "BANC_left",
+        "regime": "M",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "BANC_left",
+        "regime": "N",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "BANC_right",
+        "regime": "M",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "BANC_right",
+        "regime": "N",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "regime": "M",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "regime": "N",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "regime": "M",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "regime": "N",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "regime": "M",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "regime": "N",
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      }
+    ],
+    "coherence_real": {
+      "BANC_left": 0.051560200770439525,
+      "BANC_right": 0.05449056464997128,
+      "FlyWire_left": 0.059906033020453525,
+      "FlyWire_right": 0.06073632583391911,
+      "hemibrain_right": 0.07549629330883187
+    },
+    "coherence_null_median": {
+      "BANC_left": 0.05367823154638428,
+      "BANC_right": 0.057621425120084356,
+      "FlyWire_left": 0.06000731130533144,
+      "FlyWire_right": 0.060946736875507196,
+      "hemibrain_right": 0.07715916116583268
+    },
+    "R_real": {
+      "PCA": {
+        "BANC_right": 0.37141205177619524,
+        "BANC_left": 0.41249020275851406,
+        "FlyWire_right": 0.3379538606340077,
+        "FlyWire_left": 0.32830023304100064,
+        "hemibrain_right": 0.33630968189544497
+      },
+      "ICA": {
+        "BANC_right": 0.41150405198074624,
+        "BANC_left": 0.41102811201336337,
+        "FlyWire_right": 0.37776496942633137,
+        "FlyWire_left": 0.3890717598324615,
+        "hemibrain_right": 0.3731779211801926
+      },
+      "NMF": {
+        "BANC_right": 0.5753211714866693,
+        "BANC_left": 0.5679475429156077,
+        "FlyWire_right": 0.5152961253280446,
+        "FlyWire_left": 0.5139963064519355,
+        "hemibrain_right": 0.47674331971128453
+      },
+      "SAE": {
+        "BANC_right": 0.1946933846172297,
+        "BANC_left": 0.11961021461764633,
+        "FlyWire_right": 0.12000882192811034,
+        "FlyWire_left": 0.12697300549913704,
+        "hemibrain_right": 0.12712464679630758
+      }
+    },
+    "R_SAE_null_median": {
+      "BANC_left": 0.11886671670812485,
+      "BANC_right": 0.18978754048399915,
+      "FlyWire_left": 0.12213615889197466,
+      "FlyWire_right": 0.12716062249786292,
+      "hemibrain_right": 0.1273394826720018
+    }
+  },
+  "report_only": {
+    "atom_rho": {
+      "BANC_left": {
+        "R_SAE": 0.8322035226473219,
+        "R_ICA": 0.8067797897762224
+      },
+      "BANC_right": {
+        "R_SAE": 0.8527790858493763,
+        "R_ICA": 0.8423793408999934
+      },
+      "FlyWire_left": {
+        "R_SAE": 0.6503465100250699,
+        "R_ICA": 0.4945600836692547
+      },
+      "FlyWire_right": {
+        "R_SAE": 0.7871448394775258,
+        "R_ICA": 0.536959356578262
+      },
+      "hemibrain_right": {
+        "R_SAE": 0.8010180359621609,
+        "R_ICA": 0.5556815309462274
+      }
+    },
+    "n_est_rho": {
+      "BANC_left_flat_M": 0.6776537025769218,
+      "BANC_left_real_M": 0.47420208492515226,
+      "BANC_left_real_N": 0.40654272304368194,
+      "BANC_right_flat_M": 0.7003345531701545,
+      "BANC_right_real_M": 0.4987213439771322,
+      "BANC_right_real_N": 0.4618172440382102,
+      "FlyWire_left_flat_M": 0.7173397718894133,
+      "FlyWire_left_real_M": 0.5184390928789028,
+      "FlyWire_left_real_N": 0.46216684986590284,
+      "FlyWire_right_flat_M": 0.7550332821632235,
+      "FlyWire_right_real_M": 0.6032129587127629,
+      "FlyWire_right_real_N": 0.5099560563627643,
+      "hemibrain_right_flat_M": 0.7284014377259338,
+      "hemibrain_right_real_M": 0.6172725733130403,
+      "hemibrain_right_real_N": 0.532398989397678
+    },
+    "flat": [
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "PCA",
+        "lam": NaN,
+        "R": 0.5489,
+        "n_atoms": 21,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "ICA",
+        "lam": NaN,
+        "R": 0.5955,
+        "n_atoms": 21,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "NMF",
+        "lam": NaN,
+        "R": 0.6026,
+        "n_atoms": 21,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.3095,
+        "n_atoms": 42,
+        "dead": 0.881,
+        "mse": 0.2947,
+        "l0": 2.8373
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "chance_21",
+        "lam": NaN,
+        "R": 0.0561,
+        "n_atoms": 21,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0216,
+        "method": "chance_42",
+        "lam": NaN,
+        "R": 0.0607,
+        "n_atoms": 42,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "PCA",
+        "lam": NaN,
+        "R": 0.5616,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "ICA",
+        "lam": NaN,
+        "R": 0.6067,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "NMF",
+        "lam": NaN,
+        "R": 0.5995,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.3281,
+        "n_atoms": 44,
+        "dead": 0.8636,
+        "mse": 0.2513,
+        "l0": 2.3562
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "chance_22",
+        "lam": NaN,
+        "R": 0.0488,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0218,
+        "method": "chance_44",
+        "lam": NaN,
+        "R": 0.0608,
+        "n_atoms": 44,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "PCA",
+        "lam": NaN,
+        "R": 0.5175,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "ICA",
+        "lam": NaN,
+        "R": 0.57,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "NMF",
+        "lam": NaN,
+        "R": 0.5479,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1896,
+        "n_atoms": 46,
+        "dead": 0.9783,
+        "mse": 0.713,
+        "l0": 0.6398
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "chance_23",
+        "lam": NaN,
+        "R": 0.0465,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0294,
+        "method": "chance_46",
+        "lam": NaN,
+        "R": 0.0519,
+        "n_atoms": 46,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "PCA",
+        "lam": NaN,
+        "R": 0.5023,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "ICA",
+        "lam": NaN,
+        "R": 0.5295,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "NMF",
+        "lam": NaN,
+        "R": 0.5611,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.2378,
+        "n_atoms": 46,
+        "dead": 0.9348,
+        "mse": 0.4928,
+        "l0": 1.5095
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "chance_23",
+        "lam": NaN,
+        "R": 0.0432,
+        "n_atoms": 23,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0304,
+        "method": "chance_46",
+        "lam": NaN,
+        "R": 0.0506,
+        "n_atoms": 46,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "PCA",
+        "lam": NaN,
+        "R": 0.517,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "ICA",
+        "lam": NaN,
+        "R": 0.5467,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "NMF",
+        "lam": NaN,
+        "R": 0.5788,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.2305,
+        "n_atoms": 44,
+        "dead": 0.9318,
+        "mse": 0.4388,
+        "l0": 1.7374
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "chance_22",
+        "lam": NaN,
+        "R": 0.0526,
+        "n_atoms": 22,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "flat",
+        "regime": "M",
+        "coherence": 0.0335,
+        "method": "chance_44",
+        "lam": NaN,
+        "R": 0.0606,
+        "n_atoms": 44,
+        "dead": NaN,
+        "mse": NaN,
+        "l0": NaN
+      }
+    ],
+    "flat_auc": {
+      "BANC_left": {
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      "BANC_right": {
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      "FlyWire_left": {
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      "FlyWire_right": {
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      },
+      "hemibrain_right": {
+        "auc_obs": 1.0,
+        "auc_int": 1.0
+      }
+    },
+    "sae_lambda": [
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1334,
+        "n_atoms": 42,
+        "dead": 1.0,
+        "mse": 0.5839,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.129,
+        "n_atoms": 42,
+        "dead": 1.0,
+        "mse": 0.5848,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1463,
+        "n_atoms": 42,
+        "dead": 1.0,
+        "mse": 0.5832,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1947,
+        "n_atoms": 42,
+        "dead": 0.9762,
+        "mse": 0.2794,
+        "l0": 0.8567
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1198,
+        "n_atoms": 42,
+        "dead": 1.0,
+        "mse": 0.4014,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0545,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1695,
+        "n_atoms": 42,
+        "dead": 1.0,
+        "mse": 0.4008,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1398,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.5966,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1349,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.5943,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1578,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.5943,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1196,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.4219,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1173,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.4204,
+        "l0": 0.0
+      },
+      {
+        "dataset": "BANC_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0516,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1214,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.4216,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1376,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.6718,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1423,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.6696,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1456,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.6692,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.12,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.4957,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1146,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.4965,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0607,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1528,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.4965,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1366,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.7089,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1447,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.7091,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1482,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.7104,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.127,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.541,
+        "l0": 0.0
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1782,
+        "n_atoms": 46,
+        "dead": 0.9783,
+        "mse": 0.4335,
+        "l0": 0.8929
+      },
+      {
+        "dataset": "FlyWire_left",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0599,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.202,
+        "n_atoms": 46,
+        "dead": 1.0,
+        "mse": 0.5404,
+        "l0": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1434,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.6128,
+        "l0": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1425,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.6118,
+        "l0": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "N",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.1772,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.6109,
+        "l0": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.03,
+        "R": 0.1271,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.429,
+        "l0": 0.0
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.01,
+        "R": 0.1811,
+        "n_atoms": 44,
+        "dead": 0.9773,
+        "mse": 0.3353,
+        "l0": 0.8948
+      },
+      {
+        "dataset": "hemibrain_right",
+        "graph": "real",
+        "regime": "M",
+        "coherence": 0.0755,
+        "method": "SAE",
+        "lam": 0.1,
+        "R": 0.2124,
+        "n_atoms": 44,
+        "dead": 1.0,
+        "mse": 0.4288,
+        "l0": 0.0
+      }
+    ]
+  }
+}

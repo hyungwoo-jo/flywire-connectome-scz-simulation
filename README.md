@@ -19,10 +19,12 @@
 - 누출은 "자발 신호 대 약한 진짜 신호"의 비율입니다. MaleCNS 왼쪽은 PN 입력이 약해 학습이 얕게 새겨지고, 그만큼 약한 진짜 신호가 작아 같은 잡음을 더 자주 의미 있게 받아들입니다. 억제(APL)나 MBON11 가중치 배열은 원인이 아니었습니다 (61, 62).
 - 실제 KC 칼슘 영상(Campbell 2013, 124개)에서도 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜집니다(상관 0.24, p 0.004). 크기는 원래 커넥톰 모형의 예측 한가운데이고, 누출을 없애는 항상성 모형과는 맞지 않습니다. 다만 상관은 소수 세포에 기댑니다 (63). 그러나 자극 없는 냄새 전 구간의 자발 칼슘 사건에서는 이 상관이 없었고(−0.04), 원래 커넥톰 모형의 예측(0.27 이상)과 맞지 않았습니다. 더 민감한 GCaMP6f로 찍은 20마리, 세포 2,286개에서도 같았습니다. 반응 폭이 넓은 KC는 약한 비특이 자극(용매)에는 잘 반응하지만(20/20마리), 자발적으로 더 켜지지는 않습니다. 원래 모형의 잠재 활성 예측과 실측 칼슘 사건은 어긋났습니다. 두 측정을 맞추기 전까지 모형 기각 및 보상 기제 선택은 보류합니다. 여러 모형 변형이 실측과 양립합니다. 순수 자발 누출은 원래 모형에서 과대평가되었을 가능성이 큽니다 (64, 65).
 
+- 68부터는 환각 해석을 접고, 실제 배선이라는 정답이 있는 확장층으로 머신러닝 질문을 봅니다. 실제 배선은 KC별 입력 세기를 보존한 무작위 배선과 해석 가능성(68), 시냅스 섭동에 대한 평탄도(69)에서 구분되지 않았습니다. 차이를 만든 것은 KC 사이 입력 세기의 불균일성이었습니다. 세기를 고르게 하면 활동 분해로 사구체 축을 더 잘 복원하지만(+0.1~0.2), 단일 시행 냄새 식별은 14~18%p 떨어집니다. 불균일성은 해석 가능성과 간섭에는 비용이고, 식별에는 이득입니다 (68~70).
+
 ## 구조
 
 ```
-pipelines/   단계별 실험 스크립트 (05~67, 번호 = 진행 순서, x = 사후/탐색 분석)
+pipelines/   단계별 실험 스크립트 (05~69, 번호 = 진행 순서, x = 사후/탐색 분석)
 tests/       unittest (계산 검증용, 생물학적 검증 아님)
 docs/        단계별 설명, 사전 등록, 결과 문서
 qc_reports/  각 단계의 산출물 (manifest, 요약 csv, 그림)
@@ -90,6 +92,10 @@ data/        원자료 위치 (git 제외)
 | 65x, 65y | 사후 감사: 잠재 활성과 칼슘 사건의 관측 차이, 실제 기저 영상의 사건 주입과 회수 | [OBSERVATION_AUDIT](docs/OBSERVATION_AUDIT.md), [EVENT_RECOVERY](docs/EVENT_RECOVERY.md) |
 | 66 | 용매 입력 모형 (중지: Hallem 2004 용매 값의 단위 전제 오류) | [PREREGISTRATION_66](docs/PREREGISTRATION_66.md), [SOLVENT_INPUT_PREEXECUTION_AUDIT](docs/SOLVENT_INPUT_PREEXECUTION_AUDIT.md) |
 | 67 | 학습 후 MBON 출력만 쓰는 판독, 고정 판독 기준 | [POSTLEARNING_READOUT](docs/POSTLEARNING_READOUT.md), [FIXED_READOUT_CRITERION](docs/FIXED_READOUT_CRITERION.md) |
+| 계획 | 68 이후: 정답이 있는 확장층으로 머신러닝 질문에 답하기 (세 갈래) | [RESEARCH_PROGRAM_68](docs/RESEARCH_PROGRAM_68.md) |
+| 68 | 갈래 1: 설명가능성 기법(귀인, PCA, ICA, NMF, SAE)이 실제 배선을 복원하는가 | [PREREGISTRATION_68](docs/PREREGISTRATION_68.md), [INTERPRETABILITY_GROUND_TRUTH](docs/INTERPRETABILITY_GROUND_TRUTH.md) |
+| 69 | 갈래 2: 실제 배선은 시냅스 섭동에 평평한가 | [PREREGISTRATION_69](docs/PREREGISTRATION_69.md), [WIRING_FLATNESS](docs/WIRING_FLATNESS.md) |
+| 70 | 갈래 3: 누출을 희소 확장층의 간섭으로 다시 쓰기 | [INTERFERENCE_REFRAME](docs/INTERFERENCE_REFRAME.md) |
 | 정리 | 이론 노트: 01~65를 하나의 가설로, 공개 자료 대조 점검 | [THEORY_NOTE](docs/THEORY_NOTE.md), [PUBLIC_DATA_CHECK](docs/PUBLIC_DATA_CHECK.md) |
 
 개념 설명은 [RESEARCH_DIRECTION_EXPLAINED](docs/RESEARCH_DIRECTION_EXPLAINED.md)에 있습니다.
