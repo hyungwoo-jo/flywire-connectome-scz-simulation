@@ -1,0 +1,178 @@
+{
+  "verdicts": {
+    "B0": true,
+    "B0_count": 5,
+    "B1": true,
+    "B1_count": 5,
+    "B2": false,
+    "B2_count": 1,
+    "B3": "increase"
+  },
+  "rows": [
+    {
+      "dataset": "BANC_right",
+      "start": 0.0,
+      "cv0": 0.82408,
+      "cv_final": 4.59406,
+      "ident0": 0.95342,
+      "ident_final": 0.98562,
+      "mem_final": 0.7575,
+      "specific_final": 0.0351,
+      "rho_real_strength": 0.96799
+    },
+    {
+      "dataset": "BANC_right",
+      "start": 1.0,
+      "cv0": 0.0,
+      "cv_final": 1.35138,
+      "ident0": 0.77671,
+      "ident_final": 0.98151,
+      "mem_final": 0.72825,
+      "specific_final": 0.01704,
+      "rho_real_strength": -0.10082
+    },
+    {
+      "dataset": "BANC_right",
+      "start": -0.5,
+      "cv0": 1.19657,
+      "cv_final": 6.05029,
+      "ident0": 0.95959,
+      "ident_final": 0.9863,
+      "mem_final": 0.75425,
+      "specific_final": 0.03855,
+      "rho_real_strength": 0.98606
+    },
+    {
+      "dataset": "BANC_left",
+      "start": 0.0,
+      "cv0": 0.83559,
+      "cv_final": 4.97332,
+      "ident0": 0.95,
+      "ident_final": 0.99315,
+      "mem_final": 0.78,
+      "specific_final": 0.03323,
+      "rho_real_strength": 0.97718
+    },
+    {
+      "dataset": "BANC_left",
+      "start": 1.0,
+      "cv0": 0.0,
+      "cv_final": 2.3536,
+      "ident0": 0.76918,
+      "ident_final": 0.98356,
+      "mem_final": 0.7665,
+      "specific_final": 0.03663,
+      "rho_real_strength": -0.02562
+    },
+    {
+      "dataset": "BANC_left",
+      "start": -0.5,
+      "cv0": 1.23154,
+      "cv_final": 5.70407,
+      "ident0": 0.95548,
+      "ident_final": 0.98973,
+      "mem_final": 0.76175,
+      "specific_final": 0.03888,
+      "rho_real_strength": 0.98995
+    },
+    {
+      "dataset": "FlyWire_right",
+      "start": 0.0,
+      "cv0": 0.64293,
+      "cv_final": 3.61862,
+      "ident0": 0.96986,
+      "ident_final": 0.99178,
+      "mem_final": 0.782,
+      "specific_final": 0.03299,
+      "rho_real_strength": 0.95489
+    },
+    {
+      "dataset": "FlyWire_right",
+      "start": 1.0,
+      "cv0": 0.0,
+      "cv_final": 1.69144,
+      "ident0": 0.81918,
+      "ident_final": 0.9911,
+      "mem_final": 0.7755,
+      "specific_final": 0.03326,
+      "rho_real_strength": -0.02657
+    },
+    {
+      "dataset": "FlyWire_right",
+      "start": -0.5,
+      "cv0": 0.91861,
+      "cv_final": 3.4251,
+      "ident0": 0.97466,
+      "ident_final": 0.98836,
+      "mem_final": 0.787,
+      "specific_final": 0.03647,
+      "rho_real_strength": 0.98005
+    },
+    {
+      "dataset": "FlyWire_left",
+      "start": 0.0,
+      "cv0": 0.62632,
+      "cv_final": 3.00233,
+      "ident0": 0.96781,
+      "ident_final": 0.99041,
+      "mem_final": 0.777,
+      "specific_final": 0.03496,
+      "rho_real_strength": 0.94539
+    },
+    {
+      "dataset": "FlyWire_left",
+      "start": 1.0,
+      "cv0": 0.0,
+      "cv_final": 2.33614,
+      "ident0": 0.8274,
+      "ident_final": 0.99315,
+      "mem_final": 0.76925,
+      "specific_final": 0.03049,
+      "rho_real_strength": -0.01831
+    },
+    {
+      "dataset": "FlyWire_left",
+      "start": -0.5,
+      "cv0": 0.87732,
+      "cv_final": 3.34845,
+      "ident0": 0.97123,
+      "ident_final": 0.99247,
+      "mem_final": 0.782,
+      "specific_final": 0.03389,
+      "rho_real_strength": 0.97887
+    },
+    {
+      "dataset": "hemibrain_right",
+      "start": 0.0,
+      "cv0": 0.65412,
+      "cv_final": 1.53252,
+      "ident0": 0.94452,
+      "ident_final": 0.98767,
+      "mem_final": 0.8015,
+      "specific_final": 0.02575,
+      "rho_real_strength": 0.94327
+    },
+    {
+      "dataset": "hemibrain_right",
+      "start": 1.0,
+      "cv0": 0.0,
+      "cv_final": 1.45618,
+      "ident0": 0.8089,
+      "ident_final": 0.98836,
+      "mem_final": 0.7725,
+      "specific_final": 0.03474,
+      "rho_real_strength": -0.14222
+    },
+    {
+      "dataset": "hemibrain_right",
+      "start": -0.5,
+      "cv0": 0.9622,
+      "cv_final": 2.5106,
+      "ident0": 0.94247,
+      "ident_final": 0.99041,
+      "mem_final": 0.798,
+      "specific_final": 0.0326,
+      "rho_real_strength": 0.979
+    }
+  ]
+}
