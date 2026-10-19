@@ -1,0 +1,10 @@
+{
+  "C0": true,
+  "rho": {
+    "BANC_left": 1.0,
+    "BANC_right": 1.0,
+    "FlyWire_left": 0.942857142857143,
+    "FlyWire_right": 0.942857142857143,
+    "hemibrain_right": 0.942857142857143
+  }
+}
