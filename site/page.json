@@ -1,0 +1,159 @@
+{
+  "tagline": "초파리 뇌의 실제 배선도(커넥톰) 위에서 냄새 기억 회로를 돌려 보고, 실제 배선이 무작위 배선과 무엇이 다른지 묻는 디지털 실험",
+  "hero_figure": "qc_reports/site/circuit.png",
+  "hero_caption": "버섯체 회로. 냄새 입력(PN)이 고정된 배선을 따라 KC에 모이고, 소수의 KC만 켜진다. 학습은 KC에서 출력(MBON)으로 가는 연결에서 일어난다. 입력을 많이 받는 '허브 KC'가 이 탐구의 중심 변수가 되었다.",
+  "status": "진행 중 · 72단계 · 2026-10-20",
+  "plain": [
+    "초파리의 버섯체는 냄새를 기억하는 곳이다. 냄새 정보는 약 50개의 사구체(PN)에서 약 2,000개의 Kenyon 세포(KC)로 퍼지고, 어떤 냄새든 KC의 5~10%만 켜지는 희소한 표상이 된다. 이 구조는 인공신경망의 '넓은 무작위 확장층'과 닮았다.",
+    "전자현미경으로 뇌 전체의 배선도(커넥톰)가 공개되면서, 실제 배선을 그대로 넣은 모형을 돌려 볼 수 있게 되었다. 이 탐구는 BANC, FlyWire, hemibrain, MaleCNS 네 커넥톰의 다섯~일곱 반구에서 같은 질문을 반복해 묻는다.",
+    "초기 질문은 '잡음에 학습된 의미가 실리는 현상(환각과 비슷한)이 배선에서 생기는가'였다. 그 현상(누출)은 모든 커넥톰에서 재현되었지만, 실제 칼슘 영상과 맞대는 단계에서 관찰 모형의 벽에 막혔다. 68단계부터는 '정답 배선을 아는 신경망'이라는 장점을 살려 머신러닝 질문(해석 가능성, 평탄도, 간섭, 학습)으로 방향을 바꿨다.",
+    "모든 단계는 결과를 보기 전에 가설과 판정 기준을 문서로 고정했다(사전 등록). 기각되거나 철회된 주장도 그대로 남겨 두었다."
+  ],
+  "key_findings": [
+    {
+      "title": "학습한 냄새의 가치가 잡음에 샌다",
+      "tag": "재현됨",
+      "text": "냄새 하나를 학습시키면, 냄새가 없는 잡음 시행에서도 그 냄새의 가치 신호가 나타난다. 무작위 KC로 학습시킨 대조보다 훨씬 크다. 입력을 많이 받는 허브 KC가 냄새와 잡음 양쪽에 참여하기 때문이며, KC 입력을 고르게 맞추면 거의 사라진다. 세 개체 다섯 반구와 수컷 커넥톰에서 재현되었다.",
+      "figure": "qc_reports/learned_value_leakage/learned_value_leakage.png",
+      "figure2": "qc_reports/hub_normalization/hub_normalization.png",
+      "steps": "25, 26, 34, 36, 58",
+      "doc": "docs/LEARNED_VALUE_LEAKAGE_RESULTS.md"
+    },
+    {
+      "title": "실제 칼슘 영상과는 아직 맞지 않는다",
+      "tag": "보류",
+      "text": "실제 KC 영상에서 여러 냄새에 반응하는 KC가 냄새 없는 시행에 더 자주 켜지는 경향은 한 자료에서 보였지만(63), 자발 칼슘 사건과 더 큰 GCaMP6f 자료에서는 보이지 않았다(64, 65). 모형의 잠재 활성과 실측 형광 사이의 관측 모형이 결론을 좌우한다는 것을 확인했고, 모형 기각과 기전 선택은 보류했다.",
+      "figure": "qc_reports/observation_audit/observation_audit.png",
+      "steps": "63, 64, 65, 65x, 65y",
+      "doc": "docs/OBSERVATION_AUDIT.md"
+    },
+    {
+      "title": "실제 배선의 세부 패턴은 무작위와 구분되지 않는다",
+      "tag": "재현됨",
+      "text": "해석 기법의 복원도(68), 시냅스 섭동에 대한 평탄도(69), 누출 크기(54)에서 실제 배선은 'KC마다 받는 입력 세기만 보존한 무작위 배선'과 같았다. 차이를 만든 것은 배선 패턴이 아니라 KC 사이 입력 세기의 불균일성이었다. 사구체 쌍의 과수렴 같은 구조 자체는 존재하지만(17), 이 기능 지표들에는 거의 영향을 주지 않았다.",
+      "figure": "qc_reports/pn_community/pair_z.png",
+      "steps": "17, 54, 68, 69",
+      "doc": "docs/INTERPRETABILITY_GROUND_TRUTH.md"
+    },
+    {
+      "title": "불균일성은 식별과 간섭을 함께 움직인다",
+      "tag": "사전 등록 지지",
+      "text": "KC 입력 세기의 불균일성을 연속으로 줄이면, 단일 시행 냄새 식별과 간섭(학습된 가치가 다른 입력으로 새는 정도)이 다섯 반구 모두에서 함께 단조롭게 줄었다. 실제 배선(별)은 식별 쪽 끝 가까이에 있다. 해석 가능성은 U자형이어서 68의 단조 주장을 철회했고, 평균 분리도(d')와 정확도가 반대로 움직여 이전 단계의 충돌도 풀렸다.",
+      "figure": "qc_reports/site/heterogeneity_dial.png",
+      "steps": "71",
+      "doc": "docs/HETEROGENEITY_TRAINING.md"
+    },
+    {
+      "title": "학습은 이 맞교환을 피해 간다",
+      "tag": "가설 기각",
+      "text": "식별 학습은 불균일성을 만든다(표지를 섞으면 오히려 줄어든다). 간섭 벌점을 더해 학습하면 실제보다 불균일하면서도 식별과 간섭 모두에서 실제 배선을 이기는 배선이 같은 연결 위에서 나왔다. '실제 불균일성은 식별과 간섭의 절충점'이라는 가설은 기각되었다. 이 모형에서 실제 배선은 두 지표의 최적 경계 위에 있지 않다.",
+      "figure": "qc_reports/site/joint_objective.png",
+      "steps": "72",
+      "doc": "docs/JOINT_OBJECTIVE.md"
+    }
+  ],
+  "phases": [
+    {
+      "title": "1. 출발과 철회",
+      "period": "01~05",
+      "summary": "초기 결과가 대조 배선과 비교하자 사라졌다. 이후 모든 단계에 대조 배선과 사전 등록을 두는 원칙이 여기서 생겼다.",
+      "steps": [
+        {"id": "05", "title": "초기 결과(01~04)의 대조 검증", "verdict": "철회", "doc": "docs/CONNECTOME_NULL_CONTROL.md"}
+      ]
+    },
+    {
+      "title": "2. 보정된 모형과 배선 구조",
+      "period": "06~22",
+      "summary": "실제 냄새 반응(Hallem)과 PN 변환(Olsen)으로 입력을 정하고 KC 10% 활성으로 보정했다. 사구체 쌍의 과수렴 구조는 양쪽 반구에서 재현되었지만, 냄새 구분에서의 이득이나 학습 일반화 증가는 재현되지 않았다.",
+      "steps": [
+        {"id": "16~18", "title": "보정 모형, PN 과수렴 구조, 구분 기능", "verdict": "구조 재현", "doc": "docs/HALLEM_COMMUNITY_RESULTS.md"},
+        {"id": "19~20", "title": "구분 불리함의 원인, 사구체 표지 순열", "verdict": "탐색", "doc": "docs/LABEL_PERMUTATION_RESULTS.md"},
+        {"id": "21~22", "title": "학습 일반화, 왼쪽 반구 재현", "verdict": "재현 안 됨", "doc": "docs/LEFT_REPLICATION_RESULTS.md"}
+      ]
+    },
+    {
+      "title": "3. 검출, 오탐, 학습된 가치의 누출",
+      "period": "23~39",
+      "summary": "냄새 유무 판단과 오탐을 보다가 '학습한 냄새의 가치가 잡음에 실린다'는 누출을 찾았다. 허브 KC가 원인이었고, 세 커넥톰 다섯 반구와 전체 회로 대입, 모든 MBON에서 유지되었다.",
+      "steps": [
+        {"id": "23~24", "title": "APL 억제와 KC 흥분성이 오탐에 미치는 영향", "verdict": "탐색", "doc": "docs/EXCITABILITY_EXPECTATION_RESULTS.md"},
+        {"id": "25", "title": "학습된 가치의 잡음 누출", "verdict": "지지", "doc": "docs/LEARNED_VALUE_LEAKAGE_RESULTS.md"},
+        {"id": "26", "title": "허브 KC 기제의 인과 검정 (입력 균등화)", "verdict": "지지", "doc": "docs/HUB_NORMALIZATION_RESULTS.md"},
+        {"id": "27~30", "title": "보상 방식, 전체 회로, 모든 MBON", "verdict": "견고", "doc": "docs/ALL_MBONS_RESULTS.md"},
+        {"id": "34, 36", "title": "FlyWire, hemibrain 재현", "verdict": "재현", "doc": "docs/HEMIBRAIN_REPLICATION_RESULTS.md"},
+        {"id": "37~39", "title": "KC 간 연결, 입력 강도 맞춘 통제, 클로 수", "verdict": "탐색", "doc": "docs/MATCHED_CONTROL_RESULTS.md"}
+      ]
+    },
+    {
+      "title": "4. 행동 쪽으로, 그리고 이론",
+      "period": "40~53",
+      "summary": "누출이 행동 명령(하행 뉴런)까지 갈 수 있는지 배선으로 추적하고, 누출을 허브 인자 하나로 쓰는 닫힌 식을 만들었다. 합성 확장층에서도 같은 식이 성립했다.",
+      "steps": [
+        {"id": "43", "title": "학습 누출의 닫힌 식 (허브 인자 H)", "verdict": "이론", "doc": "docs/LEAKAGE_THEORY.md"},
+        {"id": "46~52", "title": "거짓 가치 신호의 행동 쪽 전달, 동역학 모형", "verdict": "탐색", "doc": "docs/LEAK_TO_BEHAVIOR.md"},
+        {"id": "53", "title": "합성 확장층에서의 일반성", "verdict": "지지", "doc": "docs/LEAKAGE_GENERALITY.md"}
+      ]
+    },
+    {
+      "title": "5. 노드 세기, 항상성, 처음 보는 커넥톰",
+      "period": "54~62",
+      "summary": "허브 효과는 배선 패턴이 아니라 노드 세기에서 온다(54). 자발 활동 기준 항상성은 기억을 지키며 누출을 없앴다. 처음 보는 수컷 커넥톰에서 사전 예측이 맞았다.",
+      "steps": [
+        {"id": "54", "title": "허브 인자의 그래프 분해: 노드 세기 대 배선 구성", "verdict": "지지", "doc": "docs/HUB_GRAPH_DECOMPOSITION.md"},
+        {"id": "55~57", "title": "기억 성능과 누출, 항상성의 혼합", "verdict": "지지", "doc": "docs/MIXED_HOMEOSTASIS.md"},
+        {"id": "58", "title": "MaleCNS에서 미리 정한 예측 확인", "verdict": "사전 예측 적중", "doc": "docs/MALECNS_PREDICTION.md"},
+        {"id": "61~62", "title": "왼쪽 반구의 큰 누출 분해", "verdict": "탐색", "doc": "docs/WEAK_SIGNAL_SOURCES.md"}
+      ]
+    },
+    {
+      "title": "6. 실제 영상과 맞대기",
+      "period": "63~67",
+      "summary": "공개 KC 칼슘 영상으로 허브 기전을 확인하려 했다. 첫 자료에서는 맞았지만, 자발 사건과 더 큰 자료에서는 맞지 않았다. 형광 관측 모형과 용매 자료 단위 문제로 결론을 보류했다.",
+      "steps": [
+        {"id": "63", "title": "Campbell 2013 KC 영상으로 허브 기전 확인", "verdict": "지지 (소수 세포 의존)", "doc": "docs/KC_IMAGING_HUBS.md"},
+        {"id": "64~65", "title": "자발 칼슘 사건, GCaMP6f 20마리 재검증", "verdict": "불일치", "doc": "docs/KC_IMAGING_CHAN2026.md"},
+        {"id": "65x~65y", "title": "관측 모형 감사, 사건 주입·회수", "verdict": "보류", "doc": "docs/EVENT_RECOVERY.md"},
+        {"id": "66", "title": "용매 입력 모형", "verdict": "중지 (단위 전제 오류)", "doc": "docs/SOLVENT_INPUT_PREEXECUTION_AUDIT.md"},
+        {"id": "67", "title": "학습 후 MBON 출력만 쓰는 판독", "verdict": "경계 조건", "doc": "docs/POSTLEARNING_READOUT.md"}
+      ]
+    },
+    {
+      "title": "7. 정답이 있는 신경망으로서의 커넥톰",
+      "period": "68~72",
+      "summary": "환각 해석을 접고, 실제 배선이라는 정답을 아는 확장층으로 머신러닝 질문을 물었다. 해석 가능성, 평탄도, 간섭, 학습이 만드는 구조를 차례로 검정했다.",
+      "steps": [
+        {"id": "68", "title": "설명가능성 기법(귀인, PCA, ICA, NMF, SAE)이 정답 배선을 복원하는가", "verdict": "절반 복원 · 일부 철회", "doc": "docs/INTERPRETABILITY_GROUND_TRUTH.md"},
+        {"id": "69", "title": "실제 배선은 시냅스 섭동에 평평한가", "verdict": "무작위와 같음", "doc": "docs/WIRING_FLATNESS.md"},
+        {"id": "70", "title": "누출을 희소 확장층의 간섭으로 다시 쓰기", "verdict": "정리", "doc": "docs/INTERFERENCE_REFRAME.md"},
+        {"id": "71", "title": "불균일성 조절기와 학습한 확장층", "verdict": "지지 2 · 기각 2", "doc": "docs/HETEROGENEITY_TRAINING.md"},
+        {"id": "72", "title": "식별 + 간섭 공동 최적화, 표류 대조", "verdict": "주 가설 기각", "doc": "docs/JOINT_OBJECTIVE.md"}
+      ]
+    }
+  ],
+  "lessons": [
+    "대조 모형이 결론을 정한다. 실제 배선의 '특별함' 대부분은 노드 세기만 보존한 무작위 배선에서도 나왔다.",
+    "두 점 비교는 위험하다. 연속으로 조절하자 단조라고 믿었던 관계가 U자형으로 드러났다(68 → 71).",
+    "지표 하나가 결론을 뒤집는다. 같은 배선 변화에서 평균 분리도는 오르고 단일 시행 정확도는 떨어졌다.",
+    "모형과 실측 사이에는 관측 모형이 있다. 잠재 활성과 칼슘 형광을 맞추지 않으면 모형을 기각할 수도, 지지할 수도 없다.",
+    "'뇌는 최적'이라는 설명은 검정해야 한다. 최적화한 망은 실제 배선보다 두 지표 모두에서 나았다."
+  ],
+  "next": [
+    "학습이 간섭을 없앤 방식(자발 발화가 높은 수용체 가중치 감소 여부)을 가중치를 저장해 확인",
+    "같은 방법론 교훈을 인간 뇌영상 공개 자료로 옮기기 (human_neuroimaging 프로젝트)"
+  ],
+  "glossary": [
+    {"term": "커넥톰", "def": "뉴런과 시냅스를 하나하나 재구성한 뇌의 배선도. 여기서는 BANC, FlyWire, hemibrain, MaleCNS."},
+    {"term": "KC (Kenyon cell)", "def": "버섯체의 주 뉴런. 여러 사구체에서 입력을 받아 냄새를 희소하게 표상한다."},
+    {"term": "허브 KC", "def": "입력을 유난히 많이 받는 KC. 많은 냄새와 잡음 모두에 반응한다."},
+    {"term": "누출 / 간섭", "def": "학습된 가치 신호가 학습하지 않은 입력(잡음, 다른 냄새)에서 나타나는 정도."},
+    {"term": "세기 보존 무작위 배선", "def": "각 KC가 받는 입력 총량은 그대로 두고 어느 PN에서 받는지만 섞은 대조 배선."},
+    {"term": "사전 등록", "def": "결과를 계산하기 전에 가설과 판정 기준을 문서로 고정하는 것."},
+    {"term": "CV (변동계수)", "def": "KC별 입력 세기의 표준편차 / 평균. 불균일성의 크기."}
+  ],
+  "links": [
+    {"label": "진행 현황 문서", "href": "docs/RESEARCH_STATUS.md"},
+    {"label": "쉬운 설명", "href": "docs/RESEARCH_FLOW_EASY.md"},
+    {"label": "이론 노트", "href": "docs/THEORY_NOTE.md"},
+    {"label": "README (단계별 문서 표)", "href": "README.md"}
+  ]
+}
